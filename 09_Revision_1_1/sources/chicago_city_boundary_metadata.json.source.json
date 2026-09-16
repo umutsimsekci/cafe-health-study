@@ -1,0 +1,9 @@
+{
+  "file": "chicago_city_boundary_metadata.json",
+  "url": "https://data.cityofchicago.org/api/views/qqq8-j68g.json",
+  "resolved_url": "https://data.cityofchicago.org/api/views/qqq8-j68g.json",
+  "retrieved_utc": "2026-09-16T19:03:59.840084+00:00",
+  "status": 200,
+  "bytes": 5203,
+  "sha256": "1d0e64ad6add48b44a3c6e64fbc84f3cf3b0b29b4a5261530f4cb5e2a6f6bdb3"
+}

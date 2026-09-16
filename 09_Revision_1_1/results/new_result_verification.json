@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": [
+    "Unique one-to-one links",
+    "Temporal eligibility",
+    "Distance/name rules",
+    "Missing licenses never counted as inspection confirmation",
+    "Independent recomputation of all aggregate100m concordance rates",
+    "Nested R2/partial R2 identities",
+    "Absolute contrasts from coefficients and density ratios"
+  ],
+  "limitations": "Numerical consistency and inspectable record concordance do not constitute field validation or independent health validation."
+}

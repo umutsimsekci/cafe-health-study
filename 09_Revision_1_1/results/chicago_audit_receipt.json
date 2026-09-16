@@ -1,0 +1,29 @@
+{
+  "source_license_rows": 11604,
+  "license_screen": {
+    "eligible": 10791,
+    "issued after reference date": 498,
+    "cancelled/revoked by reference date": 315
+  },
+  "eligible_deduplicated_license_records": 10770,
+  "eligible_geocoded_city_records": 10703,
+  "osm_city_all_hospitality": 5097,
+  "osm_city_cafes": 742,
+  "inspection_rows": 16936,
+  "city_centroid_eligible_tracts": 778,
+  "poverty_quartile_edges": {
+    "0.0": 2.8,
+    "0.25": 14.025,
+    "0.5": 25.45,
+    "0.75": 38.25,
+    "1.0": 76.1
+  },
+  "matched_osm_cafes": 269,
+  "matched_osm_cafes_with_nonlicensing_inspection": 159,
+  "coffee_subset_alternative_amenity": {
+    "cafe": 157,
+    "unmatched": 122,
+    "fast_food": 2
+  },
+  "health_outcomes_used_in_linkage": false
+}

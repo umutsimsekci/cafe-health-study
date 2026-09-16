@@ -1,0 +1,9 @@
+{
+  "file": "chicago_inspection_metadata.json",
+  "url": "https://data.cityofchicago.org/api/views/4ijn-s7e5.json",
+  "resolved_url": "https://data.cityofchicago.org/api/views/4ijn-s7e5.json",
+  "retrieved_utc": "2026-09-16T18:58:07.499948+00:00",
+  "status": 200,
+  "bytes": 38940,
+  "sha256": "13ba02d994792f33353241a91ae2d89febc1cf0c173117a93baebad2bdd09687"
+}

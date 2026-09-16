@@ -1,0 +1,101 @@
+[
+  {
+    "file": "chicago_2022_inspections.json",
+    "url": "https://data.cityofchicago.org/resource/4ijn-s7e5.json?%24select=inspection_id%2Cdba_name%2Caka_name%2Clicense_%2Cfacility_type%2Caddress%2Ccity%2Cstate%2Czip%2Cinspection_date%2Cinspection_type%2Cresults%2Clatitude%2Clongitude&%24where=inspection_date+%3E%3D+%272022-01-01T00%3A00%3A00%27+AND+inspection_date+%3C+%272023-01-01T00%3A00%3A00%27&%24order=inspection_id&%24limit=50000",
+    "resolved_url": "https://data.cityofchicago.org/resource/4ijn-s7e5.json?%24select=inspection_id%2Cdba_name%2Caka_name%2Clicense_%2Cfacility_type%2Caddress%2Ccity%2Cstate%2Czip%2Cinspection_date%2Cinspection_type%2Cresults%2Clatitude%2Clongitude&%24where=inspection_date+%3E%3D+%272022-01-01T00%3A00%3A00%27+AND+inspection_date+%3C+%272023-01-01T00%3A00%3A00%27&%24order=inspection_id&%24limit=50000",
+    "retrieved_utc": "2026-09-16T18:58:09.996410+00:00",
+    "status": 200,
+    "bytes": 6432817,
+    "sha256": "d4e2ba7abdb1c55a43ce10cdd7998b6dc3982a8b715d3d28421baabde0739180"
+  },
+  {
+    "file": "chicago_2022_types.json",
+    "url": "https://data.cityofchicago.org/resource/4ijn-s7e5.json?%24select=facility_type%2Ccount%28%2A%29+as+n&%24where=inspection_date+%3E%3D+%272022-01-01T00%3A00%3A00%27+AND+inspection_date+%3C+%272023-01-01T00%3A00%3A00%27&%24group=facility_type&%24order=n+DESC&%24limit=500",
+    "resolved_url": "https://data.cityofchicago.org/resource/4ijn-s7e5.json?%24select=facility_type%2Ccount%28%2A%29+as+n&%24where=inspection_date+%3E%3D+%272022-01-01T00%3A00%3A00%27+AND+inspection_date+%3C+%272023-01-01T00%3A00%3A00%27&%24group=facility_type&%24order=n+DESC&%24limit=500",
+    "retrieved_utc": "2026-09-16T18:58:07.362610+00:00",
+    "status": 200,
+    "bytes": 5666,
+    "sha256": "f5185f6671519b0936e6477b6d16639e32ece16ecdb72db71eacbff429ccab04"
+  },
+  {
+    "file": "chicago_city_boundary.geojson",
+    "url": "https://data.cityofchicago.org/resource/qqq8-j68g.geojson",
+    "resolved_url": "https://data.cityofchicago.org/resource/qqq8-j68g.geojson",
+    "retrieved_utc": "2026-09-16T19:03:59.243930+00:00",
+    "status": 200,
+    "bytes": 497484,
+    "sha256": "97f4343c483a5c054c554cbd290d64a50c4e10c2262e98664a7ae8ce383a5edb"
+  },
+  {
+    "file": "chicago_city_boundary_metadata.json",
+    "url": "https://data.cityofchicago.org/api/views/qqq8-j68g.json",
+    "resolved_url": "https://data.cityofchicago.org/api/views/qqq8-j68g.json",
+    "retrieved_utc": "2026-09-16T19:03:59.840084+00:00",
+    "status": 200,
+    "bytes": 5203,
+    "sha256": "1d0e64ad6add48b44a3c6e64fbc84f3cf3b0b29b4a5261530f4cb5e2a6f6bdb3"
+  },
+  {
+    "file": "chicago_inspection_metadata.json",
+    "url": "https://data.cityofchicago.org/api/views/4ijn-s7e5.json",
+    "resolved_url": "https://data.cityofchicago.org/api/views/4ijn-s7e5.json",
+    "retrieved_utc": "2026-09-16T18:58:07.499948+00:00",
+    "status": 200,
+    "bytes": 38940,
+    "sha256": "13ba02d994792f33353241a91ae2d89febc1cf0c173117a93baebad2bdd09687"
+  },
+  {
+    "file": "chicago_license_metadata.json",
+    "url": "https://data.cityofchicago.org/api/views/r5kz-chrr.json",
+    "resolved_url": "https://data.cityofchicago.org/api/views/r5kz-chrr.json",
+    "retrieved_utc": "2026-09-16T19:01:07.070576+00:00",
+    "status": 200,
+    "bytes": 77441,
+    "sha256": "cdf6e0e3dcefbc21933776d3e5fbf0eb7f33627f720fb753ac9116756d509e60"
+  },
+  {
+    "file": "chicago_licenses_count.json",
+    "url": "https://data.cityofchicago.org/resource/r5kz-chrr.json?%24select=count%28%2A%29+as+n&%24where=license_description+%3D+%27Retail+Food+Establishment%27+AND+license_start_date+%3C%3D+%272022-12-31T23%3A59%3A59%27+AND+expiration_date+%3E%3D+%272022-12-31T00%3A00%3A00%27",
+    "resolved_url": "https://data.cityofchicago.org/resource/r5kz-chrr.json?%24select=count%28%2A%29+as+n&%24where=license_description+%3D+%27Retail+Food+Establishment%27+AND+license_start_date+%3C%3D+%272022-12-31T23%3A59%3A59%27+AND+expiration_date+%3E%3D+%272022-12-31T00%3A00%3A00%27",
+    "retrieved_utc": "2026-09-16T19:03:13.150792+00:00",
+    "status": 200,
+    "bytes": 16,
+    "sha256": "b3209740e5c4f500e8a80c74e873a093ec4bf1df3816f89b22e04171407496cd"
+  },
+  {
+    "file": "chicago_licenses_spanning_2022end.json",
+    "url": "https://data.cityofchicago.org/resource/r5kz-chrr.json?%24select=id%2Clicense_id%2Caccount_number%2Csite_number%2Cdoing_business_as_name%2Caddress%2Ccity%2Czip_code%2Clicense_code%2Clicense_description%2Clicense_number%2Capplication_type%2Clicense_start_date%2Cexpiration_date%2Cdate_issued%2Clicense_status%2Clicense_status_change_date%2Clatitude%2Clongitude&%24where=license_description+%3D+%27Retail+Food+Establishment%27+AND+license_start_date+%3C%3D+%272022-12-31T23%3A59%3A59%27+AND+expiration_date+%3E%3D+%272022-12-31T00%3A00%3A00%27&%24order=license_id&%24limit=50000",
+    "resolved_url": "https://data.cityofchicago.org/resource/r5kz-chrr.json?%24select=id%2Clicense_id%2Caccount_number%2Csite_number%2Cdoing_business_as_name%2Caddress%2Ccity%2Czip_code%2Clicense_code%2Clicense_description%2Clicense_number%2Capplication_type%2Clicense_start_date%2Cexpiration_date%2Cdate_issued%2Clicense_status%2Clicense_status_change_date%2Clatitude%2Clongitude&%24where=license_description+%3D+%27Retail+Food+Establishment%27+AND+license_start_date+%3C%3D+%272022-12-31T23%3A59%3A59%27+AND+expiration_date+%3E%3D+%272022-12-31T00%3A00%3A00%27&%24order=license_id&%24limit=50000",
+    "retrieved_utc": "2026-09-16T19:03:12.367527+00:00",
+    "status": 200,
+    "bytes": 6357654,
+    "sha256": "2f962e93e7478e49ca47e087d4225833ac4e1729c1edaac81643cfe3ad54238f"
+  },
+  {
+    "file": "nyc_2026_profiles.xlsx",
+    "url": "https://www.nyc.gov/assets/doh/downloads/excel/episrv/2026-chp-pud.xlsx",
+    "resolved_url": "https://www.nyc.gov/assets/doh/downloads/excel/episrv/2026-chp-pud.xlsx",
+    "retrieved_utc": "2026-09-16T18:58:29.177535+00:00",
+    "status": 200,
+    "bytes": 291402,
+    "sha256": "acf22ce72413185fdaae94f987881f2c3699025a8e78748b2b9695b9bfaf0dbd"
+  },
+  {
+    "file": "ogburn2021_crossref.json",
+    "url": "https://api.crossref.org/works/10.1093%2Faje%2Fkwaa282",
+    "resolved_url": "https://api.crossref.org/works/10.1093%2Faje%2Fkwaa282",
+    "retrieved_utc": "2026-09-16T19:07:39.205684+00:00",
+    "status": 200,
+    "bytes": 11054,
+    "sha256": "13995732f7f20ae58353dcfbaceff955da0ed6d1c1a30c740159358516a4d70e"
+  },
+  {
+    "file": "roberts2017_crossref.json",
+    "url": "https://api.crossref.org/works/10.1111%2Fecog.02881",
+    "resolved_url": "https://api.crossref.org/works/10.1111%2Fecog.02881",
+    "retrieved_utc": "2026-09-16T19:07:39.437672+00:00",
+    "status": 200,
+    "bytes": 18203,
+    "sha256": "2d79cef42d58f769e123ba1b081768a83315d8823a5a3704d3fb45e656a7fa34"
+  }
+]

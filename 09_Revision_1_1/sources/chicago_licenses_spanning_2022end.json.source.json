@@ -1,0 +1,9 @@
+{
+  "file": "chicago_licenses_spanning_2022end.json",
+  "url": "https://data.cityofchicago.org/resource/r5kz-chrr.json?%24select=id%2Clicense_id%2Caccount_number%2Csite_number%2Cdoing_business_as_name%2Caddress%2Ccity%2Czip_code%2Clicense_code%2Clicense_description%2Clicense_number%2Capplication_type%2Clicense_start_date%2Cexpiration_date%2Cdate_issued%2Clicense_status%2Clicense_status_change_date%2Clatitude%2Clongitude&%24where=license_description+%3D+%27Retail+Food+Establishment%27+AND+license_start_date+%3C%3D+%272022-12-31T23%3A59%3A59%27+AND+expiration_date+%3E%3D+%272022-12-31T00%3A00%3A00%27&%24order=license_id&%24limit=50000",
+  "resolved_url": "https://data.cityofchicago.org/resource/r5kz-chrr.json?%24select=id%2Clicense_id%2Caccount_number%2Csite_number%2Cdoing_business_as_name%2Caddress%2Ccity%2Czip_code%2Clicense_code%2Clicense_description%2Clicense_number%2Capplication_type%2Clicense_start_date%2Cexpiration_date%2Cdate_issued%2Clicense_status%2Clicense_status_change_date%2Clatitude%2Clongitude&%24where=license_description+%3D+%27Retail+Food+Establishment%27+AND+license_start_date+%3C%3D+%272022-12-31T23%3A59%3A59%27+AND+expiration_date+%3E%3D+%272022-12-31T00%3A00%3A00%27&%24order=license_id&%24limit=50000",
+  "retrieved_utc": "2026-09-16T19:03:12.367527+00:00",
+  "status": 200,
+  "bytes": 6357654,
+  "sha256": "2f962e93e7478e49ca47e087d4225833ac4e1729c1edaac81643cfe3ad54238f"
+}

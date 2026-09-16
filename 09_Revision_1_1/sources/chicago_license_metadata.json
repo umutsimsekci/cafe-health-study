@@ -1,0 +1,3037 @@
+{
+  "id" : "r5kz-chrr",
+  "name" : "Business Licenses",
+  "assetType" : "dataset",
+  "attribution" : "City of Chicago",
+  "attributionLink" : "http://www.cityofchicago.org",
+  "averageRating" : 0,
+  "category" : "Community & Economic Development",
+  "createdAt" : 1317139414,
+  "description" : "NOTE, 9/25/2025 - We have populated the Address column for <a href=\"https://data.cityofchicago.org/stories/s/pnmi-a3z5\" target=\"_blank\">additional records</a>.\n\nBusiness licenses issued by the Department of Business Affairs and Consumer Protection in the City of Chicago from 2002 to the present. This dataset contains a large number of records/rows of data and may not be viewed in full in Microsoft Excel. Therefore, when downloading the file, select CSV from the Export menu. Open the file in an ASCII text editor, such as Notepad or Wordpad, to view and search. \n \nData fields requiring description are detailed below. \n\nAPPLICATION TYPE:  ‘ISSUE’ is the record associated with the initial license application.  ‘RENEW’ is a subsequent renewal record.  All renewal records are created with a term start date and term expiration date.  ‘C_LOC’ is a change of location record.  It means the business moved.   ‘C_CAPA’ is a change of capacity record.  Only a few license types may file this type of application.  ‘C_EXPA’ only applies to businesses that have liquor licenses.  It means the business location expanded.  'C_SBA' is a change of business activity record. It means that a new business activity was added or an existing business activity was marked as expired.\n\nLICENSE STATUS: ‘AAI’ means the license was issued. ‘AAC’ means the license was cancelled during its term.  ‘REV’ means the license was revoked. 'REA' means the license revocation has been appealed.\n\nLICENSE STATUS CHANGE DATE:  This date corresponds to the date a license was cancelled (AAC), revoked (REV) or appealed (REA).\n\nBusiness License Owner information may be accessed at:  https://data.cityofchicago.org/dataset/Business-Owners/ezma-pppn. To identify the owner of a business, you will need the account number or legal name, which may be obtained from this Business Licenses dataset. \n\nData Owner: Business Affairs and Consumer Protection. Time Period: January 1, 2002 to present. Frequency: Data is updated daily.",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 264012,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "licenseId" : "SEE_TERMS_OF_USE",
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 41157639,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1740104151,
+  "publicationGroup" : 239836,
+  "publicationStage" : "published",
+  "rowClass" : "",
+  "rowsUpdatedAt" : 1789552507,
+  "rowsUpdatedBy" : "n9j5-zhen",
+  "tableId" : 19789081,
+  "totalTimesRated" : 0,
+  "viewCount" : 380700,
+  "viewLastModified" : 1774994751,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1472594495,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 6762133,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1472594495,
+    "targetAudience" : "public",
+    "workflowId" : 2226,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "failureCount" : 0,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "scy9-9wg4",
+      "displayName" : "cocadmin"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 606327737,
+    "name" : "ID",
+    "dataTypeName" : "text",
+    "description" : "A calculated ID for each record.",
+    "fieldName" : "id",
+    "position" : 1,
+    "renderTypeName" : "text",
+    "tableColumnId" : 3233395,
+    "width" : 171,
+    "cachedContents" : {
+      "non_null" : "1206416",
+      "largest" : "9999-20260916",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1142469-20020516",
+        "count" : "4"
+      }, {
+        "item" : "63264-",
+        "count" : "4"
+      }, {
+        "item" : "1221008-",
+        "count" : "4"
+      }, {
+        "item" : "42257-19990216",
+        "count" : "3"
+      }, {
+        "item" : "17107-20000216",
+        "count" : "3"
+      }, {
+        "item" : "1333661-20000216",
+        "count" : "3"
+      }, {
+        "item" : "5414-20001116",
+        "count" : "3"
+      }, {
+        "item" : "47631-20000816",
+        "count" : "3"
+      }, {
+        "item" : "1095910-20011116",
+        "count" : "2"
+      }, {
+        "item" : "1045065-20001116",
+        "count" : "2"
+      }, {
+        "item" : "1092222-20011116",
+        "count" : "2"
+      }, {
+        "item" : "1069167-20011116",
+        "count" : "2"
+      }, {
+        "item" : "1093303-20020816",
+        "count" : "2"
+      }, {
+        "item" : "1094553-20010216",
+        "count" : "2"
+      }, {
+        "item" : "1095911-20011116",
+        "count" : "2"
+      }, {
+        "item" : "1044928-20010816",
+        "count" : "2"
+      }, {
+        "item" : "1043442-20010516",
+        "count" : "2"
+      }, {
+        "item" : "1044927-20010816",
+        "count" : "2"
+      }, {
+        "item" : "1044929-20010816",
+        "count" : "2"
+      }, {
+        "item" : "10295-20000816",
+        "count" : "2"
+      } ],
+      "smallest" : "1000000-20020221",
+      "count" : "1206416",
+      "cardinality" : "1206416"
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 606327738,
+    "name" : "LICENSE ID",
+    "dataTypeName" : "number",
+    "description" : "An internal database ID for each record.  Each license can have multiple records as it goes through renewals and other transactions.  See the LICENSE NUMBER field for the number generally known to the public and used in most other data sources that refer to the license.",
+    "fieldName" : "license_id",
+    "position" : 2,
+    "renderTypeName" : "number",
+    "tableColumnId" : 2125531,
+    "width" : 130,
+    "cachedContents" : {
+      "non_null" : "1206416",
+      "largest" : "3100765",
+      "null" : "0",
+      "top" : [ {
+        "item" : "513",
+        "count" : "1"
+      }, {
+        "item" : "688",
+        "count" : "1"
+      }, {
+        "item" : "1095",
+        "count" : "1"
+      }, {
+        "item" : "1413",
+        "count" : "1"
+      }, {
+        "item" : "1482",
+        "count" : "1"
+      }, {
+        "item" : "1770",
+        "count" : "1"
+      }, {
+        "item" : "1776",
+        "count" : "1"
+      }, {
+        "item" : "1884",
+        "count" : "1"
+      }, {
+        "item" : "1890",
+        "count" : "1"
+      }, {
+        "item" : "1896",
+        "count" : "1"
+      }, {
+        "item" : "2587",
+        "count" : "1"
+      }, {
+        "item" : "3300",
+        "count" : "1"
+      }, {
+        "item" : "5252",
+        "count" : "1"
+      }, {
+        "item" : "5696",
+        "count" : "1"
+      }, {
+        "item" : "5835",
+        "count" : "1"
+      }, {
+        "item" : "5839",
+        "count" : "1"
+      }, {
+        "item" : "6022",
+        "count" : "1"
+      }, {
+        "item" : "6739",
+        "count" : "1"
+      }, {
+        "item" : "6743",
+        "count" : "1"
+      }, {
+        "item" : "364",
+        "count" : "1"
+      } ],
+      "smallest" : "364",
+      "count" : "1206416",
+      "cardinality" : "1206416"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "right"
+    }
+  }, {
+    "id" : 606327739,
+    "name" : "ACCOUNT NUMBER",
+    "dataTypeName" : "number",
+    "description" : "The account number of the business owner, which will stay consistent across that owner's licenses and can be used to find the owner in the Business Owners dataset.",
+    "fieldName" : "account_number",
+    "position" : 3,
+    "renderTypeName" : "number",
+    "tableColumnId" : 1512276,
+    "width" : 160,
+    "cachedContents" : {
+      "non_null" : "1206416",
+      "largest" : "530987",
+      "null" : "0",
+      "top" : [ {
+        "item" : "147",
+        "count" : "3777"
+      }, {
+        "item" : "7551",
+        "count" : "3104"
+      }, {
+        "item" : "63160",
+        "count" : "3024"
+      }, {
+        "item" : "63414",
+        "count" : "2520"
+      }, {
+        "item" : "85325",
+        "count" : "2279"
+      }, {
+        "item" : "11071",
+        "count" : "2170"
+      }, {
+        "item" : "299710",
+        "count" : "2102"
+      }, {
+        "item" : "66610",
+        "count" : "1487"
+      }, {
+        "item" : "65406",
+        "count" : "1418"
+      }, {
+        "item" : "85659",
+        "count" : "1414"
+      }, {
+        "item" : "1896",
+        "count" : "1398"
+      }, {
+        "item" : "8970",
+        "count" : "1396"
+      }, {
+        "item" : "259",
+        "count" : "1236"
+      }, {
+        "item" : "22232",
+        "count" : "985"
+      }, {
+        "item" : "68120",
+        "count" : "942"
+      }, {
+        "item" : "63376",
+        "count" : "912"
+      }, {
+        "item" : "63878",
+        "count" : "891"
+      }, {
+        "item" : "62544",
+        "count" : "859"
+      }, {
+        "item" : "5033",
+        "count" : "774"
+      }, {
+        "item" : "85443",
+        "count" : "773"
+      } ],
+      "smallest" : "1",
+      "count" : "1206416",
+      "cardinality" : "1206416"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "right",
+      "aggregate" : "count"
+    }
+  }, {
+    "id" : 606327740,
+    "name" : "SITE NUMBER",
+    "dataTypeName" : "number",
+    "description" : "An internal database ID indicating the location of this licensed business to account for business owners with more than one location.",
+    "fieldName" : "site_number",
+    "position" : 4,
+    "renderTypeName" : "number",
+    "tableColumnId" : 1512277,
+    "width" : 136,
+    "cachedContents" : {
+      "non_null" : "1206416",
+      "largest" : "707",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1",
+        "count" : "817128"
+      }, {
+        "item" : "2",
+        "count" : "165665"
+      }, {
+        "item" : "3",
+        "count" : "64171"
+      }, {
+        "item" : "4",
+        "count" : "28637"
+      }, {
+        "item" : "5",
+        "count" : "15583"
+      }, {
+        "item" : "6",
+        "count" : "10398"
+      }, {
+        "item" : "7",
+        "count" : "7817"
+      }, {
+        "item" : "8",
+        "count" : "6187"
+      }, {
+        "item" : "9",
+        "count" : "5622"
+      }, {
+        "item" : "10",
+        "count" : "4748"
+      }, {
+        "item" : "11",
+        "count" : "4158"
+      }, {
+        "item" : "12",
+        "count" : "3815"
+      }, {
+        "item" : "13",
+        "count" : "3242"
+      }, {
+        "item" : "14",
+        "count" : "2959"
+      }, {
+        "item" : "15",
+        "count" : "2621"
+      }, {
+        "item" : "16",
+        "count" : "2466"
+      }, {
+        "item" : "17",
+        "count" : "2354"
+      }, {
+        "item" : "18",
+        "count" : "2170"
+      }, {
+        "item" : "19",
+        "count" : "1910"
+      }, {
+        "item" : "20",
+        "count" : "1905"
+      } ],
+      "smallest" : "1",
+      "count" : "1206416",
+      "cardinality" : "1206416"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "false",
+      "align" : "right"
+    }
+  }, {
+    "id" : 606327741,
+    "name" : "LEGAL NAME",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "legal_name",
+    "position" : 5,
+    "renderTypeName" : "text",
+    "tableColumnId" : 1512288,
+    "width" : 247,
+    "cachedContents" : {
+      "non_null" : "1206416",
+      "largest" : "ZZ&Z MUHAMMAD CORPORATION",
+      "null" : "0",
+      "top" : [ {
+        "item" : "WALGREEN CO.",
+        "count" : "3777"
+      }, {
+        "item" : "BOND DRUG COMPANY OF ILLINOIS, LLC",
+        "count" : "3104"
+      }, {
+        "item" : "SP PLUS LLC",
+        "count" : "3024"
+      }, {
+        "item" : "STARBUCKS CORPORATION",
+        "count" : "2520"
+      }, {
+        "item" : "AMERICAN DRUG STORES LLC",
+        "count" : "2279"
+      }, {
+        "item" : "FAMILY DOLLAR, LLC",
+        "count" : "2170"
+      }, {
+        "item" : "HIGHLAND PARK CVS, L.L.C.",
+        "count" : "2102"
+      }, {
+        "item" : "ALLIED WASTE TRANSPORTATION, INC.",
+        "count" : "1515"
+      }, {
+        "item" : "WASTE MANAGEMENT OF ILLINOIS INC.",
+        "count" : "1418"
+      }, {
+        "item" : "H&R BLOCK ENTERPRISES LLC",
+        "count" : "1414"
+      }, {
+        "item" : "HOST INTERNATIONAL, INC.",
+        "count" : "1398"
+      }, {
+        "item" : "COMPASS GROUP USA, INC.",
+        "count" : "1396"
+      }, {
+        "item" : "JEWEL FOOD STORES, INC.",
+        "count" : "1236"
+      }, {
+        "item" : "BLOCKBUSTER INC.",
+        "count" : "985"
+      }, {
+        "item" : "LEVY PREMIUM FOODSERVICE LIMITED PARTNERSHIP",
+        "count" : "942"
+      }, {
+        "item" : "INTERPARK LLC",
+        "count" : "912"
+      }, {
+        "item" : "THE UNIVERSITY OF CHICAGO",
+        "count" : "898"
+      }, {
+        "item" : "HYATT CORPORATION",
+        "count" : "877"
+      }, {
+        "item" : "DOMINICK'S FINER FOODS, LLC",
+        "count" : "774"
+      }, {
+        "item" : "CHIPOTLE MEXICAN GRILL, INC.",
+        "count" : "773"
+      } ],
+      "smallest" : "01TEK LIQUIDATION",
+      "count" : "1206416",
+      "cardinality" : "1206416"
+    },
+    "format" : { }
+  }, {
+    "id" : 606327742,
+    "name" : "DOING BUSINESS AS NAME",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "doing_business_as_name",
+    "position" : 6,
+    "renderTypeName" : "text",
+    "tableColumnId" : 1512289,
+    "width" : 289,
+    "cachedContents" : {
+      "non_null" : "1206416",
+      "largest" : "zzzMilk",
+      "null" : "0",
+      "top" : [ {
+        "item" : "7-ELEVEN",
+        "count" : "1988"
+      }, {
+        "item" : "SUBWAY",
+        "count" : "1957"
+      }, {
+        "item" : "DUNKIN DONUTS",
+        "count" : "1452"
+      }, {
+        "item" : "CITGO",
+        "count" : "1058"
+      }, {
+        "item" : "JACKSON HEWITT TAX SERVICE",
+        "count" : "1015"
+      }, {
+        "item" : "STANDARD PARKING",
+        "count" : "988"
+      }, {
+        "item" : "ALLIED WASTE OF CHICAGO",
+        "count" : "980"
+      }, {
+        "item" : "SHELL",
+        "count" : "912"
+      }, {
+        "item" : "BP",
+        "count" : "888"
+      }, {
+        "item" : "INTERPARK",
+        "count" : "808"
+      }, {
+        "item" : "WASTE MANAGEMENT METRO",
+        "count" : "774"
+      }, {
+        "item" : "TRIPLE A SERVICES, INC.",
+        "count" : "608"
+      }, {
+        "item" : "BOOST MOBILE",
+        "count" : "568"
+      }, {
+        "item" : "H & R BLOCK",
+        "count" : "565"
+      }, {
+        "item" : "FEDEX OFFICE AND PRINT SVCS, INC.",
+        "count" : "528"
+      }, {
+        "item" : "MOBIL",
+        "count" : "511"
+      }, {
+        "item" : "MCDONALD'S",
+        "count" : "490"
+      }, {
+        "item" : "LAZ PARKING",
+        "count" : "486"
+      }, {
+        "item" : "SP PLUS CORPORATION",
+        "count" : "466"
+      }, {
+        "item" : "GATEWAY NEWSTAND",
+        "count" : "463"
+      } ],
+      "smallest" : "007 LOUNGE",
+      "count" : "1206416",
+      "cardinality" : "1206416"
+    },
+    "format" : { }
+  }, {
+    "id" : 606327743,
+    "name" : "ADDRESS",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "address",
+    "position" : 7,
+    "renderTypeName" : "text",
+    "tableColumnId" : 1512290,
+    "width" : 204,
+    "cachedContents" : {
+      "non_null" : "1206416",
+      "largest" : "W7730  WALNUT RD",
+      "null" : "0",
+      "top" : [ {
+        "item" : "[REDACTED FOR PRIVACY]",
+        "count" : "8509"
+      }, {
+        "item" : "4100 S ASHLAND AVE",
+        "count" : "2041"
+      }, {
+        "item" : "2608 S DAMEN AVE",
+        "count" : "1235"
+      }, {
+        "item" : "1500 N HOOKER ST",
+        "count" : "1091"
+      }, {
+        "item" : "11601 W TOUHY AVE",
+        "count" : "1066"
+      }, {
+        "item" : "4545 W DIVISION ST",
+        "count" : "680"
+      }, {
+        "item" : "7601 S CICERO AVE",
+        "count" : "670"
+      }, {
+        "item" : "50 W WASHINGTON ST",
+        "count" : "649"
+      }, {
+        "item" : "2637 S THROOP ST",
+        "count" : "642"
+      }, {
+        "item" : "2300 S THROOP ST",
+        "count" : "557"
+      }, {
+        "item" : "2700 S ROCKWELL ST",
+        "count" : "498"
+      }, {
+        "item" : "4100 S ASHLAND AVE 1ST",
+        "count" : "487"
+      }, {
+        "item" : "600 E GRAND AVE",
+        "count" : "479"
+      }, {
+        "item" : "720 S MICHIGAN AVE",
+        "count" : "458"
+      }, {
+        "item" : "4815-4835 W HARRISON ST",
+        "count" : "435"
+      }, {
+        "item" : "2404 W 46TH PL",
+        "count" : "343"
+      }, {
+        "item" : "111 N STATE ST",
+        "count" : "340"
+      }, {
+        "item" : "200 N COLUMBUS DR",
+        "count" : "337"
+      }, {
+        "item" : "5220 S PULASKI RD",
+        "count" : "334"
+      }, {
+        "item" : "108 E SUPERIOR ST",
+        "count" : "333"
+      } ],
+      "smallest" : "0000000  LAURUS INTERNATIONAL AVE.-TIRANDENTES",
+      "count" : "1206416",
+      "cardinality" : "1206416"
+    },
+    "format" : { }
+  }, {
+    "id" : 606327744,
+    "name" : "CITY",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "city",
+    "position" : 8,
+    "renderTypeName" : "text",
+    "tableColumnId" : 1512291,
+    "width" : 135,
+    "cachedContents" : {
+      "non_null" : "1206416",
+      "largest" : "ZIONSVILLE",
+      "null" : "0",
+      "top" : [ {
+        "item" : "CHICAGO",
+        "count" : "1115556"
+      }, {
+        "item" : "CICERO",
+        "count" : "1915"
+      }, {
+        "item" : "SKOKIE",
+        "count" : "1835"
+      }, {
+        "item" : "DES PLAINES",
+        "count" : "1582"
+      }, {
+        "item" : "NORTHBROOK",
+        "count" : "1289"
+      }, {
+        "item" : "EVANSTON",
+        "count" : "1199"
+      }, {
+        "item" : "GLENVIEW",
+        "count" : "1139"
+      }, {
+        "item" : "NILES",
+        "count" : "1110"
+      }, {
+        "item" : "ELK GROVE",
+        "count" : "1088"
+      }, {
+        "item" : "OAK PARK",
+        "count" : "1054"
+      }, {
+        "item" : "ARLINGTON HEIGHTS",
+        "count" : "1045"
+      }, {
+        "item" : "ORLAND PARK",
+        "count" : "1011"
+      }, {
+        "item" : "MELROSE PARK",
+        "count" : "1002"
+      }, {
+        "item" : "PARK RIDGE",
+        "count" : "990"
+      }, {
+        "item" : "SCHAUMBURG",
+        "count" : "921"
+      }, {
+        "item" : "BERWYN",
+        "count" : "907"
+      }, {
+        "item" : "NAPERVILLE",
+        "count" : "902"
+      }, {
+        "item" : "OAK LAWN",
+        "count" : "846"
+      }, {
+        "item" : "SOUTH HOLLAND",
+        "count" : "815"
+      }, {
+        "item" : "MORTON GROVE",
+        "count" : "805"
+      } ],
+      "smallest" : "1",
+      "count" : "1206416",
+      "cardinality" : "1206416"
+    },
+    "format" : { }
+  }, {
+    "id" : 606327745,
+    "name" : "STATE",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "state",
+    "position" : 9,
+    "renderTypeName" : "text",
+    "tableColumnId" : 1512292,
+    "width" : 104,
+    "cachedContents" : {
+      "non_null" : "1206404",
+      "largest" : "WY",
+      "null" : "12",
+      "top" : [ {
+        "item" : "IL",
+        "count" : "1189199"
+      }, {
+        "item" : "IN",
+        "count" : "3671"
+      }, {
+        "item" : "WI",
+        "count" : "1304"
+      }, {
+        "item" : "CA",
+        "count" : "1286"
+      }, {
+        "item" : "TX",
+        "count" : "952"
+      }, {
+        "item" : "NY",
+        "count" : "952"
+      }, {
+        "item" : "MI",
+        "count" : "849"
+      }, {
+        "item" : "FL",
+        "count" : "699"
+      }, {
+        "item" : "OH",
+        "count" : "666"
+      }, {
+        "item" : "GA",
+        "count" : "653"
+      }, {
+        "item" : "MO",
+        "count" : "566"
+      }, {
+        "item" : "MN",
+        "count" : "556"
+      }, {
+        "item" : "PA",
+        "count" : "537"
+      }, {
+        "item" : "AZ",
+        "count" : "348"
+      }, {
+        "item" : "NJ",
+        "count" : "305"
+      }, {
+        "item" : "VA",
+        "count" : "294"
+      }, {
+        "item" : "IA",
+        "count" : "283"
+      }, {
+        "item" : "CO",
+        "count" : "272"
+      }, {
+        "item" : "TN",
+        "count" : "260"
+      }, {
+        "item" : "NV",
+        "count" : "256"
+      } ],
+      "smallest" : "AK",
+      "count" : "1206416",
+      "cardinality" : "1206416"
+    },
+    "format" : { }
+  }, {
+    "id" : 606327746,
+    "name" : "ZIP CODE",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "zip_code",
+    "position" : 10,
+    "renderTypeName" : "text",
+    "tableColumnId" : 1512293,
+    "width" : 109,
+    "cachedContents" : {
+      "non_null" : "1206091",
+      "largest" : "V6B1A",
+      "null" : "325",
+      "top" : [ {
+        "item" : "60618",
+        "count" : "42238"
+      }, {
+        "item" : "60611",
+        "count" : "39620"
+      }, {
+        "item" : "60647",
+        "count" : "39399"
+      }, {
+        "item" : "60614",
+        "count" : "38156"
+      }, {
+        "item" : "60608",
+        "count" : "37518"
+      }, {
+        "item" : "60639",
+        "count" : "35451"
+      }, {
+        "item" : "60622",
+        "count" : "34732"
+      }, {
+        "item" : "60609",
+        "count" : "33767"
+      }, {
+        "item" : "60657",
+        "count" : "32690"
+      }, {
+        "item" : "60610",
+        "count" : "31963"
+      }, {
+        "item" : "60632",
+        "count" : "29959"
+      }, {
+        "item" : "60623",
+        "count" : "28984"
+      }, {
+        "item" : "60607",
+        "count" : "27987"
+      }, {
+        "item" : "60625",
+        "count" : "26003"
+      }, {
+        "item" : "60640",
+        "count" : "25493"
+      }, {
+        "item" : "60641",
+        "count" : "25479"
+      }, {
+        "item" : "60606",
+        "count" : "23373"
+      }, {
+        "item" : "60601",
+        "count" : "22970"
+      }, {
+        "item" : "60634",
+        "count" : "22185"
+      }, {
+        "item" : "60616",
+        "count" : "22106"
+      } ],
+      "smallest" : "00000",
+      "count" : "1206416",
+      "cardinality" : "1206416"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "right"
+    }
+  }, {
+    "id" : 606327747,
+    "name" : "WARD",
+    "dataTypeName" : "number",
+    "description" : "The ward where the business is located.",
+    "fieldName" : "ward",
+    "position" : 11,
+    "renderTypeName" : "number",
+    "tableColumnId" : 1512295,
+    "width" : 89,
+    "cachedContents" : {
+      "non_null" : "1114960",
+      "largest" : "50",
+      "null" : "91456",
+      "top" : [ {
+        "item" : "42",
+        "count" : "104309"
+      }, {
+        "item" : "34",
+        "count" : "61686"
+      }, {
+        "item" : "27",
+        "count" : "49883"
+      }, {
+        "item" : "2",
+        "count" : "34345"
+      }, {
+        "item" : "32",
+        "count" : "33804"
+      }, {
+        "item" : "25",
+        "count" : "30568"
+      }, {
+        "item" : "1",
+        "count" : "30550"
+      }, {
+        "item" : "47",
+        "count" : "29855"
+      }, {
+        "item" : "44",
+        "count" : "29831"
+      }, {
+        "item" : "11",
+        "count" : "25580"
+      }, {
+        "item" : "43",
+        "count" : "24962"
+      }, {
+        "item" : "45",
+        "count" : "23657"
+      }, {
+        "item" : "28",
+        "count" : "23363"
+      }, {
+        "item" : "33",
+        "count" : "22927"
+      }, {
+        "item" : "12",
+        "count" : "22786"
+      }, {
+        "item" : "35",
+        "count" : "22034"
+      }, {
+        "item" : "41",
+        "count" : "21856"
+      }, {
+        "item" : "39",
+        "count" : "20911"
+      }, {
+        "item" : "31",
+        "count" : "20126"
+      }, {
+        "item" : "36",
+        "count" : "20056"
+      } ],
+      "smallest" : "1",
+      "count" : "1206416",
+      "cardinality" : "1206416"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "right"
+    }
+  }, {
+    "id" : 606327748,
+    "name" : "PRECINCT",
+    "dataTypeName" : "number",
+    "description" : "The precinct within the ward where the business is located. Note the the same precinct numbers exist in multiple wards.",
+    "fieldName" : "precinct",
+    "position" : 12,
+    "renderTypeName" : "number",
+    "tableColumnId" : 1512296,
+    "width" : 115,
+    "cachedContents" : {
+      "non_null" : "1112958",
+      "largest" : "4047",
+      "null" : "93458",
+      "top" : [ {
+        "item" : "9",
+        "count" : "65389"
+      }, {
+        "item" : "27",
+        "count" : "27276"
+      }, {
+        "item" : "12",
+        "count" : "26176"
+      }, {
+        "item" : "14",
+        "count" : "26114"
+      }, {
+        "item" : "6",
+        "count" : "25767"
+      }, {
+        "item" : "21",
+        "count" : "25258"
+      }, {
+        "item" : "28",
+        "count" : "24609"
+      }, {
+        "item" : "16",
+        "count" : "24204"
+      }, {
+        "item" : "33",
+        "count" : "23600"
+      }, {
+        "item" : "10",
+        "count" : "22844"
+      }, {
+        "item" : "25",
+        "count" : "22516"
+      }, {
+        "item" : "19",
+        "count" : "22148"
+      }, {
+        "item" : "7",
+        "count" : "22122"
+      }, {
+        "item" : "8",
+        "count" : "21749"
+      }, {
+        "item" : "15",
+        "count" : "21732"
+      }, {
+        "item" : "5",
+        "count" : "21699"
+      }, {
+        "item" : "11",
+        "count" : "21627"
+      }, {
+        "item" : "49",
+        "count" : "21294"
+      }, {
+        "item" : "22",
+        "count" : "20874"
+      }, {
+        "item" : "1",
+        "count" : "20771"
+      } ],
+      "smallest" : "1",
+      "count" : "1206416",
+      "cardinality" : "1206416"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "right"
+    }
+  }, {
+    "id" : 606327749,
+    "name" : "WARD PRECINCT",
+    "dataTypeName" : "text",
+    "description" : "The ward and precinct where the business is located. This column can be used to filter by precinct more easily across multiple wards. ",
+    "fieldName" : "ward_precinct",
+    "position" : 13,
+    "renderTypeName" : "text",
+    "tableColumnId" : 35347726,
+    "width" : 145,
+    "cachedContents" : {
+      "non_null" : "1115542",
+      "largest" : "9-9",
+      "null" : "90874",
+      "top" : [ {
+        "item" : "34-9",
+        "count" : "29914"
+      }, {
+        "item" : "42-9",
+        "count" : "21080"
+      }, {
+        "item" : "42-14",
+        "count" : "7615"
+      }, {
+        "item" : "42-44",
+        "count" : "6451"
+      }, {
+        "item" : "41-27",
+        "count" : "6330"
+      }, {
+        "item" : "42-12",
+        "count" : "6294"
+      }, {
+        "item" : "34-49",
+        "count" : "5610"
+      }, {
+        "item" : "42-68",
+        "count" : "5428"
+      }, {
+        "item" : "27-33",
+        "count" : "4752"
+      }, {
+        "item" : "42-22",
+        "count" : "4688"
+      }, {
+        "item" : "27-27",
+        "count" : "4678"
+      }, {
+        "item" : "12-16",
+        "count" : "4624"
+      }, {
+        "item" : "25-15",
+        "count" : "4580"
+      }, {
+        "item" : "42-46",
+        "count" : "4492"
+      }, {
+        "item" : "27-46",
+        "count" : "4398"
+      }, {
+        "item" : "4-49",
+        "count" : "4247"
+      }, {
+        "item" : "42-48",
+        "count" : "3932"
+      }, {
+        "item" : "34-12",
+        "count" : "3860"
+      }, {
+        "item" : "42-55",
+        "count" : "3849"
+      }, {
+        "item" : "25-6",
+        "count" : "3846"
+      } ],
+      "smallest" : "-1",
+      "count" : "1206416",
+      "cardinality" : "1206416"
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 606327750,
+    "name" : "POLICE DISTRICT",
+    "dataTypeName" : "number",
+    "fieldName" : "police_district",
+    "position" : 14,
+    "renderTypeName" : "number",
+    "tableColumnId" : 1512297,
+    "width" : 147,
+    "cachedContents" : {
+      "non_null" : "1114581",
+      "largest" : "181",
+      "null" : "91835",
+      "top" : [ {
+        "item" : "18",
+        "count" : "119003"
+      }, {
+        "item" : "1",
+        "count" : "118001"
+      }, {
+        "item" : "19",
+        "count" : "100741"
+      }, {
+        "item" : "12",
+        "count" : "86676"
+      }, {
+        "item" : "8",
+        "count" : "69466"
+      }, {
+        "item" : "16",
+        "count" : "67697"
+      }, {
+        "item" : "9",
+        "count" : "65459"
+      }, {
+        "item" : "25",
+        "count" : "64989"
+      }, {
+        "item" : "14",
+        "count" : "58284"
+      }, {
+        "item" : "17",
+        "count" : "58134"
+      }, {
+        "item" : "10",
+        "count" : "42307"
+      }, {
+        "item" : "24",
+        "count" : "38795"
+      }, {
+        "item" : "20",
+        "count" : "32289"
+      }, {
+        "item" : "4",
+        "count" : "31207"
+      }, {
+        "item" : "22",
+        "count" : "25611"
+      }, {
+        "item" : "6",
+        "count" : "25281"
+      }, {
+        "item" : "11",
+        "count" : "24733"
+      }, {
+        "item" : "2",
+        "count" : "24030"
+      }, {
+        "item" : "3",
+        "count" : "18270"
+      }, {
+        "item" : "5",
+        "count" : "15096"
+      } ],
+      "smallest" : "0",
+      "count" : "1206416",
+      "cardinality" : "1206416"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "right"
+    }
+  }, {
+    "id" : 606327780,
+    "name" : "COMMUNITY AREA",
+    "dataTypeName" : "number",
+    "description" : "Community Area Number",
+    "fieldName" : "community_area",
+    "position" : 15,
+    "renderTypeName" : "number",
+    "tableColumnId" : 156973859,
+    "width" : 178,
+    "cachedContents" : {
+      "non_null" : "1107221",
+      "largest" : "77",
+      "null" : "99195",
+      "top" : [ {
+        "item" : "8",
+        "count" : "97472"
+      }, {
+        "item" : "32",
+        "count" : "92258"
+      }, {
+        "item" : "28",
+        "count" : "54542"
+      }, {
+        "item" : "24",
+        "count" : "49842"
+      }, {
+        "item" : "6",
+        "count" : "48170"
+      }, {
+        "item" : "7",
+        "count" : "35209"
+      }, {
+        "item" : "22",
+        "count" : "32292"
+      }, {
+        "item" : "25",
+        "count" : "27859"
+      }, {
+        "item" : "30",
+        "count" : "26899"
+      }, {
+        "item" : "19",
+        "count" : "26326"
+      }, {
+        "item" : "31",
+        "count" : "23418"
+      }, {
+        "item" : "61",
+        "count" : "22603"
+      }, {
+        "item" : "16",
+        "count" : "21785"
+      }, {
+        "item" : "2",
+        "count" : "21587"
+      }, {
+        "item" : "15",
+        "count" : "21022"
+      }, {
+        "item" : "23",
+        "count" : "19485"
+      }, {
+        "item" : "3",
+        "count" : "19320"
+      }, {
+        "item" : "14",
+        "count" : "18173"
+      }, {
+        "item" : "5",
+        "count" : "17826"
+      }, {
+        "item" : "77",
+        "count" : "17648"
+      } ],
+      "smallest" : "0",
+      "count" : "1206416",
+      "cardinality" : "1206416"
+    },
+    "format" : { }
+  }, {
+    "id" : 606327782,
+    "name" : "COMMUNITY AREA NAME",
+    "dataTypeName" : "text",
+    "description" : "Community Area Name",
+    "fieldName" : "community_area_name",
+    "position" : 16,
+    "renderTypeName" : "text",
+    "tableColumnId" : 156973861,
+    "width" : 222,
+    "cachedContents" : {
+      "non_null" : "1107155",
+      "largest" : "WOODLAWN",
+      "null" : "99261",
+      "top" : [ {
+        "item" : "NEAR NORTH SIDE",
+        "count" : "97471"
+      }, {
+        "item" : "LOOP",
+        "count" : "92258"
+      }, {
+        "item" : "NEAR WEST SIDE",
+        "count" : "54542"
+      }, {
+        "item" : "WEST TOWN",
+        "count" : "49842"
+      }, {
+        "item" : "LAKE VIEW",
+        "count" : "48170"
+      }, {
+        "item" : "LINCOLN PARK",
+        "count" : "35209"
+      }, {
+        "item" : "LOGAN SQUARE",
+        "count" : "32292"
+      }, {
+        "item" : "AUSTIN",
+        "count" : "27859"
+      }, {
+        "item" : "SOUTH LAWNDALE",
+        "count" : "26899"
+      }, {
+        "item" : "BELMONT CRAGIN",
+        "count" : "26324"
+      }, {
+        "item" : "LOWER WEST SIDE",
+        "count" : "23418"
+      }, {
+        "item" : "NEW CITY",
+        "count" : "22603"
+      }, {
+        "item" : "IRVING PARK",
+        "count" : "21785"
+      }, {
+        "item" : "WEST RIDGE",
+        "count" : "21587"
+      }, {
+        "item" : "PORTAGE PARK",
+        "count" : "21022"
+      }, {
+        "item" : "HUMBOLDT PARK",
+        "count" : "19485"
+      }, {
+        "item" : "UPTOWN",
+        "count" : "19320"
+      }, {
+        "item" : "ALBANY PARK",
+        "count" : "18173"
+      }, {
+        "item" : "NORTH CENTER",
+        "count" : "17826"
+      }, {
+        "item" : "EDGEWATER",
+        "count" : "17648"
+      } ],
+      "smallest" : "ALBANY PARK",
+      "count" : "1206416",
+      "cardinality" : "1206416"
+    },
+    "format" : { }
+  }, {
+    "id" : 606327781,
+    "name" : "NEIGHBORHOOD",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "neighborhood",
+    "position" : 17,
+    "renderTypeName" : "text",
+    "tableColumnId" : 156973860,
+    "width" : 212,
+    "cachedContents" : {
+      "non_null" : "1106179",
+      "largest" : "WRIGLEYVILLE",
+      "null" : "100237",
+      "top" : [ {
+        "item" : "LOOP",
+        "count" : "89150"
+      }, {
+        "item" : "RIVER NORTH",
+        "count" : "48916"
+      }, {
+        "item" : "LAKE VIEW",
+        "count" : "40618"
+      }, {
+        "item" : "WEST LOOP",
+        "count" : "35760"
+      }, {
+        "item" : "LITTLE VILLAGE",
+        "count" : "26899"
+      }, {
+        "item" : "BELMONT CRAGIN",
+        "count" : "26708"
+      }, {
+        "item" : "LINCOLN PARK",
+        "count" : "25667"
+      }, {
+        "item" : "AUSTIN",
+        "count" : "24537"
+      }, {
+        "item" : "HUMBOLDT PARK",
+        "count" : "23664"
+      }, {
+        "item" : "LOWER WEST SIDE",
+        "count" : "23348"
+      }, {
+        "item" : "LOGAN SQUARE",
+        "count" : "22946"
+      }, {
+        "item" : "NEW CITY",
+        "count" : "22623"
+      }, {
+        "item" : "IRVING PARK",
+        "count" : "21919"
+      }, {
+        "item" : "WEST TOWN",
+        "count" : "21751"
+      }, {
+        "item" : "WEST RIDGE",
+        "count" : "21582"
+      }, {
+        "item" : "PORTAGE PARK",
+        "count" : "20878"
+      }, {
+        "item" : "UPTOWN",
+        "count" : "19320"
+      }, {
+        "item" : "ALBANY PARK",
+        "count" : "18172"
+      }, {
+        "item" : "NORTH CENTER",
+        "count" : "17827"
+      }, {
+        "item" : "LINCOLN SQUARE",
+        "count" : "16976"
+      } ],
+      "smallest" : "ALBANY PARK",
+      "count" : "1206416",
+      "cardinality" : "1206416"
+    },
+    "format" : { }
+  }, {
+    "id" : 606327751,
+    "name" : "LICENSE CODE",
+    "dataTypeName" : "number",
+    "description" : "A code for the type of license. Each code value corresponds to a specific LICENSE DESCRIPTION value.",
+    "fieldName" : "license_code",
+    "position" : 18,
+    "renderTypeName" : "number",
+    "tableColumnId" : 1512281,
+    "width" : 142,
+    "cachedContents" : {
+      "non_null" : "1206416",
+      "largest" : "8604",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1010",
+        "count" : "482122"
+      }, {
+        "item" : "1006",
+        "count" : "187578"
+      }, {
+        "item" : "4404",
+        "count" : "73544"
+      }, {
+        "item" : "1781",
+        "count" : "58144"
+      }, {
+        "item" : "1475",
+        "count" : "41044"
+      }, {
+        "item" : "1012",
+        "count" : "27149"
+      }, {
+        "item" : "1011",
+        "count" : "26142"
+      }, {
+        "item" : "1470",
+        "count" : "19806"
+      }, {
+        "item" : "1474",
+        "count" : "19043"
+      }, {
+        "item" : "1009",
+        "count" : "15076"
+      }, {
+        "item" : "1329",
+        "count" : "14677"
+      }, {
+        "item" : "8340",
+        "count" : "13579"
+      }, {
+        "item" : "4406",
+        "count" : "13371"
+      }, {
+        "item" : "1007",
+        "count" : "10992"
+      }, {
+        "item" : "1008",
+        "count" : "10959"
+      }, {
+        "item" : "1569",
+        "count" : "10038"
+      }, {
+        "item" : "1050",
+        "count" : "9853"
+      }, {
+        "item" : "1003",
+        "count" : "9187"
+      }, {
+        "item" : "1625",
+        "count" : "9048"
+      }, {
+        "item" : "1604",
+        "count" : "8555"
+      } ],
+      "smallest" : "1002",
+      "count" : "1206416",
+      "cardinality" : "1206416"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "right"
+    }
+  }, {
+    "id" : 606327752,
+    "name" : "LICENSE DESCRIPTION",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "license_description",
+    "position" : 19,
+    "renderTypeName" : "text",
+    "tableColumnId" : 1512282,
+    "width" : 254,
+    "cachedContents" : {
+      "non_null" : "1206416",
+      "largest" : "Wrigley Field",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Limited Business License",
+        "count" : "482122"
+      }, {
+        "item" : "Retail Food Establishment",
+        "count" : "187578"
+      }, {
+        "item" : "Regulated Business License",
+        "count" : "73544"
+      }, {
+        "item" : "Tobacco",
+        "count" : "58144"
+      }, {
+        "item" : "Consumption on Premises - Incidental Activity",
+        "count" : "41044"
+      }, {
+        "item" : "Home Occupation",
+        "count" : "27149"
+      }, {
+        "item" : "Home Repair",
+        "count" : "26142"
+      }, {
+        "item" : "Tavern",
+        "count" : "19806"
+      }, {
+        "item" : "Package Goods",
+        "count" : "19043"
+      }, {
+        "item" : "Manufacturing Establishments",
+        "count" : "15076"
+      }, {
+        "item" : "Special Event Food",
+        "count" : "14677"
+      }, {
+        "item" : "Motor Vehicle Services License",
+        "count" : "13579"
+      }, {
+        "item" : "Peddler License",
+        "count" : "13371"
+      }, {
+        "item" : "Wholesale Food Establishment",
+        "count" : "10992"
+      }, {
+        "item" : "Hazardous Materials",
+        "count" : "10959"
+      }, {
+        "item" : "Motor Vehicle Repair : Engine Only (Class II)",
+        "count" : "10038"
+      }, {
+        "item" : "Public Place of Amusement",
+        "count" : "9853"
+      }, {
+        "item" : "Commercial Garage",
+        "count" : "9187"
+      }, {
+        "item" : "Raffles",
+        "count" : "9048"
+      }, {
+        "item" : "Peddler, non-food",
+        "count" : "8555"
+      } ],
+      "smallest" : "Accessory Garage",
+      "count" : "1206416",
+      "cardinality" : "1206416"
+    },
+    "format" : { }
+  }, {
+    "id" : 606327753,
+    "name" : "BUSINESS ACTIVITY ID",
+    "dataTypeName" : "text",
+    "description" : "A code for the business activity. Each ID value corresponds to a specific BUSINESS ACTIVITY value.",
+    "fieldName" : "business_activity_id",
+    "position" : 20,
+    "renderTypeName" : "text",
+    "tableColumnId" : 38113085,
+    "width" : 216,
+    "cachedContents" : {
+      "non_null" : "657610",
+      "largest" : "999",
+      "null" : "548806",
+      "top" : [ {
+        "item" : "775",
+        "count" : "144519"
+      }, {
+        "item" : "763",
+        "count" : "47162"
+      }, {
+        "item" : "638",
+        "count" : "40247"
+      }, {
+        "item" : "829",
+        "count" : "19510"
+      }, {
+        "item" : "774",
+        "count" : "17022"
+      }, {
+        "item" : "735",
+        "count" : "14058"
+      }, {
+        "item" : "673",
+        "count" : "10705"
+      }, {
+        "item" : "894",
+        "count" : "9868"
+      }, {
+        "item" : "724",
+        "count" : "9857"
+      }, {
+        "item" : "864",
+        "count" : "9851"
+      }, {
+        "item" : "708",
+        "count" : "8948"
+      }, {
+        "item" : "720",
+        "count" : "8868"
+      }, {
+        "item" : "814",
+        "count" : "8838"
+      }, {
+        "item" : "781",
+        "count" : "8549"
+      }, {
+        "item" : "990",
+        "count" : "8509"
+      }, {
+        "item" : "904",
+        "count" : "8114"
+      }, {
+        "item" : "602",
+        "count" : "7827"
+      }, {
+        "item" : "725",
+        "count" : "7825"
+      }, {
+        "item" : "769",
+        "count" : "7583"
+      }, {
+        "item" : "784",
+        "count" : "7477"
+      } ],
+      "smallest" : "1000",
+      "count" : "1206416",
+      "cardinality" : "1206416"
+    },
+    "format" : { }
+  }, {
+    "id" : 606327754,
+    "name" : "BUSINESS ACTIVITY",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "business_activity",
+    "position" : 21,
+    "renderTypeName" : "text",
+    "tableColumnId" : 38113086,
+    "width" : 365,
+    "cachedContents" : {
+      "non_null" : "657610",
+      "largest" : "Wrigley Field Sports Plaza",
+      "null" : "548806",
+      "top" : [ {
+        "item" : "Retail Sales of Perishable Foods",
+        "count" : "144519"
+      }, {
+        "item" : "Retail Sale of Tobacco",
+        "count" : "47162"
+      }, {
+        "item" : "Consumption of Liquor on Premises",
+        "count" : "40247"
+      }, {
+        "item" : "Tavern - Consumption of Liquor on Premises",
+        "count" : "19510"
+      }, {
+        "item" : "Retail Sales of Packaged Liquor",
+        "count" : "17022"
+      }, {
+        "item" : "Preparation of Food and Dining on Premises With Seating",
+        "count" : "14058"
+      }, {
+        "item" : "Home Repair Services",
+        "count" : "10705"
+      }, {
+        "item" : "Hair Services",
+        "count" : "9868"
+      }, {
+        "item" : "Other Home Based Businesses",
+        "count" : "9857"
+      }, {
+        "item" : "Enagage in Wholesale Food Sales",
+        "count" : "9851"
+      }, {
+        "item" : "Miscellaneous Commercial Services",
+        "count" : "8948"
+      }, {
+        "item" : "Not-For-Profit Selling Raffles for Prizes of $50 or More",
+        "count" : "8868"
+      }, {
+        "item" : "Special Event Food",
+        "count" : "8838"
+      }, {
+        "item" : "Sale of Food Prepared Onsite With Dining Area",
+        "count" : "8549"
+      }, {
+        "item" : "Markets / Promotes Pharmaceuticals to Health Care Professionals and Conducts Business for More than 15 Calendar Days per Year",
+        "count" : "8509"
+      }, {
+        "item" : "Retail Sales of General Merchandise",
+        "count" : "8114"
+      }, {
+        "item" : "Operation of an Administrative Commercial Office",
+        "count" : "7827"
+      }, {
+        "item" : "Provide 4 or More Parking Spaces For a Fee - Available and Advertised to the Public",
+        "count" : "7825"
+      }, {
+        "item" : "Peddler- Retail Sales of General Merchandise, Whole Uncut Fruits/Vegetables, Flowers, Moving Along the Public Way",
+        "count" : "7583"
+      }, {
+        "item" : "Sale of Liquor Outdoors on Private Property",
+        "count" : "7477"
+      } ],
+      "smallest" : "10 Day Multiple Events - Special Event Food",
+      "count" : "1206416",
+      "cardinality" : "1206416"
+    },
+    "format" : { }
+  }, {
+    "id" : 606327755,
+    "name" : "LICENSE NUMBER",
+    "dataTypeName" : "number",
+    "description" : "The license number known to the public and generally used in other data sources that refer to the license. This is the field most users will want for most purposes. Each license has a single license number that stays consistent throughout the lifetime of the license. By contrast, the LICENSE ID field is an internal database ID and not generally useful to external users.",
+    "fieldName" : "license_number",
+    "position" : 22,
+    "renderTypeName" : "number",
+    "tableColumnId" : 1512278,
+    "width" : 168,
+    "cachedContents" : {
+      "non_null" : "1206415",
+      "largest" : "3100765",
+      "null" : "1",
+      "top" : [ {
+        "item" : "1222959",
+        "count" : "26"
+      }, {
+        "item" : "1225990",
+        "count" : "26"
+      }, {
+        "item" : "1194743",
+        "count" : "26"
+      }, {
+        "item" : "1247718",
+        "count" : "25"
+      }, {
+        "item" : "1226152",
+        "count" : "25"
+      }, {
+        "item" : "1171537",
+        "count" : "25"
+      }, {
+        "item" : "1167484",
+        "count" : "25"
+      }, {
+        "item" : "33216",
+        "count" : "25"
+      }, {
+        "item" : "1221919",
+        "count" : "25"
+      }, {
+        "item" : "1167038",
+        "count" : "25"
+      }, {
+        "item" : "1337907",
+        "count" : "25"
+      }, {
+        "item" : "1167372",
+        "count" : "25"
+      }, {
+        "item" : "1227408",
+        "count" : "25"
+      }, {
+        "item" : "1193439",
+        "count" : "25"
+      }, {
+        "item" : "1242743",
+        "count" : "25"
+      }, {
+        "item" : "1121449",
+        "count" : "25"
+      }, {
+        "item" : "1224473",
+        "count" : "25"
+      }, {
+        "item" : "1227587",
+        "count" : "25"
+      }, {
+        "item" : "1143164",
+        "count" : "25"
+      }, {
+        "item" : "1445660",
+        "count" : "24"
+      } ],
+      "smallest" : "2",
+      "count" : "1206416",
+      "cardinality" : "1206416"
+    },
+    "format" : {
+      "precisionStyle" : "standard",
+      "noCommas" : "true",
+      "align" : "right"
+    }
+  }, {
+    "id" : 606327756,
+    "name" : "APPLICATION TYPE",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "application_type",
+    "position" : 23,
+    "renderTypeName" : "text",
+    "tableColumnId" : 1512280,
+    "width" : 168,
+    "cachedContents" : {
+      "non_null" : "1206416",
+      "largest" : "RENEW",
+      "null" : "0",
+      "top" : [ {
+        "item" : "RENEW",
+        "count" : "917873"
+      }, {
+        "item" : "ISSUE",
+        "count" : "269918"
+      }, {
+        "item" : "C_LOC",
+        "count" : "16381"
+      }, {
+        "item" : "C_EXPA",
+        "count" : "935"
+      }, {
+        "item" : "C_SBA",
+        "count" : "790"
+      }, {
+        "item" : "C_CAPA",
+        "count" : "519"
+      } ],
+      "smallest" : "C_CAPA",
+      "count" : "1206416",
+      "cardinality" : "1206416"
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 606327757,
+    "name" : "APPLICATION CREATED DATE",
+    "dataTypeName" : "calendar_date",
+    "description" : "The date the business license application was created.  RENEW type records do not have an application.",
+    "fieldName" : "application_created_date",
+    "position" : 24,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 18566894,
+    "width" : 196,
+    "cachedContents" : {
+      "non_null" : "281510",
+      "largest" : "2026-09-14T00:00:00.000",
+      "null" : "924906",
+      "top" : [ {
+        "item" : "2002-03-27T00:00:00.000",
+        "count" : "10043"
+      }, {
+        "item" : "2003-03-25T00:00:00.000",
+        "count" : "9639"
+      }, {
+        "item" : "2002-09-24T00:00:00.000",
+        "count" : "5443"
+      }, {
+        "item" : "2000-12-18T00:00:00.000",
+        "count" : "866"
+      }, {
+        "item" : "2000-10-06T00:00:00.000",
+        "count" : "483"
+      }, {
+        "item" : "2001-10-03T00:00:00.000",
+        "count" : "477"
+      }, {
+        "item" : "2000-07-06T00:00:00.000",
+        "count" : "359"
+      }, {
+        "item" : "2016-04-28T00:00:00.000",
+        "count" : "182"
+      }, {
+        "item" : "2016-04-27T00:00:00.000",
+        "count" : "175"
+      }, {
+        "item" : "2006-04-05T00:00:00.000",
+        "count" : "158"
+      }, {
+        "item" : "2005-02-14T00:00:00.000",
+        "count" : "143"
+      }, {
+        "item" : "2004-09-01T00:00:00.000",
+        "count" : "136"
+      }, {
+        "item" : "2002-04-17T00:00:00.000",
+        "count" : "135"
+      }, {
+        "item" : "2002-02-13T00:00:00.000",
+        "count" : "131"
+      }, {
+        "item" : "2008-05-29T00:00:00.000",
+        "count" : "130"
+      }, {
+        "item" : "2008-08-07T00:00:00.000",
+        "count" : "114"
+      }, {
+        "item" : "2002-03-11T00:00:00.000",
+        "count" : "109"
+      }, {
+        "item" : "2003-08-11T00:00:00.000",
+        "count" : "109"
+      }, {
+        "item" : "2006-02-15T00:00:00.000",
+        "count" : "108"
+      }, {
+        "item" : "2002-11-12T00:00:00.000",
+        "count" : "107"
+      } ],
+      "smallest" : "2000-06-19T00:00:00.000",
+      "count" : "1206416",
+      "cardinality" : "1206416"
+    },
+    "format" : {
+      "view" : "date",
+      "align" : "left"
+    }
+  }, {
+    "id" : 606327758,
+    "name" : "APPLICATION REQUIREMENTS COMPLETE",
+    "dataTypeName" : "calendar_date",
+    "description" : "For all application types except RENEW, this is the date all required application documents were received.  For RENEW type records, this is the date the record was created.",
+    "fieldName" : "application_requirements_complete",
+    "position" : 25,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 18566948,
+    "width" : 276,
+    "cachedContents" : {
+      "non_null" : "1188002",
+      "largest" : "2026-09-14T00:00:00.000",
+      "null" : "18414",
+      "top" : [ {
+        "item" : "2003-12-15T00:00:00.000",
+        "count" : "21588"
+      }, {
+        "item" : "2006-12-20T00:00:00.000",
+        "count" : "20867"
+      }, {
+        "item" : "2005-12-21T00:00:00.000",
+        "count" : "20546"
+      }, {
+        "item" : "2004-12-20T00:00:00.000",
+        "count" : "20197"
+      }, {
+        "item" : "2004-06-30T00:00:00.000",
+        "count" : "19371"
+      }, {
+        "item" : "2002-12-17T00:00:00.000",
+        "count" : "18953"
+      }, {
+        "item" : "2003-09-26T00:00:00.000",
+        "count" : "18343"
+      }, {
+        "item" : "2005-09-22T00:00:00.000",
+        "count" : "18286"
+      }, {
+        "item" : "2006-09-20T00:00:00.000",
+        "count" : "18264"
+      }, {
+        "item" : "2004-09-27T00:00:00.000",
+        "count" : "17851"
+      }, {
+        "item" : "2003-06-24T00:00:00.000",
+        "count" : "17163"
+      }, {
+        "item" : "2007-09-21T00:00:00.000",
+        "count" : "16840"
+      }, {
+        "item" : "2002-06-28T00:00:00.000",
+        "count" : "16649"
+      }, {
+        "item" : "2001-12-20T00:00:00.000",
+        "count" : "15372"
+      }, {
+        "item" : "2006-06-21T00:00:00.000",
+        "count" : "15178"
+      }, {
+        "item" : "2005-06-21T00:00:00.000",
+        "count" : "15134"
+      }, {
+        "item" : "2007-06-21T00:00:00.000",
+        "count" : "14392"
+      }, {
+        "item" : "2002-09-24T00:00:00.000",
+        "count" : "12692"
+      }, {
+        "item" : "2004-03-17T00:00:00.000",
+        "count" : "11585"
+      }, {
+        "item" : "2006-03-27T00:00:00.000",
+        "count" : "10452"
+      } ],
+      "smallest" : "2000-06-16T00:00:00.000",
+      "count" : "1206416",
+      "cardinality" : "1206416"
+    },
+    "format" : {
+      "view" : "date",
+      "align" : "left"
+    }
+  }, {
+    "id" : 606327759,
+    "name" : "PAYMENT DATE",
+    "dataTypeName" : "calendar_date",
+    "description" : "",
+    "fieldName" : "payment_date",
+    "position" : 26,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 1512287,
+    "width" : 154,
+    "cachedContents" : {
+      "non_null" : "1183761",
+      "largest" : "2026-09-14T00:00:00.000",
+      "null" : "22655",
+      "top" : [ {
+        "item" : "2003-11-12T00:00:00.000",
+        "count" : "1945"
+      }, {
+        "item" : "2004-02-13T00:00:00.000",
+        "count" : "1875"
+      }, {
+        "item" : "2005-02-14T00:00:00.000",
+        "count" : "1829"
+      }, {
+        "item" : "2004-11-15T00:00:00.000",
+        "count" : "1804"
+      }, {
+        "item" : "2005-11-14T00:00:00.000",
+        "count" : "1728"
+      }, {
+        "item" : "2004-11-12T00:00:00.000",
+        "count" : "1713"
+      }, {
+        "item" : "2004-01-20T00:00:00.000",
+        "count" : "1600"
+      }, {
+        "item" : "2004-08-13T00:00:00.000",
+        "count" : "1575"
+      }, {
+        "item" : "2006-02-14T00:00:00.000",
+        "count" : "1563"
+      }, {
+        "item" : "2003-11-14T00:00:00.000",
+        "count" : "1556"
+      }, {
+        "item" : "2002-05-14T00:00:00.000",
+        "count" : "1548"
+      }, {
+        "item" : "2002-05-13T00:00:00.000",
+        "count" : "1547"
+      }, {
+        "item" : "2007-11-15T00:00:00.000",
+        "count" : "1533"
+      }, {
+        "item" : "2003-11-13T00:00:00.000",
+        "count" : "1522"
+      }, {
+        "item" : "2006-01-23T00:00:00.000",
+        "count" : "1518"
+      }, {
+        "item" : "2005-08-15T00:00:00.000",
+        "count" : "1484"
+      }, {
+        "item" : "2002-11-12T00:00:00.000",
+        "count" : "1476"
+      }, {
+        "item" : "2006-02-15T00:00:00.000",
+        "count" : "1462"
+      }, {
+        "item" : "2003-11-10T00:00:00.000",
+        "count" : "1459"
+      }, {
+        "item" : "2004-01-12T00:00:00.000",
+        "count" : "1446"
+      } ],
+      "smallest" : "1997-04-15T00:00:00.000",
+      "count" : "1206416",
+      "cardinality" : "1206416"
+    },
+    "format" : {
+      "view" : "date",
+      "align" : "left"
+    }
+  }, {
+    "id" : 606327760,
+    "name" : "CONDITIONAL APPROVAL",
+    "dataTypeName" : "text",
+    "description" : "This pertains to applications that contain liquor licenses. Customers may request a conditional approval prior to building out the space.",
+    "fieldName" : "conditional_approval",
+    "position" : 27,
+    "renderTypeName" : "text",
+    "tableColumnId" : 18566950,
+    "width" : 165,
+    "cachedContents" : {
+      "non_null" : "1206416",
+      "largest" : "Y",
+      "null" : "0",
+      "top" : [ {
+        "item" : "N",
+        "count" : "1201453"
+      }, {
+        "item" : "Y",
+        "count" : "4963"
+      } ],
+      "smallest" : "N",
+      "count" : "1206416",
+      "cardinality" : "1206416"
+    },
+    "format" : { }
+  }, {
+    "id" : 606327761,
+    "name" : "LICENSE TERM START DATE",
+    "dataTypeName" : "calendar_date",
+    "description" : "",
+    "fieldName" : "license_start_date",
+    "position" : 28,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 1512284,
+    "width" : 183,
+    "cachedContents" : {
+      "non_null" : "1203697",
+      "largest" : "2028-07-16T00:00:00.000",
+      "null" : "2719",
+      "top" : [ {
+        "item" : "2004-02-16T00:00:00.000",
+        "count" : "22943"
+      }, {
+        "item" : "2007-02-16T00:00:00.000",
+        "count" : "21381"
+      }, {
+        "item" : "2006-02-16T00:00:00.000",
+        "count" : "21230"
+      }, {
+        "item" : "2005-02-16T00:00:00.000",
+        "count" : "20987"
+      }, {
+        "item" : "2004-08-16T00:00:00.000",
+        "count" : "20154"
+      }, {
+        "item" : "2003-02-16T00:00:00.000",
+        "count" : "20067"
+      }, {
+        "item" : "2002-02-16T00:00:00.000",
+        "count" : "19662"
+      }, {
+        "item" : "2003-11-16T00:00:00.000",
+        "count" : "18983"
+      }, {
+        "item" : "2002-11-16T00:00:00.000",
+        "count" : "18758"
+      }, {
+        "item" : "2005-11-16T00:00:00.000",
+        "count" : "18746"
+      }, {
+        "item" : "2006-11-16T00:00:00.000",
+        "count" : "18695"
+      }, {
+        "item" : "2004-11-16T00:00:00.000",
+        "count" : "18640"
+      }, {
+        "item" : "2003-08-16T00:00:00.000",
+        "count" : "17898"
+      }, {
+        "item" : "2002-08-16T00:00:00.000",
+        "count" : "17518"
+      }, {
+        "item" : "2007-11-16T00:00:00.000",
+        "count" : "17178"
+      }, {
+        "item" : "2006-08-16T00:00:00.000",
+        "count" : "15533"
+      }, {
+        "item" : "2005-08-16T00:00:00.000",
+        "count" : "15447"
+      }, {
+        "item" : "2007-08-16T00:00:00.000",
+        "count" : "14572"
+      }, {
+        "item" : "2002-05-16T00:00:00.000",
+        "count" : "13766"
+      }, {
+        "item" : "2003-05-16T00:00:00.000",
+        "count" : "13185"
+      } ],
+      "smallest" : "1995-02-16T00:00:00.000",
+      "count" : "1206416",
+      "cardinality" : "1206416"
+    },
+    "format" : {
+      "view" : "date",
+      "align" : "left"
+    }
+  }, {
+    "id" : 606327762,
+    "name" : "LICENSE TERM EXPIRATION DATE",
+    "dataTypeName" : "calendar_date",
+    "description" : "",
+    "fieldName" : "expiration_date",
+    "position" : 29,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 1512285,
+    "width" : 214,
+    "cachedContents" : {
+      "non_null" : "1206250",
+      "largest" : "9999-01-01T00:00:00.000",
+      "null" : "166",
+      "top" : [ {
+        "item" : "2004-02-15T00:00:00.000",
+        "count" : "27768"
+      }, {
+        "item" : "2005-02-15T00:00:00.000",
+        "count" : "27212"
+      }, {
+        "item" : "2007-02-15T00:00:00.000",
+        "count" : "26176"
+      }, {
+        "item" : "2006-02-15T00:00:00.000",
+        "count" : "26074"
+      }, {
+        "item" : "2003-02-15T00:00:00.000",
+        "count" : "25657"
+      }, {
+        "item" : "2004-08-15T00:00:00.000",
+        "count" : "24165"
+      }, {
+        "item" : "2021-07-15T00:00:00.000",
+        "count" : "23821"
+      }, {
+        "item" : "2005-11-15T00:00:00.000",
+        "count" : "23150"
+      }, {
+        "item" : "2006-11-15T00:00:00.000",
+        "count" : "22909"
+      }, {
+        "item" : "2004-11-15T00:00:00.000",
+        "count" : "22705"
+      }, {
+        "item" : "2003-11-15T00:00:00.000",
+        "count" : "22625"
+      }, {
+        "item" : "2003-08-15T00:00:00.000",
+        "count" : "22344"
+      }, {
+        "item" : "2007-11-15T00:00:00.000",
+        "count" : "20414"
+      }, {
+        "item" : "2005-08-15T00:00:00.000",
+        "count" : "19092"
+      }, {
+        "item" : "2006-08-15T00:00:00.000",
+        "count" : "18844"
+      }, {
+        "item" : "2007-08-15T00:00:00.000",
+        "count" : "17423"
+      }, {
+        "item" : "2003-05-15T00:00:00.000",
+        "count" : "14099"
+      }, {
+        "item" : "2004-05-15T00:00:00.000",
+        "count" : "13274"
+      }, {
+        "item" : "2006-05-15T00:00:00.000",
+        "count" : "12288"
+      }, {
+        "item" : "2007-05-15T00:00:00.000",
+        "count" : "12160"
+      } ],
+      "smallest" : "0206-08-17T00:00:00.000",
+      "count" : "1206416",
+      "cardinality" : "1206416"
+    },
+    "format" : {
+      "view" : "date",
+      "align" : "left"
+    }
+  }, {
+    "id" : 606327763,
+    "name" : "LICENSE APPROVED FOR ISSUANCE",
+    "dataTypeName" : "calendar_date",
+    "description" : "This is the date the license was ready for issuance. Licenses may not be issued if the customer owes debt to the City. ",
+    "fieldName" : "license_approved_for_issuance",
+    "position" : 30,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 18566949,
+    "width" : 236,
+    "cachedContents" : {
+      "non_null" : "1150340",
+      "largest" : "2026-09-14T00:00:00.000",
+      "null" : "56076",
+      "top" : [ {
+        "item" : "2003-12-22T00:00:00.000",
+        "count" : "25738"
+      }, {
+        "item" : "2006-11-15T00:00:00.000",
+        "count" : "1899"
+      }, {
+        "item" : "2004-11-15T00:00:00.000",
+        "count" : "1842"
+      }, {
+        "item" : "2005-11-14T00:00:00.000",
+        "count" : "1671"
+      }, {
+        "item" : "2003-11-12T00:00:00.000",
+        "count" : "1666"
+      }, {
+        "item" : "2005-02-14T00:00:00.000",
+        "count" : "1664"
+      }, {
+        "item" : "2004-11-12T00:00:00.000",
+        "count" : "1615"
+      }, {
+        "item" : "2007-11-15T00:00:00.000",
+        "count" : "1572"
+      }, {
+        "item" : "2002-05-14T00:00:00.000",
+        "count" : "1521"
+      }, {
+        "item" : "2006-02-14T00:00:00.000",
+        "count" : "1484"
+      }, {
+        "item" : "2004-08-13T00:00:00.000",
+        "count" : "1481"
+      }, {
+        "item" : "2003-11-13T00:00:00.000",
+        "count" : "1444"
+      }, {
+        "item" : "2003-05-15T00:00:00.000",
+        "count" : "1412"
+      }, {
+        "item" : "2006-02-15T00:00:00.000",
+        "count" : "1412"
+      }, {
+        "item" : "2002-05-13T00:00:00.000",
+        "count" : "1402"
+      }, {
+        "item" : "2002-11-14T00:00:00.000",
+        "count" : "1393"
+      }, {
+        "item" : "2002-11-12T00:00:00.000",
+        "count" : "1388"
+      }, {
+        "item" : "2005-08-15T00:00:00.000",
+        "count" : "1373"
+      }, {
+        "item" : "2006-01-23T00:00:00.000",
+        "count" : "1366"
+      }, {
+        "item" : "2003-05-13T00:00:00.000",
+        "count" : "1363"
+      } ],
+      "smallest" : "2000-06-16T00:00:00.000",
+      "count" : "1206416",
+      "cardinality" : "1206416"
+    },
+    "format" : {
+      "view" : "date",
+      "align" : "left"
+    }
+  }, {
+    "id" : 606327764,
+    "name" : "DATE ISSUED",
+    "dataTypeName" : "calendar_date",
+    "description" : "",
+    "fieldName" : "date_issued",
+    "position" : 31,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 1512286,
+    "width" : 201,
+    "cachedContents" : {
+      "non_null" : "1206416",
+      "largest" : "2026-09-14T00:00:00.000",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2012-12-29T00:00:00.000",
+        "count" : "12677"
+      }, {
+        "item" : "2003-02-21T00:00:00.000",
+        "count" : "2419"
+      }, {
+        "item" : "2002-11-14T00:00:00.000",
+        "count" : "2033"
+      }, {
+        "item" : "2002-05-16T00:00:00.000",
+        "count" : "1992"
+      }, {
+        "item" : "2006-11-16T00:00:00.000",
+        "count" : "1798"
+      }, {
+        "item" : "2004-01-21T00:00:00.000",
+        "count" : "1624"
+      }, {
+        "item" : "2004-11-16T00:00:00.000",
+        "count" : "1618"
+      }, {
+        "item" : "2003-11-13T00:00:00.000",
+        "count" : "1584"
+      }, {
+        "item" : "2002-05-14T00:00:00.000",
+        "count" : "1563"
+      }, {
+        "item" : "2007-11-16T00:00:00.000",
+        "count" : "1536"
+      }, {
+        "item" : "2003-05-14T00:00:00.000",
+        "count" : "1521"
+      }, {
+        "item" : "2005-11-16T00:00:00.000",
+        "count" : "1488"
+      }, {
+        "item" : "2004-02-17T00:00:00.000",
+        "count" : "1466"
+      }, {
+        "item" : "2006-11-14T00:00:00.000",
+        "count" : "1433"
+      }, {
+        "item" : "2003-05-16T00:00:00.000",
+        "count" : "1413"
+      }, {
+        "item" : "2005-02-15T00:00:00.000",
+        "count" : "1396"
+      }, {
+        "item" : "2005-02-14T00:00:00.000",
+        "count" : "1384"
+      }, {
+        "item" : "2003-11-14T00:00:00.000",
+        "count" : "1329"
+      }, {
+        "item" : "2005-11-15T00:00:00.000",
+        "count" : "1318"
+      }, {
+        "item" : "2006-02-15T00:00:00.000",
+        "count" : "1313"
+      } ],
+      "smallest" : "2002-01-02T00:00:00.000",
+      "count" : "1206416",
+      "cardinality" : "1206416"
+    },
+    "format" : {
+      "view" : "date",
+      "align" : "left"
+    }
+  }, {
+    "id" : 606327765,
+    "name" : "LICENSE STATUS",
+    "dataTypeName" : "text",
+    "description" : "See the dataset description for the codes used.",
+    "fieldName" : "license_status",
+    "position" : 32,
+    "renderTypeName" : "text",
+    "tableColumnId" : 1512283,
+    "width" : 152,
+    "cachedContents" : {
+      "non_null" : "1206416",
+      "largest" : "REV",
+      "null" : "0",
+      "top" : [ {
+        "item" : "AAI",
+        "count" : "1126102"
+      }, {
+        "item" : "AAC",
+        "count" : "78834"
+      }, {
+        "item" : "REV",
+        "count" : "1466"
+      }, {
+        "item" : "REA",
+        "count" : "13"
+      }, {
+        "item" : "INQ",
+        "count" : "1"
+      } ],
+      "smallest" : "AAC",
+      "count" : "1206416",
+      "cardinality" : "1206416"
+    },
+    "format" : {
+      "align" : "left"
+    }
+  }, {
+    "id" : 606327766,
+    "name" : "LICENSE STATUS CHANGE DATE",
+    "dataTypeName" : "calendar_date",
+    "description" : "",
+    "fieldName" : "license_status_change_date",
+    "position" : 33,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 1554004,
+    "width" : 210,
+    "cachedContents" : {
+      "non_null" : "80314",
+      "largest" : "2026-09-14T00:00:00.000",
+      "null" : "1126102",
+      "top" : [ {
+        "item" : "2012-12-29T00:00:00.000",
+        "count" : "16326"
+      }, {
+        "item" : "2005-01-03T00:00:00.000",
+        "count" : "1491"
+      }, {
+        "item" : "2012-12-31T00:00:00.000",
+        "count" : "1238"
+      }, {
+        "item" : "2003-04-02T00:00:00.000",
+        "count" : "654"
+      }, {
+        "item" : "2012-08-06T00:00:00.000",
+        "count" : "628"
+      }, {
+        "item" : "2012-08-03T00:00:00.000",
+        "count" : "492"
+      }, {
+        "item" : "2013-07-01T00:00:00.000",
+        "count" : "360"
+      }, {
+        "item" : "2012-08-07T00:00:00.000",
+        "count" : "357"
+      }, {
+        "item" : "2012-08-31T00:00:00.000",
+        "count" : "320"
+      }, {
+        "item" : "2012-07-26T00:00:00.000",
+        "count" : "235"
+      }, {
+        "item" : "2012-04-10T00:00:00.000",
+        "count" : "229"
+      }, {
+        "item" : "2020-11-04T00:00:00.000",
+        "count" : "218"
+      }, {
+        "item" : "2012-09-04T00:00:00.000",
+        "count" : "217"
+      }, {
+        "item" : "2012-10-15T00:00:00.000",
+        "count" : "194"
+      }, {
+        "item" : "2012-06-21T00:00:00.000",
+        "count" : "188"
+      }, {
+        "item" : "2012-06-20T00:00:00.000",
+        "count" : "178"
+      }, {
+        "item" : "2006-06-15T00:00:00.000",
+        "count" : "152"
+      }, {
+        "item" : "2007-04-25T00:00:00.000",
+        "count" : "136"
+      }, {
+        "item" : "2017-10-27T00:00:00.000",
+        "count" : "109"
+      }, {
+        "item" : "2018-01-09T00:00:00.000",
+        "count" : "86"
+      } ],
+      "smallest" : "2002-01-08T00:00:00.000",
+      "count" : "1206416",
+      "cardinality" : "1206416"
+    },
+    "format" : {
+      "view" : "date",
+      "align" : "left"
+    }
+  }, {
+    "id" : 606327767,
+    "name" : "SSA",
+    "dataTypeName" : "text",
+    "description" : "Special Service Areas  are local tax districts that fund expanded services and programs, to foster commercial and economic development, through a localized property tax. In other cities these areas are sometimes called Business Improvement Districts (BIDs). This portal contains a map of all Chicago SSAs",
+    "fieldName" : "ssa",
+    "position" : 34,
+    "renderTypeName" : "text",
+    "tableColumnId" : 18081096,
+    "width" : 100,
+    "cachedContents" : {
+      "non_null" : "314103",
+      "largest" : "8",
+      "null" : "892313",
+      "top" : [ {
+        "item" : "33",
+        "count" : "22791"
+      }, {
+        "item" : "1",
+        "count" : "13083"
+      }, {
+        "item" : "17",
+        "count" : "12943"
+      }, {
+        "item" : "3",
+        "count" : "12582"
+      }, {
+        "item" : "34",
+        "count" : "12289"
+      }, {
+        "item" : "60",
+        "count" : "12004"
+      }, {
+        "item" : "27",
+        "count" : "11806"
+      }, {
+        "item" : "10",
+        "count" : "11630"
+      }, {
+        "item" : "25",
+        "count" : "11144"
+      }, {
+        "item" : "8",
+        "count" : "11126"
+      }, {
+        "item" : "31",
+        "count" : "10909"
+      }, {
+        "item" : "51",
+        "count" : "9864"
+      }, {
+        "item" : "29",
+        "count" : "9645"
+      }, {
+        "item" : "38",
+        "count" : "9297"
+      }, {
+        "item" : "43",
+        "count" : "8678"
+      }, {
+        "item" : "26",
+        "count" : "7337"
+      }, {
+        "item" : "21",
+        "count" : "7260"
+      }, {
+        "item" : "50",
+        "count" : "7123"
+      }, {
+        "item" : "24",
+        "count" : "6821"
+      }, {
+        "item" : "39",
+        "count" : "6554"
+      } ],
+      "smallest" : "1",
+      "count" : "1206416",
+      "cardinality" : "1206416"
+    },
+    "format" : { }
+  }, {
+    "id" : 606327768,
+    "name" : "LATITUDE",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "latitude",
+    "position" : 35,
+    "renderTypeName" : "number",
+    "tableColumnId" : 3233401,
+    "width" : 100,
+    "cachedContents" : {
+      "non_null" : "1113377",
+      "largest" : "42.0226602681",
+      "null" : "93039",
+      "top" : [ {
+        "item" : "41.8194414263",
+        "count" : "6470"
+      }, {
+        "item" : "42.008750766",
+        "count" : "5487"
+      }, {
+        "item" : "41.8880742811",
+        "count" : "4711"
+      }, {
+        "item" : "41.8819215626",
+        "count" : "2849"
+      }, {
+        "item" : "41.7546601244",
+        "count" : "2271"
+      }, {
+        "item" : "41.902331663",
+        "count" : "2115"
+      }, {
+        "item" : "41.79799187",
+        "count" : "1500"
+      }, {
+        "item" : "41.8445114691",
+        "count" : "1482"
+      }, {
+        "item" : "41.8785601536",
+        "count" : "1240"
+      }, {
+        "item" : "41.8819943382",
+        "count" : "1150"
+      }, {
+        "item" : "41.8819653303",
+        "count" : "1143"
+      }, {
+        "item" : "41.9087285622",
+        "count" : "1114"
+      }, {
+        "item" : "41.8977408563",
+        "count" : "1112"
+      }, {
+        "item" : "41.8989485417",
+        "count" : "1100"
+      }, {
+        "item" : "41.8887410381",
+        "count" : "1096"
+      }, {
+        "item" : "41.8780256553",
+        "count" : "1093"
+      }, {
+        "item" : "41.899248597",
+        "count" : "1026"
+      }, {
+        "item" : "41.8920941369",
+        "count" : "1011"
+      }, {
+        "item" : "41.8824109065",
+        "count" : "1010"
+      }, {
+        "item" : "41.7893293233",
+        "count" : "996"
+      } ],
+      "smallest" : "41.6444971764",
+      "count" : "1206416",
+      "cardinality" : "1206416"
+    },
+    "format" : { }
+  }, {
+    "id" : 606327769,
+    "name" : "LONGITUDE",
+    "dataTypeName" : "number",
+    "description" : "",
+    "fieldName" : "longitude",
+    "position" : 36,
+    "renderTypeName" : "number",
+    "tableColumnId" : 3233402,
+    "width" : 100,
+    "cachedContents" : {
+      "non_null" : "1113377",
+      "largest" : "-87.524803843",
+      "null" : "93039",
+      "top" : [ {
+        "item" : "-87.6653755449",
+        "count" : "6470"
+      }, {
+        "item" : "-87.906874134",
+        "count" : "5487"
+      }, {
+        "item" : "-87.6349552029",
+        "count" : "4711"
+      }, {
+        "item" : "-87.6260630598",
+        "count" : "2849"
+      }, {
+        "item" : "-87.7413847586",
+        "count" : "2271"
+      }, {
+        "item" : "-87.7404589449",
+        "count" : "2115"
+      }, {
+        "item" : "-87.7234437408",
+        "count" : "1500"
+      }, {
+        "item" : "-87.6757880391",
+        "count" : "1482"
+      }, {
+        "item" : "-87.6365238721",
+        "count" : "1240"
+      }, {
+        "item" : "-87.6397586849",
+        "count" : "1150"
+      }, {
+        "item" : "-87.6267932216",
+        "count" : "1143"
+      }, {
+        "item" : "-87.6547264446",
+        "count" : "1114"
+      }, {
+        "item" : "-87.623961316",
+        "count" : "1112"
+      }, {
+        "item" : "-87.6239749877",
+        "count" : "1100"
+      }, {
+        "item" : "-87.6370805406",
+        "count" : "1096"
+      }, {
+        "item" : "-87.6320622863",
+        "count" : "1093"
+      }, {
+        "item" : "-87.6242749782",
+        "count" : "1026"
+      }, {
+        "item" : "-87.6115698839",
+        "count" : "1011"
+      }, {
+        "item" : "-87.6371747105",
+        "count" : "1010"
+      }, {
+        "item" : "-87.7416456442",
+        "count" : "996"
+      } ],
+      "smallest" : "-87.9339765036",
+      "count" : "1206416",
+      "cardinality" : "1206416"
+    },
+    "format" : { }
+  }, {
+    "id" : 606327770,
+    "name" : "LOCATION",
+    "dataTypeName" : "location",
+    "description" : "",
+    "fieldName" : "location",
+    "position" : 37,
+    "renderTypeName" : "location",
+    "tableColumnId" : 3233443,
+    "width" : 100,
+    "format" : {
+      "view" : "coords",
+      "align" : "left"
+    }
+  }, {
+    "id" : 606327775,
+    "name" : "Community Areas",
+    "dataTypeName" : "number",
+    "fieldName" : ":@computed_region_vrxf_vc4k",
+    "position" : 39,
+    "renderTypeName" : "number",
+    "tableColumnId" : 38119779,
+    "computationStrategy" : {
+      "source_columns" : [ "location" ],
+      "type" : "georegion_match_on_point",
+      "parameters" : {
+        "region" : "_vrxf-vc4k",
+        "primary_key" : "_feature_id"
+      }
+    },
+    "format" : { }
+  }, {
+    "id" : 606327776,
+    "name" : "Historical Wards 2003-2015",
+    "dataTypeName" : "number",
+    "fieldName" : ":@computed_region_awaf_s7ux",
+    "position" : 40,
+    "renderTypeName" : "number",
+    "tableColumnId" : 38119780,
+    "computationStrategy" : {
+      "source_columns" : [ "location" ],
+      "type" : "georegion_match_on_point",
+      "parameters" : {
+        "region" : "_awaf-s7ux",
+        "primary_key" : "_feature_id"
+      }
+    },
+    "format" : { }
+  }, {
+    "id" : 606327777,
+    "name" : "Zip Codes",
+    "dataTypeName" : "number",
+    "fieldName" : ":@computed_region_6mkv_f3dw",
+    "position" : 41,
+    "renderTypeName" : "number",
+    "tableColumnId" : 38119781,
+    "computationStrategy" : {
+      "source_columns" : [ "location" ],
+      "type" : "georegion_match_on_point",
+      "parameters" : {
+        "region" : "_6mkv-f3dw",
+        "primary_key" : "_feature_id"
+      }
+    },
+    "format" : { }
+  }, {
+    "id" : 606327778,
+    "name" : "Census Tracts",
+    "dataTypeName" : "number",
+    "fieldName" : ":@computed_region_bdys_3d7i",
+    "position" : 42,
+    "renderTypeName" : "number",
+    "tableColumnId" : 38119782,
+    "computationStrategy" : {
+      "source_columns" : [ "location" ],
+      "type" : "georegion_match_on_point",
+      "parameters" : {
+        "region" : "_bdys-3d7i",
+        "primary_key" : "_feature_id"
+      }
+    },
+    "format" : { }
+  }, {
+    "id" : 606327779,
+    "name" : "Wards",
+    "dataTypeName" : "number",
+    "fieldName" : ":@computed_region_43wa_7qmu",
+    "position" : 43,
+    "renderTypeName" : "number",
+    "tableColumnId" : 38119783,
+    "computationStrategy" : {
+      "source_columns" : [ "location" ],
+      "type" : "georegion_match_on_point",
+      "parameters" : {
+        "region" : "_43wa-7qmu",
+        "primary_key" : "_feature_id"
+      }
+    },
+    "format" : { }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "license" : {
+    "name" : "See Terms of Use"
+  },
+  "metadata" : {
+    "rdfSubject" : "0",
+    "rdfClass" : "",
+    "jsonQuery" : {
+      "order" : [ {
+        "columnFieldName" : "date_issued",
+        "ascending" : false
+      } ]
+    },
+    "attachments" : [ {
+      "filename" : "cityofchicago_business_licenses_dataset_description.pdf",
+      "name" : "cityofchicago_business_licenses_dataset_description.pdf",
+      "blobId" : "D0EA58AC-19F2-4C5F-8668-ED6463F32B67"
+    } ],
+    "custom_fields" : {
+      "Metadata" : {
+        "Time Period" : "2002 to present",
+        "Changes and Other Historical Information Useful to Understanding This Dataset" : "https://www.google.com/search?q=site:data.cityofchicago.org/stories+\"Related+dataset+ID+s\"+\"r5kz-chrr\"",
+        "Frequency" : "Data is updated daily",
+        "Data Owner" : "Business Affairs & Consumer Protection"
+      }
+    },
+    "rowLabel" : "Business Licenses",
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+    "renderTypeConfig" : {
+      "visible" : {
+        "table" : true
+      }
+    }
+  },
+  "owner" : {
+    "id" : "scy9-9wg4",
+    "displayName" : "cocadmin",
+    "profileImageUrlLarge" : "/api/users/scy9-9wg4/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/scy9-9wg4/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/scy9-9wg4/profile_images/TINY",
+    "screenName" : "cocadmin",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : {
+    "orderBys" : [ {
+      "ascending" : false,
+      "expression" : {
+        "columnId" : 606327764,
+        "type" : "column"
+      }
+    } ]
+  },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "scy9-9wg4",
+    "displayName" : "cocadmin",
+    "profileImageUrlLarge" : "/api/users/scy9-9wg4/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/scy9-9wg4/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/scy9-9wg4/profile_images/TINY",
+    "screenName" : "cocadmin",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "business", "licenses" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

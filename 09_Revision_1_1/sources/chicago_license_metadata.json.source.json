@@ -1,0 +1,9 @@
+{
+  "file": "chicago_license_metadata.json",
+  "url": "https://data.cityofchicago.org/api/views/r5kz-chrr.json",
+  "resolved_url": "https://data.cityofchicago.org/api/views/r5kz-chrr.json",
+  "retrieved_utc": "2026-09-16T19:01:07.070576+00:00",
+  "status": 200,
+  "bytes": 77441,
+  "sha256": "cdf6e0e3dcefbc21933776d3e5fbf0eb7f33627f720fb753ac9116756d509e60"
+}

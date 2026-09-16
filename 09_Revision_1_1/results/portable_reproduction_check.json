@@ -1,0 +1,60 @@
+{
+  "all_csv_identical": true,
+  "files": [
+    {
+      "file": "absolute_contrasts.csv",
+      "identical": true
+    },
+    {
+      "file": "adult_denominator_sensitivity.csv",
+      "identical": true
+    },
+    {
+      "file": "chicago_accepted_links.csv",
+      "identical": true
+    },
+    {
+      "file": "chicago_candidate_links.csv",
+      "identical": true
+    },
+    {
+      "file": "chicago_concordance_summary.csv",
+      "identical": true
+    },
+    {
+      "file": "chicago_eligible_license_audit.csv",
+      "identical": true
+    },
+    {
+      "file": "chicago_license_temporal_screen.csv",
+      "identical": true
+    },
+    {
+      "file": "chicago_osm_record_audit.csv",
+      "identical": true
+    },
+    {
+      "file": "health_source_compatibility.csv",
+      "identical": true
+    },
+    {
+      "file": "incremental_contribution.csv",
+      "identical": true
+    },
+    {
+      "file": "independent_model_checks.csv",
+      "identical": true
+    },
+    {
+      "file": "prediction_fold_allocations.csv",
+      "identical": true
+    },
+    {
+      "file": "spatial_grouped_prediction.csv",
+      "identical": true
+    }
+  ],
+  "models_script": "executed successfully",
+  "historical_audit_script": "executed successfully",
+  "independent_verification": "passed"
+}

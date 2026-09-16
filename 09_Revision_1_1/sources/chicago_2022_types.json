@@ -1,0 +1,125 @@
+[{"facility_type":"Restaurant","n":"11838"}
+,{"facility_type":"Grocery Store","n":"1683"}
+,{"facility_type":"School","n":"1159"}
+,{"facility_type":"Children's Services Facility","n":"581"}
+,{"facility_type":"Daycare Above and Under 2 Years","n":"245"}
+,{"facility_type":"Bakery","n":"214"}
+,{"facility_type":"Long Term Care","n":"194"}
+,{"facility_type":"Catering","n":"114"}
+,{"facility_type":"Daycare (2 - 6 Years)","n":"96"}
+,{"facility_type":"Mobile Food Preparer","n":"84"}
+,{"n":"71"}
+,{"facility_type":"Liquor","n":"64"}
+,{"facility_type":"Hospital","n":"59"}
+,{"facility_type":"Golden Diner","n":"54"}
+,{"facility_type":"Shared Kitchen User (Long Term)","n":"50"}
+,{"facility_type":"Shared Kitchen","n":"33"}
+,{"facility_type":"Special Event","n":"29"}
+,{"facility_type":"TAVERN","n":"28"}
+,{"facility_type":"Mobile Food Dispenser","n":"19"}
+,{"facility_type":"CHARTER SCHOOL","n":"17"}
+,{"facility_type":"Daycare Combo 1586","n":"16"}
+,{"facility_type":"GAS STATION","n":"16"}
+,{"facility_type":"Daycare (Under 2 Years)","n":"12"}
+,{"facility_type":"BANQUET HALL","n":"11"}
+,{"facility_type":"BANQUET","n":"9"}
+,{"facility_type":"SUPPORTIVE LIVING","n":"9"}
+,{"facility_type":"PRIVATE SCHOOL","n":"9"}
+,{"facility_type":"Wholesale","n":"9"}
+,{"facility_type":"GROCERY STORE/GAS STATION","n":"8"}
+,{"facility_type":"Mobile Prepared Food Vendor","n":"8"}
+,{"facility_type":"Shelter","n":"7"}
+,{"facility_type":"ROOFTOPS","n":"7"}
+,{"facility_type":"Mobile Frozen Desserts Vendor","n":"6"}
+,{"facility_type":"STORE","n":"6"}
+,{"facility_type":"coffee shop","n":"6"}
+,{"facility_type":"COOKING SCHOOL","n":"6"}
+,{"facility_type":"ROOFTOP","n":"5"}
+,{"facility_type":"NIGHT CLUB","n":"5"}
+,{"facility_type":"Pop-Up Establishment Host-Tier II","n":"5"}
+,{"facility_type":"ADULT DAYCARE","n":"5"}
+,{"facility_type":"ASSISTED LIVING","n":"5"}
+,{"facility_type":"CHARTER","n":"4"}
+,{"facility_type":"EVENT CENTER","n":"4"}
+,{"facility_type":"DAYCARE","n":"4"}
+,{"facility_type":"Shared Kitchen User (Short Term)","n":"4"}
+,{"facility_type":"ICE CREAM SHOP","n":"4"}
+,{"facility_type":"GAS STATION/GROCERY","n":"4"}
+,{"facility_type":"CHURCH","n":"3"}
+,{"facility_type":"STADIUM","n":"3"}
+,{"facility_type":"HOTEL","n":"3"}
+,{"facility_type":"ROOF TOP","n":"3"}
+,{"facility_type":"HIGH SCHOOL KITCHEN","n":"3"}
+,{"facility_type":"CONVENIENCE STORE","n":"2"}
+,{"facility_type":"BAR","n":"2"}
+,{"facility_type":"ROOF TOPS","n":"2"}
+,{"facility_type":"cooking school","n":"2"}
+,{"facility_type":"CATERING/CAFE","n":"2"}
+,{"facility_type":"GROCERY STORE/COOKING SCHOOL","n":"2"}
+,{"facility_type":"CAFETERIA","n":"2"}
+,{"facility_type":"NURSING HOME","n":"2"}
+,{"facility_type":"RESTAURANT/GROCERY STORE","n":"2"}
+,{"facility_type":"RESTAURANT/BAR","n":"2"}
+,{"facility_type":"GROCERY/RESTAURANT","n":"2"}
+,{"facility_type":"CHARTER SCHOOL CAFETERIA","n":"2"}
+,{"facility_type":"Other","n":"2"}
+,{"facility_type":"CHURCH KITCHEN","n":"2"}
+,{"facility_type":"CHILDRENS SERVICES FACILITY","n":"2"}
+,{"facility_type":"Pop-Up Food Establishment User-Tier II","n":"2"}
+,{"facility_type":"COOKING CLASS","n":"2"}
+,{"facility_type":"UNIVERSITY CAFETERIA","n":"2"}
+,{"facility_type":"DINING HALL","n":"2"}
+,{"facility_type":"bar","n":"2"}
+,{"facility_type":"COLD STORAGE FACILITY","n":"2"}
+,{"facility_type":"REHAB CENTER","n":"2"}
+,{"facility_type":"Assisted Living Senior Care","n":"1"}
+,{"facility_type":"COMMISARY","n":"1"}
+,{"facility_type":"Pop-Up Establishment Host-Tier III","n":"1"}
+,{"facility_type":"DAY CARE 2-14","n":"1"}
+,{"facility_type":"GAS STATION/MINI MART","n":"1"}
+,{"facility_type":"theater","n":"1"}
+,{"facility_type":"RETAIL STORE OFFERS COOKING CLASSES","n":"1"}
+,{"facility_type":"MOBILE PUSH CART","n":"1"}
+,{"facility_type":"GROCERY/TAQUERIA","n":"1"}
+,{"facility_type":"SENIOR DAY CARE","n":"1"}
+,{"facility_type":"CANDY/GELATO","n":"1"}
+,{"facility_type":"LIVE POULTRY SLAUGHTER FACILITY","n":"1"}
+,{"facility_type":"DAYCARE 2 YRS TO 12 YRS","n":"1"}
+,{"facility_type":"CATERING/BANQUET","n":"1"}
+,{"facility_type":"1023 CHILDERN'S SERVICES FACILITY","n":"1"}
+,{"facility_type":"POULTRY SLAUGHTER","n":"1"}
+,{"facility_type":"FOOD PANTRY","n":"1"}
+,{"facility_type":"private school","n":"1"}
+,{"facility_type":"GROCERY/BAKERY","n":"1"}
+,{"facility_type":"Banquet Hall","n":"1"}
+,{"facility_type":"EVENT SPACE","n":"1"}
+,{"facility_type":"Navy Pier Kiosk","n":"1"}
+,{"facility_type":"GROCERY/DELI","n":"1"}
+,{"facility_type":"CONVENIENT STORE","n":"1"}
+,{"facility_type":"tavern","n":"1"}
+,{"facility_type":"MOBILE FOOD","n":"1"}
+,{"facility_type":"RETAIL FOOD","n":"1"}
+,{"facility_type":"TEACHING SCHOOL","n":"1"}
+,{"facility_type":"MOVIE THEATRE","n":"1"}
+,{"facility_type":"donut shop","n":"1"}
+,{"facility_type":"Grocery(Sushi prep)","n":"1"}
+,{"facility_type":"LIQUOR/COFFEE KIOSK","n":"1"}
+,{"facility_type":"GYM STORE","n":"1"}
+,{"facility_type":"DELI/BAKERY","n":"1"}
+,{"facility_type":"Daycare Night","n":"1"}
+,{"facility_type":"ROOM SERVICE","n":"1"}
+,{"facility_type":"REGULATED BUSINESS","n":"1"}
+,{"facility_type":"banquets","n":"1"}
+,{"facility_type":"BANQUET ROOM","n":"1"}
+,{"facility_type":"GAS STATION/FOOD","n":"1"}
+,{"facility_type":"CHURCH/SPECIAL EVENTS","n":"1"}
+,{"facility_type":"COFFEE KIOSK","n":"1"}
+,{"facility_type":"Grocery & Restaurant","n":"1"}
+,{"facility_type":"Pop-Up Food Establishment User-Tier I","n":"1"}
+,{"facility_type":"BANQUET HALL/CATERING","n":"1"}
+,{"facility_type":"Coffee shop","n":"1"}
+,{"facility_type":"ARCHDIOCESE","n":"1"}
+,{"facility_type":"PUBLIC SHCOOL","n":"1"}
+,{"facility_type":"LIQUOR STORE","n":"1"}
+,{"facility_type":"SUSHI COUNTER","n":"1"}
+,{"facility_type":"LIVE POULTRY","n":"1"}]

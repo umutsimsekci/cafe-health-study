@@ -1,0 +1,35 @@
+# Revision 11 methods and interpretation review
+
+The revision strengthens reproducibility and characterizes limitations. It does not eliminate the need for independent health data or establish causal effects. No journal acceptance or reviewer response is assumed.
+
+| Likely criticism | Action completed | Evidence | Remaining limitation |
+|---|---|---|---|
+| PLACES outcomes are model predictions | Added source-dependence literature, compatibility review of eight sources/routes, explicit descriptive estimand | Main Methods and Discussion; health_source_compatibility.csv; Table S 12 | No verified independent same-year FMD tract comparison was obtained. Direction and size of the underlying health association remain unidentified. |
+| Standard errors ignore source uncertainty | Retained conditional intervals; explained why marginal inverse-variance weighting cannot recover joint covariance | Main uncertainty section; supplemental alternatives assessment | Cluster/spatial intervals do not estimate total uncertainty. No invented joint covariance correction. |
+| Cafe inventory may be incomplete or stale | Historical Chicago licensing screen plus 2022 inspection links, bidirectional linkage and distance sensitivity | 742 OSM cafes; 269 license links at 100 m; 159 linked nonlicensing inspections; 157/281 coffee-named licenses map to cafes | Administrative and mapping records are not gold standards; one-city linkage yield is not national sensitivity or PPV. |
+| Linkage rules may miss or falsely match businesses | Archived all candidate and accepted pairs, deterministic name/brand criteria, one-to-one matching, 47 challenging accepted links inspected plus 3 ambiguous cafe objects | chicago_candidate_links.csv; chicago_accepted_links.csv; audit plan | Assisted textual review, not independent field adjudication. Obvious below-threshold variants retained as unmatched. |
+| Socioeconomic mapping bias | Poverty-stratified descriptive audit with separate out-of-frame group | Table S 11; full stratum counts | Only 13 coffee-named licenses in highest-poverty quartile. No accuracy gradient established. |
+| Full R² may be mistaken for cafe contribution | Nested models, partial R² and independent FWL/SSE calculation | ΔR² 0.000736 extended, 0.000247 hospitality; Table 4/S 6; Figure 6 | Predictors overlap source-model information; metrics remain conditional. |
+| Statistically significant effect is very small | Absolute interquartile and 0→1/0→5 contrasts; held-out error comparison | Extended IQR −0.126 pp; hospitality −0.085 pp; TablesS 7–S 8 | No attributable cases, population benefit or clinical threshold inferred. |
+| Linear contextual adjustment is restrictive | Fixed exploratory centered-square expansion of all context terms; report all attempts | TableS 9; extended −0.101, hospitality −0.051 | Flexible adjustment is not source-model reconstruction or confounding removal. |
+| Spatial structure may inflate apparent precision/performance | Retained original residual Moran and spatial intervals; added entire-cell 5/20 km folds within counties | TableS 8; archived fold allocations | Unbuffered edges and shared PLACES generation remain; no claim of spatial independence or external validation. |
+| Resident density does not describe people served | Added adult-denominator sensitivity; retained land-area, weighting and upper-tail checks | Adult-denominator coefficient −0.091 | 2020 adult denominator differs from ACS period; actual daytime visitors remain unmeasured. |
+| End-of-year snapshot does not precede all health responses | Explicitly state temporal ambiguity | Methods and limitations | Historical alignment is not prospective exposure ascertainment. |
+| Availability is not use or social mediation | Revised claims and drafted independent 12-month residential cohort protocol with users/nonusers, repeated surveys and diaries | Prospective_Study_Protocol.docx/.md | Proposed study only; no new participant evidence, ethics approval or finalized powered sample. |
+| Multiple exploratory checks selected for significance | Labeled post-results analyses; retained dated plans, failures and all specified outputs | analysis_addendum.json; audit plan; original results unchanged | Exploratory additions are not preregistered confirmatory analyses. |
+| Geographic generalizability | Retained 50 populous-county target and city-specific audit labels | Main sample and audit methods | Does not represent rural settings, Turkish kahvehaneler or individual cafe patrons globally. |
+| Reproducibility and changing online sources | Preserve v1.0.0; add v1.1.0 code, queries, receipts, tables and protocol | Public revision directory and release manifest | Live re-downloads can change; reproduce historical work with frozen inputs. |
+
+## Alternatives considered
+
+1. **Direct SMART comparison:** useful for checking modeled against direct estimates, but both use BRFSS. Public geography is MMSA and requires complete metro exposure reconstruction. It cannot solve survey-source independence.
+2. **NYC or California triangulation:** independent surveys are promising, but measures, years, scales and access differ. The NYC profile workbook's duplicated PUMA displays must be collapsed before any future district analysis. A different construct or county comparison should be published as a separate estimand, not as validation of the national tract coefficient.
+3. **Residualizing PLACES outcomes:** mathematically equivalent to adjustment in the corresponding linear model; does not produce independent health observations. Residualization was used only to verify computation.
+4. **Inverse-variance weighting or independent draws from published intervals:** marginal intervals do not identify cross-tract covariance. Such draws would impose an unjustified independence assumption.
+5. **Joint outcome-generation models:** require adequate source survey data, design variables, model parameters or joint posterior draws. They are a principled future route but cannot be claimed from the current public point estimates alone. Recent methodological developments for integrated small-area models address different data structures and are not plug-in corrections for this dataset.
+6. **New spatial model:** can address some residual patterning under additional assumptions; it cannot resolve modeled-outcome bias, attendance measurement or endogeneity. Existing conditional spatial checks are retained without claiming identification.
+7. **Natural experiment around opening or closure:** potentially stronger temporal design, but requires verified events, pre-event health, appropriate comparators and assumptions about parallel trends, concurrent changes and spillovers. Included as a proposed protocol extension only.
+
+## Status
+
+Scientific framing: descriptive ecological pattern and measurement study. Added diagnostics and local historical concordance are complete. Independent observed-health validation and use/social-interaction mechanisms remain unresolved in the present study. The revised materials require final author review before actual submission; submission has not been performed.

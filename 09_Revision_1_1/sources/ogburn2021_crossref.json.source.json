@@ -1,0 +1,9 @@
+{
+  "file": "ogburn2021_crossref.json",
+  "url": "https://api.crossref.org/works/10.1093%2Faje%2Fkwaa282",
+  "resolved_url": "https://api.crossref.org/works/10.1093%2Faje%2Fkwaa282",
+  "retrieved_utc": "2026-09-16T19:07:39.205684+00:00",
+  "status": 200,
+  "bytes": 11054,
+  "sha256": "13995732f7f20ae58353dcfbaceff955da0ed6d1c1a30c740159358516a4d70e"
+}

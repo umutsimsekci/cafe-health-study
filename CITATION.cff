@@ -10,7 +10,7 @@ authors:
   - family-names: "Cesaretli"
     given-names: "Yıldırım"
     affiliation: "Department of Medical Pharmacology, Gülhane Faculty of Medicine, University of Health Sciences, Ankara, Türkiye"
-version: "1.0.0"
+version: "1.1.0"
 date-released: "2026-09-16"
 repository-code: "https://github.com/umutsimsekci/cafe-health-study"
 url: "https://umutsimsekci.github.io/cafe-health-study/"

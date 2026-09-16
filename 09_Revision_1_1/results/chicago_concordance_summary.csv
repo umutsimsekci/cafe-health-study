@@ -1,0 +1,55 @@
+comparison,maximum_distance_m,poverty_stratum,denominator,linked_n,concordance_percent
+OSM cafe to eligible license,25,All,742,203,27.358490566037737
+OSM cafe to eligible license,25,Outside eligible city-centroid tracts,45,3,6.666666666666667
+OSM cafe to eligible license,25,Q1 lowest,393,113,28.75318066157761
+OSM cafe to eligible license,25,Q2,188,49,26.06382978723404
+OSM cafe to eligible license,25,Q3,80,25,31.25
+OSM cafe to eligible license,25,Q4 highest,36,13,36.111111111111114
+Coffee-named license to OSM cafe,25,All,281,115,40.92526690391459
+Coffee-named license to OSM cafe,25,Outside eligible city-centroid tracts,11,2,18.181818181818183
+Coffee-named license to OSM cafe,25,Q1 lowest,162,63,38.888888888888886
+Coffee-named license to OSM cafe,25,Q2,67,28,41.791044776119406
+Coffee-named license to OSM cafe,25,Q3,28,15,53.57142857142857
+Coffee-named license to OSM cafe,25,Q4 highest,13,7,53.84615384615385
+Broad cafe-named license to OSM cafe,25,All,649,155,23.882896764252695
+Broad cafe-named license to OSM cafe,25,Outside eligible city-centroid tracts,29,3,10.344827586206897
+Broad cafe-named license to OSM cafe,25,Q1 lowest,329,82,24.924012158054712
+Broad cafe-named license to OSM cafe,25,Q2,164,38,23.170731707317074
+Broad cafe-named license to OSM cafe,25,Q3,77,21,27.272727272727273
+Broad cafe-named license to OSM cafe,25,Q4 highest,50,11,22.0
+OSM cafe to eligible license,50,All,742,248,33.42318059299191
+OSM cafe to eligible license,50,Outside eligible city-centroid tracts,45,3,6.666666666666667
+OSM cafe to eligible license,50,Q1 lowest,393,137,34.86005089058524
+OSM cafe to eligible license,50,Q2,188,64,34.04255319148936
+OSM cafe to eligible license,50,Q3,80,29,36.25
+OSM cafe to eligible license,50,Q4 highest,36,15,41.666666666666664
+Coffee-named license to OSM cafe,50,All,281,147,52.313167259786475
+Coffee-named license to OSM cafe,50,Outside eligible city-centroid tracts,11,2,18.181818181818183
+Coffee-named license to OSM cafe,50,Q1 lowest,162,81,50.0
+Coffee-named license to OSM cafe,50,Q2,67,38,56.71641791044776
+Coffee-named license to OSM cafe,50,Q3,28,17,60.714285714285715
+Coffee-named license to OSM cafe,50,Q4 highest,13,9,69.23076923076923
+Broad cafe-named license to OSM cafe,50,All,649,192,29.58397534668721
+Broad cafe-named license to OSM cafe,50,Outside eligible city-centroid tracts,29,3,10.344827586206897
+Broad cafe-named license to OSM cafe,50,Q1 lowest,329,102,31.003039513677813
+Broad cafe-named license to OSM cafe,50,Q2,164,50,30.48780487804878
+Broad cafe-named license to OSM cafe,50,Q3,77,24,31.16883116883117
+Broad cafe-named license to OSM cafe,50,Q4 highest,50,13,26.0
+OSM cafe to eligible license,100,All,742,269,36.253369272237194
+OSM cafe to eligible license,100,Outside eligible city-centroid tracts,45,6,13.333333333333334
+OSM cafe to eligible license,100,Q1 lowest,393,147,37.404580152671755
+OSM cafe to eligible license,100,Q2,188,68,36.170212765957444
+OSM cafe to eligible license,100,Q3,80,31,38.75
+OSM cafe to eligible license,100,Q4 highest,36,17,47.22222222222222
+Coffee-named license to OSM cafe,100,All,281,157,55.87188612099644
+Coffee-named license to OSM cafe,100,Outside eligible city-centroid tracts,11,2,18.181818181818183
+Coffee-named license to OSM cafe,100,Q1 lowest,162,87,53.7037037037037
+Coffee-named license to OSM cafe,100,Q2,67,41,61.19402985074627
+Coffee-named license to OSM cafe,100,Q3,28,18,64.28571428571429
+Coffee-named license to OSM cafe,100,Q4 highest,13,9,69.23076923076923
+Broad cafe-named license to OSM cafe,100,All,649,208,32.04930662557781
+Broad cafe-named license to OSM cafe,100,Outside eligible city-centroid tracts,29,5,17.24137931034483
+Broad cafe-named license to OSM cafe,100,Q1 lowest,329,109,33.130699088145896
+Broad cafe-named license to OSM cafe,100,Q2,164,54,32.926829268292686
+Broad cafe-named license to OSM cafe,100,Q3,77,25,32.467532467532465
+Broad cafe-named license to OSM cafe,100,Q4 highest,50,15,30.0

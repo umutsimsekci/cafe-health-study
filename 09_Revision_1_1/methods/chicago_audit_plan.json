@@ -1,0 +1,11 @@
+{
+  "recorded_utc": "2026-09-16T19:05:05.365494+00:00",
+  "status": "Exploratory, outcome-blind record-linkage rules before first concordance results",
+  "area": "Official Chicago city boundary from public portal, retrieved2026; not represented as a historical boundary",
+  "external_eligibility": "Retail Food Establishment term spanning31Dec2022, issued by that date; AAI or cancellation/revocation later than31Dec2022. Exclude cancelled/revoked by date and missing/ambiguous status. Deduplicate license_number+address, retaining latest issued eligible term.",
+  "matching": "All nonduplicate OSM hospitality objects inside Chicago boundary. Name normalization unicode ASCII lowercase, alphanumerics, remove LLC/INC/CORP/LTD/CO/COMPANY and numeric store identifiers. Identity score maximum exact-or-SequenceMatcher across name/brand and DBA. Also accept identical explicitly named Starbucks/Dunkin/Peets/Caribou/Philz/Intelligentsia/Colectivo/Dollop brands. Require score>=0.88 and <=100m. Rank candidate links descending identity score then ascending distance; greedy one-to-one. Record candidate ambiguity and all candidates. Report25/50/100m distance sensitivity.",
+  "reverse_subset": "Licensed names containing whole word COFFEE or STARBUCKS; an explicitly coffee-named proxy subset, not a complete cafe inventory. Additional broad name subset CAFE/COFFEE/STARBUCKS for sensitivity, not cafe classification ground truth.",
+  "inspection_support": "Link eligible license number to any2022 inspection; separately identify non-license inspections with Pass, Pass w/Conditions or Fail. Out of Business/Not Ready/No Entry are not operational confirmation.",
+  "SES": "All eligible study tracts with centroid within city; quartiles of EP_POV150. Show concordance within strata; unmatched and out-of-sample addresses retained. No health outcomes used in matching.",
+  "limits": "Administrative records are retrospectively updated; license does not prove actual operation, social availability or correct amenity classification. Name-based linkage and geocoding can fail; no national completeness/sensitivity/PPV claims."
+}

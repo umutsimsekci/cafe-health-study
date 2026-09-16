@@ -1,0 +1,9 @@
+{
+  "file": "roberts2017_crossref.json",
+  "url": "https://api.crossref.org/works/10.1111%2Fecog.02881",
+  "resolved_url": "https://api.crossref.org/works/10.1111%2Fecog.02881",
+  "retrieved_utc": "2026-09-16T19:07:39.437672+00:00",
+  "status": 200,
+  "bytes": 18203,
+  "sha256": "2d79cef42d58f769e123ba1b081768a83315d8823a5a3704d3fb45e656a7fa34"
+}

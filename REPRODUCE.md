@@ -23,3 +23,7 @@ The five main figures and two supplementary figures are generated from archived 
 ## Interpretation
 
 County-cluster and spatial uncertainty calculations condition on CDC PLACES point estimates. They do not recover unknown joint source estimation uncertainty. The study is cross-sectional and ecological. The interactive map is descriptive, not a causal simulator.
+
+## Revision 1.1 additions
+
+See [the revision reproduction guide](09_Revision_1_1/README.md). It adds nested-model metrics, spatially grouped prediction, denominator and flexible-context checks, a historical Chicago audit, two figures and an independent numerical verification script. The original v1.0.0 release remains required only for the audit geometry and original full pipeline.

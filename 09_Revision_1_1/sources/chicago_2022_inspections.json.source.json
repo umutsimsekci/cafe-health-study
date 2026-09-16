@@ -1,0 +1,9 @@
+{
+  "file": "chicago_2022_inspections.json",
+  "url": "https://data.cityofchicago.org/resource/4ijn-s7e5.json?%24select=inspection_id%2Cdba_name%2Caka_name%2Clicense_%2Cfacility_type%2Caddress%2Ccity%2Cstate%2Czip%2Cinspection_date%2Cinspection_type%2Cresults%2Clatitude%2Clongitude&%24where=inspection_date+%3E%3D+%272022-01-01T00%3A00%3A00%27+AND+inspection_date+%3C+%272023-01-01T00%3A00%3A00%27&%24order=inspection_id&%24limit=50000",
+  "resolved_url": "https://data.cityofchicago.org/resource/4ijn-s7e5.json?%24select=inspection_id%2Cdba_name%2Caka_name%2Clicense_%2Cfacility_type%2Caddress%2Ccity%2Cstate%2Czip%2Cinspection_date%2Cinspection_type%2Cresults%2Clatitude%2Clongitude&%24where=inspection_date+%3E%3D+%272022-01-01T00%3A00%3A00%27+AND+inspection_date+%3C+%272023-01-01T00%3A00%3A00%27&%24order=inspection_id&%24limit=50000",
+  "retrieved_utc": "2026-09-16T18:58:09.996410+00:00",
+  "status": 200,
+  "bytes": 6432817,
+  "sha256": "d4e2ba7abdb1c55a43ce10cdd7998b6dc3982a8b715d3d28421baabde0739180"
+}

@@ -1,0 +1,22 @@
+{
+  "recorded_utc": "2026-09-16T19:02:31.970928+00:00",
+  "status": "Post-results exploratory addendum; recorded before new v11 model fits, not preregistration",
+  "primary_sample": "Unchanged 23,527 tracts; no outcome-dependent exclusions",
+  "nested_models": [
+    "county fixed effects + eight linear contextual terms",
+    "same + noncafe_log"
+  ],
+  "metrics": [
+    "R2 reduced/full/difference",
+    "partial R2 = (SSE reduced - SSE full)/SSE reduced",
+    "RMSE reduced/full",
+    "cafe coefficient and county-cluster t49 interval",
+    "observed Q25 to Q75 contrast",
+    "0 to 1 and 0 to 5 cafes per 10000 residents contrasts"
+  ],
+  "flexible_context": "Add centered squared terms for each of the eight context variables and noncafe_log; no selection by p value; compare both extended and hospitality formulations",
+  "adult_denominator": "Replace cafe density denominator with PLACES TotalPop18plus (2020 adult census population); otherwise same extended model; a denominator sensitivity, not a time-aligned replacement",
+  "prediction": "Five folds of 5 km EPSG:5070 centroid grid cells within county, sorted then permuted using seed20260916; all cells retained; folds assigned round robin within county; no outcome used in allocation. Linear context-only vs context+cafe; every test county represented in training. Secondary 20 km block sensitivity. Within-county prediction of modeled prevalences only; block edges permit spatial proximity; not independent health validation.",
+  "independent_check": "FWL via within-county demeaning and least squares outside statsmodels; match coefficient and SSE difference",
+  "source_audit": "Chicago2022 inspections plus licensed Retail Food Establishment terms spanning2022-12-31. Historical dates and status considered, records not census or gold standard. Match rules recorded separately before calculating concordance."
+}
