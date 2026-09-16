@@ -1,0 +1,29 @@
+{
+  "status": "Passed within tested scope",
+  "sample": {
+    "tracts": 23527,
+    "counties": 50,
+    "unique_geoids": true
+  },
+  "independent_primary_recalculation": {
+    "beta_pp": -0.09625893864433693,
+    "cluster_se": 0.01536601346087095,
+    "ci_lower": -0.12713809878869775,
+    "ci_upper": -0.06537977849997612,
+    "p": 9.144903143219637e-08,
+    "finite_cluster_df": 49,
+    "full_model_parameters": 59
+  },
+  "checks": [
+    "Exact density recomputation for every analytical tract",
+    "Cafe counts independently regrouped from object-level assignment",
+    "Within-county normal equations and manual county-cluster sandwich reproduce primary model coefficient, SE, CI and p",
+    "BH secondary q values manually recalculated for every model",
+    "500 sampled cafe-node assignments recomputed against full-resolution TIGER/Line polygons"
+  ],
+  "limits": [
+    "Geographical recomputation is a sample, not an external establishment-validation survey",
+    "This check does not validate the original CDC health-estimation model or unknown joint error covariance",
+    "Visual rendering and manuscript claim checks are separate required steps"
+  ]
+}

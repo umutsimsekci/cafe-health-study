@@ -1,0 +1,4 @@
+variable,Morans_I,permutation_p_two_sided,permutations,weight_rule
+cafe_log,0.2800007609882711,0.001,999,symmetric 8NN; 100km cap; row standardized; global permutations
+MHLTH,0.6304639779037412,0.001,999,symmetric 8NN; 100km cap; row standardized; global permutations
+primary_residual,0.3544477494209596,0.001,999,symmetric 8NN; 100km cap; row standardized; global permutations

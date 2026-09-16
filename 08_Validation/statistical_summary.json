@@ -1,0 +1,76 @@
+{
+  "primary": {
+    "outcome": "MHLTH",
+    "outcome_label": "Frequent mental distress",
+    "model": "extended",
+    "exposure": "cafe_log",
+    "n": 23527,
+    "counties": 50,
+    "beta_pp": -0.0962589386443312,
+    "se": 0.015366013460870164,
+    "ci_lower": -0.12713809878869045,
+    "ci_upper": -0.06537977849997195,
+    "p": 9.144903143221351e-08,
+    "r_squared": 0.8459678431470626,
+    "cluster_reference_df": 49
+  },
+  "cafe_log_iqr": 1.3103728678580455,
+  "primary_beta_per_iqr_pp": -0.12613510148834392,
+  "primary_beta_independent_FWL": -0.0962589386443281,
+  "primary_model_condition_number": 2783.987213282539,
+  "primary_predicted_range": [
+    3.269020361344939,
+    31.707150196878686
+  ],
+  "quadratic_term_p_exploratory": 0.9012368934833214,
+  "leave_one_county_out_beta_range": [
+    -0.10354503115548347,
+    -0.08908708838150792
+  ],
+  "spatial": [
+    {
+      "variable": "cafe_log",
+      "Morans_I": 0.2800007609882711,
+      "permutation_p_two_sided": 0.001,
+      "permutations": 999,
+      "weight_rule": "symmetric 8NN; 100km cap; row standardized; global permutations"
+    },
+    {
+      "variable": "MHLTH",
+      "Morans_I": 0.6304639779037412,
+      "permutation_p_two_sided": 0.001,
+      "permutations": 999,
+      "weight_rule": "symmetric 8NN; 100km cap; row standardized; global permutations"
+    },
+    {
+      "variable": "primary_residual",
+      "Morans_I": 0.3544477494209596,
+      "permutation_p_two_sided": 0.001,
+      "permutations": 999,
+      "weight_rule": "symmetric 8NN; 100km cap; row standardized; global permutations"
+    }
+  ],
+  "spatial_hac": [
+    {
+      "cutoff_km": 10.0,
+      "beta_pp": -0.0962589386443312,
+      "se": 0.012285420099577818,
+      "ci_lower": -0.12033836203950372,
+      "ci_upper": -0.07217951524915868,
+      "reference": "normal asymptotic",
+      "kernel": "Bartlett distance taper",
+      "unique_pairs": 2084534
+    },
+    {
+      "cutoff_km": 25.0,
+      "beta_pp": -0.0962589386443312,
+      "se": 0.012865604845494748,
+      "ci_lower": -0.12147552414150091,
+      "ci_upper": -0.0710423531471615,
+      "reference": "normal asymptotic",
+      "kernel": "Bartlett distance taper",
+      "unique_pairs": 7265774
+    }
+  ],
+  "inference_limitation": "All regression intervals condition on PLACES point estimates and do not propagate their joint model-estimation uncertainty; this covariance is not supplied. Ecological associations cannot identify individual effects."
+}

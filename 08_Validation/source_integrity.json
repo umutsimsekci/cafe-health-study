@@ -1,0 +1,9 @@
+{
+  "checked_utc": "2026-09-15T12:12:32.812255+00:00",
+  "status": "Passed",
+  "source_files_verified_against_retrieval_hashes": 130,
+  "county_osm_extracts": 50,
+  "successful_object_repairs": 52,
+  "full_tract_state_files": 20,
+  "scope": "Frozen source-byte integrity; not external validation of source completeness or health estimates."
+}

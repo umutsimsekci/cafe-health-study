@@ -1,0 +1,35 @@
+{
+  "n": 23527,
+  "counties": 50,
+  "primary_models": [
+    {
+      "model": "unadjusted",
+      "beta_pp": -0.4104020640054469,
+      "ci_lower": -0.5466419415655491,
+      "ci_upper": -0.2741621864453446,
+      "matches_archive": true
+    },
+    {
+      "model": "context",
+      "beta_pp": -0.28927562871511436,
+      "ci_lower": -0.42280176485224347,
+      "ci_upper": -0.15574949257798526,
+      "matches_archive": true
+    },
+    {
+      "model": "extended",
+      "beta_pp": -0.09625893864434121,
+      "ci_lower": -0.1271380987887007,
+      "ci_upper": -0.06537977849998171,
+      "matches_archive": true
+    },
+    {
+      "model": "hospitality",
+      "beta_pp": -0.06466368437018206,
+      "ci_lower": -0.09496870673349583,
+      "ci_upper": -0.03435866200686829,
+      "matches_archive": true
+    }
+  ],
+  "interpretation": "Conditional ecological associations, not causal effects."
+}

@@ -1,0 +1,12 @@
+{
+  "recorded_utc": "2026-09-15T11:51:22.678413+00:00",
+  "stage": "All 50 OSM county extracts downloaded; no exposure-outcome models have yet been fitted.",
+  "geographical_resolution": "Use full TIGER/Line 2023 boundaries for analysis; cartographic boundaries only for display. Requery 52 non-node objects touching extraction edges with clipping disabled before object reconciliation.",
+  "additional_checks": [
+    "BY correction alongside BH within each seven-secondary-outcome family",
+    "Exploratory quadratic exposure association, plotted only to the 99th percentile",
+    "Unmerged representation, ambiguous non-node location and 100 m outer-boundary sensitivities",
+    "Independent numerical reproduction of primary cluster covariance, source cafe counts and sampled node assignments"
+  ],
+  "uncertainty": "All intervals condition on PLACES estimates; unknown joint source estimation covariance is not propagated."
+}

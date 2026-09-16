@@ -1,0 +1,425 @@
+kept_id,dropped_id,name,distance_m,rule
+node/4680948492,way/31818790,The Cottage,2.4217177452004908,same normalized nonempty name and category; different OSM types within 25 m
+node/5712608721,way/1057020571,Starbucks,6.304702745395848,same normalized nonempty name and category; different OSM types within 25 m
+node/4911757877,way/438223646,The Sandtrap,1.3484964159431332,same normalized nonempty name and category; different OSM types within 25 m
+node/3105773209,way/325666473,The Lobster Trap,5.985816331018958,same normalized nonempty name and category; different OSM types within 25 m
+node/4917588303,way/438217831,Avalon Grille,17.267833878346735,same normalized nonempty name and category; different OSM types within 25 m
+node/6961345016,way/450840589,McDonald's,0.8697391938343464,same normalized nonempty name and category; different OSM types within 25 m
+node/9811192080,way/1068826401,Saddle Bar,2.4500939199553176,same normalized nonempty name and category; different OSM types within 25 m
+node/6964884733,way/511108323,McDonald's,1.5432689715832482,same normalized nonempty name and category; different OSM types within 25 m
+node/9720041294,way/352617103,Chipotle,0.7917501455530473,same normalized nonempty name and category; different OSM types within 25 m
+node/9720041297,way/352617109,Starbucks,2.550892424376556,same normalized nonempty name and category; different OSM types within 25 m
+node/6196907480,way/195017794,Mae's Cafe,2.0140626521315648,same normalized nonempty name and category; different OSM types within 25 m
+node/362656251,way/127109541,Del Taco,3.6736996398016775,same normalized nonempty name and category; different OSM types within 25 m
+node/3974758714,way/911024113,El Gallo Giro,6.82030025452777,same normalized nonempty name and category; different OSM types within 25 m
+node/8424846088,way/907270041,Restaurante y Pupuseria Comalapa #2,0.33143513083348947,same normalized nonempty name and category; different OSM types within 25 m
+node/8424846081,way/907270040,Nubia Cafe,2.370050322425801,same normalized nonempty name and category; different OSM types within 25 m
+node/8459235413,way/911020389,Taco Bell,1.5050683921741503,same normalized nonempty name and category; different OSM types within 25 m
+node/7416548253,way/677106668,Romano's Macaroni Grill,2.338706844042747,same normalized nonempty name and category; different OSM types within 25 m
+node/3499336706,way/966591700,Jack in the Box,2.061770952851928,same normalized nonempty name and category; different OSM types within 25 m
+node/596244763,way/677106655,Chick-fil-A,2.0479360652699032,same normalized nonempty name and category; different OSM types within 25 m
+node/596244819,way/966589829,Wendy's,2.048336883697092,same normalized nonempty name and category; different OSM types within 25 m
+node/9467050169,way/456597517,McDonald's,1.4997039493029178,same normalized nonempty name and category; different OSM types within 25 m
+node/9473389613,way/346993166,Carl's Jr.,3.9276094482677117,same normalized nonempty name and category; different OSM types within 25 m
+node/9809226611,way/440832023,Carl's Jr.,2.6607850978865444,same normalized nonempty name and category; different OSM types within 25 m
+node/2890465829,way/414714942,TonyP's Dockside Grill,9.217468052888169,same normalized nonempty name and category; different OSM types within 25 m
+node/9109444840,way/985653045,Johnie's Jr. Burgers,5.931348638687443,same normalized nonempty name and category; different OSM types within 25 m
+node/1970351587,way/430712603,McDonald's,1.5333961437631547,same normalized nonempty name and category; different OSM types within 25 m
+node/9049034632,way/451393915,701 Restaurant & Bar,13.432132512725488,same normalized nonempty name and category; different OSM types within 25 m
+node/3845884918,way/381382328,Taco Bell,0.2732467491463404,same normalized nonempty name and category; different OSM types within 25 m
+node/3845884919,way/381382329,Carl's Jr.,1.9329352549897285,same normalized nonempty name and category; different OSM types within 25 m
+node/3845884909,way/381382326,El Pollo Loco,1.9610141165677957,same normalized nonempty name and category; different OSM types within 25 m
+node/3052461551,way/794574250,McDonald's,9.772967260279962,same normalized nonempty name and category; different OSM types within 25 m
+node/1165054370,way/742353643,Zendejas Mexican Grill,9.076370366721012,same normalized nonempty name and category; different OSM types within 25 m
+node/1165054384,way/742353622,Popeyes,2.2114421089015166,same normalized nonempty name and category; different OSM types within 25 m
+node/9705471774,way/422431521,The Bel-Air Restaurant,3.2042195050514493,same normalized nonempty name and category; different OSM types within 25 m
+node/3276211361,way/432121332,Brami's Pizza,10.869673525224798,same normalized nonempty name and category; different OSM types within 25 m
+node/4679023595,way/426704526,McDonald's,0.2703605213146513,same normalized nonempty name and category; different OSM types within 25 m
+node/847726962,way/1003290263,McDonald's,2.3224465206294043,same normalized nonempty name and category; different OSM types within 25 m
+node/4312892889,way/366225309,Del Taco,5.930223874317429,same normalized nonempty name and category; different OSM types within 25 m
+node/4635835661,way/1064680439,McDonald's,8.201108204114556,same normalized nonempty name and category; different OSM types within 25 m
+node/320610117,way/470561860,McDonald's,15.115896814174375,same normalized nonempty name and category; different OSM types within 25 m
+node/6768413031,way/471457599,Wendy's,1.4151765005183041,same normalized nonempty name and category; different OSM types within 25 m
+node/6768413033,way/471441825,Denny's,1.709525852253113,same normalized nonempty name and category; different OSM types within 25 m
+node/7567705218,way/471642556,Ed's Place,1.29882309538344,same normalized nonempty name and category; different OSM types within 25 m
+node/9626315075,way/430691986,Wendy's,2.639732394290223,same normalized nonempty name and category; different OSM types within 25 m
+node/4064504867,way/430725187,McDonald's,2.761308490502457,same normalized nonempty name and category; different OSM types within 25 m
+node/4751832346,way/51162183,Jack in the Box,1.6970795207848417,same normalized nonempty name and category; different OSM types within 25 m
+node/8119568786,way/472619027,Burger King,1.5656489739982784,same normalized nonempty name and category; different OSM types within 25 m
+node/9336055900,way/1063062134,Starbucks,2.868760568737228,same normalized nonempty name and category; different OSM types within 25 m
+node/566383046,way/341148743,McDonald's,10.672287139335843,same normalized nonempty name and category; different OSM types within 25 m
+node/6747320089,way/746756504,In-N-Out Burger,3.505446531504114,same normalized nonempty name and category; different OSM types within 25 m
+node/9934027611,way/61877635,McDonald's,7.220080684437688,same normalized nonempty name and category; different OSM types within 25 m
+node/2446393734,way/297468478,Bistro 234,18.364053203349464,same normalized nonempty name and category; different OSM types within 25 m
+node/2957269576,way/299949707,Cindy's Restaurant,0.6001270372336903,same normalized nonempty name and category; different OSM types within 25 m
+node/2104952029,way/297470710,Table 26,2.3446176237279803,same normalized nonempty name and category; different OSM types within 25 m
+node/2951626383,way/765934972,Carl's Jr.,1.69254294089054,same normalized nonempty name and category; different OSM types within 25 m
+node/9407143104,way/93549906,Capo Mediterranean Kitchen,8.948644270657354,same normalized nonempty name and category; different OSM types within 25 m
+node/1473322684,way/98283330,Uncle Chen,13.547714762561222,same normalized nonempty name and category; different OSM types within 25 m
+way/387064064,relation/5760988,Bucky’s Cocktail Lounge,21.62788363855836,same normalized nonempty name and category; different OSM types within 25 m
+node/4469410991,way/237301142,Curry Up Now,20.79339859852515,same normalized nonempty name and category; different OSM types within 25 m
+node/310973047,way/464981121,Lola's Chicken Shack,15.422914611645638,same normalized nonempty name and category; different OSM types within 25 m
+node/9710091766,way/484562748,TTO Bongee Korean Style Chicken,18.80899098686986,same normalized nonempty name and category; different OSM types within 25 m
+node/571835973,way/704722697,Black Bear Diner,0.1308159624599413,same normalized nonempty name and category; different OSM types within 25 m
+node/3711137996,way/154966464,Heart and Dagger Saloon,3.5548163637619243,same normalized nonempty name and category; different OSM types within 25 m
+node/6899480385,way/402813075,Grand Lake Kitchen,2.6726339221514164,same normalized nonempty name and category; different OSM types within 25 m
+node/10204855134,way/1125511174,Starbucks,1.0856594601404905,same normalized nonempty name and category; different OSM types within 25 m
+node/9998360181,way/262992001,Panera Bread,11.123349285765363,same normalized nonempty name and category; different OSM types within 25 m
+node/10082332451,way/983226981,Temple Coffee Roasters,0.7423536005642681,same normalized nonempty name and category; different OSM types within 25 m
+node/10082392889,way/461653161,Scorpio Coffee,0.7131925160605878,same normalized nonempty name and category; different OSM types within 25 m
+node/10082332454,way/493924884,Pachamama Coffee Bar,3.7902606333199915,same normalized nonempty name and category; different OSM types within 25 m
+node/1737744478,way/161819074,Wholey Ravioli,12.37965042744697,same normalized nonempty name and category; different OSM types within 25 m
+node/4104289631,way/408521166,Coyotes,0.812626616831151,same normalized nonempty name and category; different OSM types within 25 m
+node/5258448012,way/543980766,OZ Korean BBQ,10.135345910522442,same normalized nonempty name and category; different OSM types within 25 m
+node/10082332452,way/619340972,Chocolate Fish Coffee Roasters,0.7998431577357956,same normalized nonempty name and category; different OSM types within 25 m
+node/10082332450,way/1081981387,Temple Coffee,3.562801537312691,same normalized nonempty name and category; different OSM types within 25 m
+node/1712260340,way/158274690,Islands,5.637420576109649,same normalized nonempty name and category; different OSM types within 25 m
+node/722863898,way/58289297,Snack Shack,1.24565029808008,same normalized nonempty name and category; different OSM types within 25 m
+node/7579900683,way/810707255,Dutch Bros. Coffee,0.9757590865765249,same normalized nonempty name and category; different OSM types within 25 m
+node/7579900671,way/810707254,weinersnitchel,9.62277321610058,same normalized nonempty name and category; different OSM types within 25 m
+node/7579900640,way/810707250,Starbucks,6.749120220630174,same normalized nonempty name and category; different OSM types within 25 m
+node/7579900673,way/270510730,donut star,1.2802376674241744,same normalized nonempty name and category; different OSM types within 25 m
+node/7579900649,way/810707251,judys grinder,8.90950504988666,same normalized nonempty name and category; different OSM types within 25 m
+node/7579900656,way/810707252,Taco Bell,1.5240854074142558,same normalized nonempty name and category; different OSM types within 25 m
+node/3680876973,way/1005944668,McDonald's,0.806574810910104,same normalized nonempty name and category; different OSM types within 25 m
+node/9499593641,way/1030558093,Puerto Vallarta,4.729017065305958,same normalized nonempty name and category; different OSM types within 25 m
+node/8444416779,way/360439953,Boiling Point,4.821158815604746,same normalized nonempty name and category; different OSM types within 25 m
+node/2368732117,way/228241729,Mama Sambusa Kitchen,11.196041319014894,same normalized nonempty name and category; different OSM types within 25 m
+node/2368732117,way/228241833,Mama Sambusa Kitchen,17.146081631298717,same normalized nonempty name and category; different OSM types within 25 m
+node/2368732116,way/228241729,Mama Sambusa Kitchen,14.755193230965313,same normalized nonempty name and category; different OSM types within 25 m
+node/2368732116,way/228241833,Mama Sambusa Kitchen,20.61076274867724,same normalized nonempty name and category; different OSM types within 25 m
+node/2368732110,way/228241807,Mama Sambusa Kitchen,11.63550945519414,same normalized nonempty name and category; different OSM types within 25 m
+node/8710867919,way/543831126,Primo Pizza Parlor,6.15451244134589,same normalized nonempty name and category; different OSM types within 25 m
+node/6230992385,way/434703404,Noren Sushi Kitchen and Bar,0.5178791962331216,same normalized nonempty name and category; different OSM types within 25 m
+node/3954502713,way/842464472,Gabriel's Fire,2.7561885558622903,same normalized nonempty name and category; different OSM types within 25 m
+node/7209629464,way/520794789,Pancake Place Otay,1.6857035770976585,same normalized nonempty name and category; different OSM types within 25 m
+node/6961337119,way/31800457,McDonald's,1.4013432718803875,same normalized nonempty name and category; different OSM types within 25 m
+node/9215198615,way/498782115,The Whiskey House,12.386716042014536,same normalized nonempty name and category; different OSM types within 25 m
+node/596630156,way/959856799,Tacos El Gordo,7.670389158452789,same normalized nonempty name and category; different OSM types within 25 m
+node/3884009914,way/31845898,Mimmo's Italian Village,10.213961519920394,same normalized nonempty name and category; different OSM types within 25 m
+node/530764580,way/31808248,Filipi's Pizza Grotto,10.996008481377014,same normalized nonempty name and category; different OSM types within 25 m
+node/365318244,way/31817289,Stadium Club,6.893637769106868,same normalized nonempty name and category; different OSM types within 25 m
+node/596753010,way/933499101,Raising Cane's,1.6015675452006515,same normalized nonempty name and category; different OSM types within 25 m
+node/4151627034,way/413959573,Nico's Taco Shop,1.2201492844831086,same normalized nonempty name and category; different OSM types within 25 m
+node/317066926,way/411385223,Fito's Taco Shop,10.333404476582189,same normalized nonempty name and category; different OSM types within 25 m
+node/3798785430,way/415106347,Lil' Abner's,3.4062746958451116,same normalized nonempty name and category; different OSM types within 25 m
+node/3007432306,way/469889455,The Watershed,0.8053312631516257,same normalized nonempty name and category; different OSM types within 25 m
+node/1698683409,way/560777956,Cabin Tempe,4.697468963357113,same normalized nonempty name and category; different OSM types within 25 m
+node/4438375737,way/807837525,Little Caesars,1.9726176664702777,same normalized nonempty name and category; different OSM types within 25 m
+node/1707921641,way/95540976,Cocina Del Charro,4.7267967921391625,same normalized nonempty name and category; different OSM types within 25 m
+node/5484491759,way/1082171927,McDonald's,10.284543177060764,same normalized nonempty name and category; different OSM types within 25 m
+node/6527647133,way/233396634,Starbucks,8.29603472206513,same normalized nonempty name and category; different OSM types within 25 m
+node/6530592366,way/911348558,Denny's,1.8329280568355653,same normalized nonempty name and category; different OSM types within 25 m
+node/6530592365,way/911348556,McDonald's,1.011067592070538,same normalized nonempty name and category; different OSM types within 25 m
+node/9347651867,way/706844058,Raising Cane's,1.6417418040200906,same normalized nonempty name and category; different OSM types within 25 m
+node/10226690000,way/187562701,Taiyos Sushi & Poki,0.6804658452248763,same normalized nonempty name and category; different OSM types within 25 m
+node/1412668815,way/234338114,Del Taco,3.1698632294083176,same normalized nonempty name and category; different OSM types within 25 m
+node/2417961646,way/233400553,Denny's,1.4245958872084676,same normalized nonempty name and category; different OSM types within 25 m
+node/6533012658,way/706810983,Starbucks,0.3140237598635071,same normalized nonempty name and category; different OSM types within 25 m
+node/6533017224,way/706811278,Carl's Jr.,1.4258767806439916,same normalized nonempty name and category; different OSM types within 25 m
+node/6533017225,way/706811277,El Pollo Loco,2.0284401372442065,same normalized nonempty name and category; different OSM types within 25 m
+node/2417961682,way/233400559,McDonald's,1.6441140703245456,same normalized nonempty name and category; different OSM types within 25 m
+node/3688664125,way/972409758,McDonald's,0.48390103255049227,same normalized nonempty name and category; different OSM types within 25 m
+node/7805412813,way/233260733,Templo Del Sol,0.3705474518721932,same normalized nonempty name and category; different OSM types within 25 m
+node/1158471132,way/427743214,Jack in the Box,3.3207858528829983,same normalized nonempty name and category; different OSM types within 25 m
+node/1158745925,way/238036453,Chick-fil-A,1.6950627087660022,same normalized nonempty name and category; different OSM types within 25 m
+node/1158745702,way/743130631,Claim Jumper,1.5391342867477187,same normalized nonempty name and category; different OSM types within 25 m
+way/37870089,relation/176407,Mimi's,2.397532677248274,same normalized nonempty name and category; different OSM types within 25 m
+node/775345953,way/972664774,McDonald's,0.46648737415269104,same normalized nonempty name and category; different OSM types within 25 m
+node/6555663390,way/712387296,Starbucks,14.210437475787208,same normalized nonempty name and category; different OSM types within 25 m
+node/1457051125,way/19787719,Esri Café,10.361173872046669,same normalized nonempty name and category; different OSM types within 25 m
+node/1185824672,way/966871712,McDonald's,3.0131746440921336,same normalized nonempty name and category; different OSM types within 25 m
+node/457759369,way/1030530956,El Pollo Loco,9.34402949432768,same normalized nonempty name and category; different OSM types within 25 m
+node/457759370,way/280178105,Denny's,8.054635931585471,same normalized nonempty name and category; different OSM types within 25 m
+node/457759360,way/280178136,McDonald's,7.277106852190206,same normalized nonempty name and category; different OSM types within 25 m
+node/9089150971,way/982953971,Jack in the Box,1.3718788618988345,same normalized nonempty name and category; different OSM types within 25 m
+node/7830791907,way/841525960,Del Taco,2.285030843354399,same normalized nonempty name and category; different OSM types within 25 m
+node/4716055391,way/1081955775,BJ's,10.980422323236182,same normalized nonempty name and category; different OSM types within 25 m
+node/573981974,way/132669038,IHOP,9.323296544992242,same normalized nonempty name and category; different OSM types within 25 m
+node/599052162,way/341950415,Romano's Macaroni Grill,3.7413105008138516,same normalized nonempty name and category; different OSM types within 25 m
+node/3618359558,way/341950408,Red Robin,7.387567127269132,same normalized nonempty name and category; different OSM types within 25 m
+node/8246289183,way/427032936,Chili's,4.020723783629077,same normalized nonempty name and category; different OSM types within 25 m
+node/1619006460,way/257726901,McDonald's,3.198221520434606,same normalized nonempty name and category; different OSM types within 25 m
+node/947227490,way/1090948471,The Pioneer Saloon,4.418442705025423,same normalized nonempty name and category; different OSM types within 25 m
+node/6949648586,way/959922808,Putter's Bar & Grill,0.38032326768094465,same normalized nonempty name and category; different OSM types within 25 m
+node/9937990325,way/1084498392,Mercado Mexico,6.502519069954915,same normalized nonempty name and category; different OSM types within 25 m
+node/5355239021,way/763388654,Streets of New York,23.080120640332073,same normalized nonempty name and category; different OSM types within 25 m
+node/4449004591,way/942766895,McDonald's,5.17552526278978,same normalized nonempty name and category; different OSM types within 25 m
+node/4449012489,way/942766896,Del Taco,4.28459723937556,same normalized nonempty name and category; different OSM types within 25 m
+node/7640946464,way/816961724,Burger King,0.9566004297990122,same normalized nonempty name and category; different OSM types within 25 m
+node/9596051578,way/966155068,Double Down Saloon,4.7453734858597505,same normalized nonempty name and category; different OSM types within 25 m
+node/5255307447,way/180771080,Starbucks,22.4858680071303,same normalized nonempty name and category; different OSM types within 25 m
+node/5003162522,way/276427190,Denny's,2.2382271122574426,same normalized nonempty name and category; different OSM types within 25 m
+node/3474537671,way/904559948,Denny's,0.4154801752880281,same normalized nonempty name and category; different OSM types within 25 m
+node/4848017099,way/492830707,Starbucks,3.864090285449526,same normalized nonempty name and category; different OSM types within 25 m
+node/461249352,way/848835285,McDonald's,6.321112277880696,same normalized nonempty name and category; different OSM types within 25 m
+node/6126077867,way/653697979,Crystal Creek Cafe,2.142716743657496,same normalized nonempty name and category; different OSM types within 25 m
+node/9648930887,way/721810901,Woodinville Cafe,7.105034007807596,same normalized nonempty name and category; different OSM types within 25 m
+node/7427770741,way/209004059,Gaslamp Bar & Grill,1.2403433970472855,same normalized nonempty name and category; different OSM types within 25 m
+node/4613198977,way/774903524,Taco Cabana,4.877604035647974,same normalized nonempty name and category; different OSM types within 25 m
+node/3319101461,way/774903540,Panda Express,1.906833573808946,same normalized nonempty name and category; different OSM types within 25 m
+node/3319090099,way/774903537,McDonald's,0.626941951766112,same normalized nonempty name and category; different OSM types within 25 m
+node/2713444016,way/774903549,Burger King,10.901085111057807,same normalized nonempty name and category; different OSM types within 25 m
+node/7049132187,way/944081988,KFC,4.800931372810478,same normalized nonempty name and category; different OSM types within 25 m
+node/3373779239,way/501075427,Denny's,0.8975308426254031,same normalized nonempty name and category; different OSM types within 25 m
+node/1069006464,way/161995951,Oasis,14.858551511356575,same normalized nonempty name and category; different OSM types within 25 m
+node/3181872973,way/929871360,The Continental Club,3.1044273370746662,same normalized nonempty name and category; different OSM types within 25 m
+node/3181780243,way/31054328,Mozart's Coffee Roasters,1.7197147633472256,same normalized nonempty name and category; different OSM types within 25 m
+node/10116877953,way/1105581628,Whataburger,1.0093438693059928,same normalized nonempty name and category; different OSM types within 25 m
+node/9906604043,way/1080613112,Ray's Pizzeria,0.5302502483485402,same normalized nonempty name and category; different OSM types within 25 m
+node/2818846981,way/1066224095,Chili's,8.716007075122253,same normalized nonempty name and category; different OSM types within 25 m
+node/7936001496,way/1065310461,In-N-Out Burger,1.9368337692777382,same normalized nonempty name and category; different OSM types within 25 m
+node/7936001497,way/1064890910,Whiskey Cake Kitchen & Bar,1.3673022780768707,same normalized nonempty name and category; different OSM types within 25 m
+node/6284726022,way/1096157930,Denny's,10.713511857682716,same normalized nonempty name and category; different OSM types within 25 m
+node/7241393585,way/1079683074,In-N-Out Burger,7.294783143152386,same normalized nonempty name and category; different OSM types within 25 m
+node/4952850738,way/594331448,Ye Olde Bull and Bush,4.681588853172602,same normalized nonempty name and category; different OSM types within 25 m
+node/6345598281,way/638844564,Spazzio's Italian Cantina,17.356779495014585,same normalized nonempty name and category; different OSM types within 25 m
+node/9181375861,way/993771542,Popeyes,0.19247776980841536,same normalized nonempty name and category; different OSM types within 25 m
+node/2818804836,way/713228743,Sonic,13.082030808032354,same normalized nonempty name and category; different OSM types within 25 m
+node/6700876159,way/653264516,Jack in the Box,5.030095949042749,same normalized nonempty name and category; different OSM types within 25 m
+node/5976468170,way/603889797,Dove Creek Cafe,1.3398783662587495,same normalized nonempty name and category; different OSM types within 25 m
+node/7124630365,way/633090654,Bayou Jack's Cajun Grill,1.1933355877912606,same normalized nonempty name and category; different OSM types within 25 m
+node/2818802388,way/713223667,Starbucks,10.628681602033948,same normalized nonempty name and category; different OSM types within 25 m
+node/2818790031,way/713221877,Schlotzsky's,1.770962310949445,same normalized nonempty name and category; different OSM types within 25 m
+node/8737584689,way/468104875,Sonic,1.2358586022011389,same normalized nonempty name and category; different OSM types within 25 m
+node/889657348,way/1116925863,Sonic,22.023767470749867,same normalized nonempty name and category; different OSM types within 25 m
+node/889657348,way/1116925862,Sonic,7.462608399929331,same normalized nonempty name and category; different OSM types within 25 m
+node/4328433495,way/598650113,Lord Fletcher's Old Lake Lodge,5.391583354641932,same normalized nonempty name and category; different OSM types within 25 m
+node/577287936,way/96520115,McDonald's,1.5977923379727064,same normalized nonempty name and category; different OSM types within 25 m
+node/1359849893,way/37020697,The Depot Coffee House,2.132875100500478,same normalized nonempty name and category; different OSM types within 25 m
+node/2696844764,way/927281071,Pinstripes,2.6846745077238414,same normalized nonempty name and category; different OSM types within 25 m
+node/5431508546,way/94297726,Ramen Kazama,9.55300466136914,same normalized nonempty name and category; different OSM types within 25 m
+node/665667185,way/992714981,Pittsburgh Blue Steakhouse,0.995932663805222,same normalized nonempty name and category; different OSM types within 25 m
+node/6427051748,way/62155522,Burrito Loco,4.129169337145916,same normalized nonempty name and category; different OSM types within 25 m
+node/6344134128,way/154968155,Kimchi Tofu House,6.472699502945594,same normalized nonempty name and category; different OSM types within 25 m
+node/6353507500,way/81140437,Jimmy John's,5.46597066478395,same normalized nonempty name and category; different OSM types within 25 m
+node/6334601254,way/43196970,Tea House,6.334975146084281,same normalized nonempty name and category; different OSM types within 25 m
+node/8855460973,way/535317279,The Chelsea Saint Pete,0.23994655964451225,same normalized nonempty name and category; different OSM types within 25 m
+node/2589617060,way/192510989,Papa John's,17.824001299923218,same normalized nonempty name and category; different OSM types within 25 m
+node/2589617060,way/523427696,Papa John's,18.74803981120616,same normalized nonempty name and category; different OSM types within 25 m
+node/8604355858,way/435390160,Steak 'n Shake,1.8145907869763311,same normalized nonempty name and category; different OSM types within 25 m
+node/9010612077,way/974783435,Domino's,8.876251304420933,same normalized nonempty name and category; different OSM types within 25 m
+node/9010612076,way/974783432,Subway,3.662144401198039,same normalized nonempty name and category; different OSM types within 25 m
+node/5541524554,way/219202543,P.F. Chang's,2.186601384275176,same normalized nonempty name and category; different OSM types within 25 m
+node/2699109427,way/911426007,Burger King,1.956965923491312,same normalized nonempty name and category; different OSM types within 25 m
+node/2699109433,way/911426011,Wendy's,2.9007490958208093,same normalized nonempty name and category; different OSM types within 25 m
+node/3570599400,way/314810877,Denny´s,15.203119352870122,same normalized nonempty name and category; different OSM types within 25 m
+node/6533183885,way/994990898,Blue Pointe Bar and Grill,7.992053226121432,same normalized nonempty name and category; different OSM types within 25 m
+node/5379341621,way/258423143,Burger King,5.226434164173385,same normalized nonempty name and category; different OSM types within 25 m
+node/10111835504,way/317881244,Le Chick Miami,4.806758127852024,same normalized nonempty name and category; different OSM types within 25 m
+node/6107889072,way/375788337,Sherwood's,3.779734898698982,same normalized nonempty name and category; different OSM types within 25 m
+node/6107890136,way/330531301,Pack Supermarket,1.7966620639235618,same normalized nonempty name and category; different OSM types within 25 m
+node/6028053115,way/290571169,McDonald's,7.144170537179361,same normalized nonempty name and category; different OSM types within 25 m
+node/9334199644,way/763932617,Starbucks,1.5628153135838179,same normalized nonempty name and category; different OSM types within 25 m
+node/9334199645,way/763932618,Bodega Taqueria y Tequila Aventura,0.42860847510018646,same normalized nonempty name and category; different OSM types within 25 m
+node/3235813794,way/542978713,Papa John's,6.9607680747681,same normalized nonempty name and category; different OSM types within 25 m
+node/7205158463,way/771801082,McDonald's,0.7679821051982029,same normalized nonempty name and category; different OSM types within 25 m
+node/7209110359,way/772224942,Wendy's,3.56617724427371,same normalized nonempty name and category; different OSM types within 25 m
+node/2834772008,way/1122887246,Papa John's,11.65792342512739,same normalized nonempty name and category; different OSM types within 25 m
+node/6086523514,way/640747262,Nature's way cafe,20.56289937056951,same normalized nonempty name and category; different OSM types within 25 m
+node/7134852136,way/523444092,Burger King,1.5489678177068005,same normalized nonempty name and category; different OSM types within 25 m
+node/7134852119,way/763530857,Popeyes,0.6735450606658647,same normalized nonempty name and category; different OSM types within 25 m
+node/5352146374,way/793281737,McDonald's,1.2346999406721682,same normalized nonempty name and category; different OSM types within 25 m
+node/3168006348,way/762130601,Chick-fil-A,2.4635534991236563,same normalized nonempty name and category; different OSM types within 25 m
+node/7120603945,way/762127693,Krispy Kreme,0.9073399462731352,same normalized nonempty name and category; different OSM types within 25 m
+node/6783663031,way/720972322,Starbucks,10.305536768211114,same normalized nonempty name and category; different OSM types within 25 m
+node/925286791,way/737417558,Burger King,1.4807275507976108,same normalized nonempty name and category; different OSM types within 25 m
+node/6904055875,way/737427570,1000 Degrees Pizza & Salad Wings,11.410304458789797,same normalized nonempty name and category; different OSM types within 25 m
+node/6903988360,way/737421297,Checkers,2.5115478780558766,same normalized nonempty name and category; different OSM types within 25 m
+node/923986333,way/686336885,McDonald's,2.032932665046506,same normalized nonempty name and category; different OSM types within 25 m
+node/923986331,way/722827519,McDonald's,4.288911257327248,same normalized nonempty name and category; different OSM types within 25 m
+node/6904310345,way/686336880,KFC,5.098753374787651,same normalized nonempty name and category; different OSM types within 25 m
+node/6903950260,way/737420165,Starbucks,4.7565591262562394,same normalized nonempty name and category; different OSM types within 25 m
+node/6904338853,way/312570360,Taco Bell,6.9569199366620476,same normalized nonempty name and category; different OSM types within 25 m
+way/426588753,relation/2089919,Papa John's,11.379766249496637,same normalized nonempty name and category; different OSM types within 25 m
+node/9676278671,way/183687229,LongHorn Steakhouse,1.7384137472974395,same normalized nonempty name and category; different OSM types within 25 m
+node/9685638319,way/837479384,Chuy's,4.232799013756514,same normalized nonempty name and category; different OSM types within 25 m
+node/7768405479,way/544687277,Texas Roadhouse,2.0768767166560838,same normalized nonempty name and category; different OSM types within 25 m
+node/925286645,way/832298998,Burger King,4.657597421963484,same normalized nonempty name and category; different OSM types within 25 m
+node/9686364285,way/671072699,McDonald's,8.781708696048852,same normalized nonempty name and category; different OSM types within 25 m
+node/9676278672,way/183282408,Hooters,3.0569007157325587,same normalized nonempty name and category; different OSM types within 25 m
+node/4782122739,way/832967224,Wendy's,2.5077497348039164,same normalized nonempty name and category; different OSM types within 25 m
+node/8063276951,way/832969477,Chick-fil-A,0.9911132895219813,same normalized nonempty name and category; different OSM types within 25 m
+node/8063276966,way/832969471,Arby's,2.0710927519952715,same normalized nonempty name and category; different OSM types within 25 m
+node/938288810,way/647601772,Wendy's,2.773784513050625,same normalized nonempty name and category; different OSM types within 25 m
+node/925286688,way/721213849,Burger King,4.4987412312397215,same normalized nonempty name and category; different OSM types within 25 m
+node/9009906051,way/573584110,Mellow Mushroom,0.6845058836702705,same normalized nonempty name and category; different OSM types within 25 m
+node/9005051109,way/972941602,Wedgefield Restaurant,8.018106431032292,same normalized nonempty name and category; different OSM types within 25 m
+node/1668185117,way/802293890,Durango's,4.777626832360548,same normalized nonempty name and category; different OSM types within 25 m
+node/1570396345,way/204876588,McDonald's,2.838967768805113,same normalized nonempty name and category; different OSM types within 25 m
+node/1668185120,way/191196682,Taco Bell,0.45115234411032756,same normalized nonempty name and category; different OSM types within 25 m
+node/1668185119,way/191196681,Wendy's,0.660613636291638,same normalized nonempty name and category; different OSM types within 25 m
+node/1570396348,way/205410599,Burger King,3.0538621952242893,same normalized nonempty name and category; different OSM types within 25 m
+node/3319958749,way/325325693,Taco Bell,0.03297520791712994,same normalized nonempty name and category; different OSM types within 25 m
+node/2538041067,way/802717981,Panda Express,2.1675983599726307,same normalized nonempty name and category; different OSM types within 25 m
+node/475274160,way/566803907,McDonald's,1.9148560975051145,same normalized nonempty name and category; different OSM types within 25 m
+node/10177590519,way/1115104554,Starbucks,1.6711577190019917,same normalized nonempty name and category; different OSM types within 25 m
+node/6964257256,way/1002176377,Culver's,0.8631097004762887,same normalized nonempty name and category; different OSM types within 25 m
+node/2522192626,way/1037962289,Starbucks,16.985275628011294,same normalized nonempty name and category; different OSM types within 25 m
+node/9775244997,way/277752555,Wendy's,1.9824636587546172,same normalized nonempty name and category; different OSM types within 25 m
+node/9775244996,way/277752554,Waffle House,3.1539677855453636,same normalized nonempty name and category; different OSM types within 25 m
+node/9775264435,way/277752552,McDonald's,10.143362697143225,same normalized nonempty name and category; different OSM types within 25 m
+node/9775244995,way/277752556,Zaxby's,5.641012497168778,same normalized nonempty name and category; different OSM types within 25 m
+node/9775264432,way/1056361053,Captain D's,2.987593138943453,same normalized nonempty name and category; different OSM types within 25 m
+node/9775264433,way/999767785,Popeyes,3.1272662605311488,same normalized nonempty name and category; different OSM types within 25 m
+node/9775264499,relation/3888529,Sonic,5.36974064901873,same normalized nonempty name and category; different OSM types within 25 m
+node/9775264441,way/288217252,Waffle House,0.8573323384266933,same normalized nonempty name and category; different OSM types within 25 m
+node/9775264457,way/512661437,Hardee's,2.1780944604329853,same normalized nonempty name and category; different OSM types within 25 m
+node/6414685397,way/684626172,Varners Restaurant & Tavern,1.1742241240690987,same normalized nonempty name and category; different OSM types within 25 m
+node/9530045372,way/755066276,Dunkin',1.2287727535410897,same normalized nonempty name and category; different OSM types within 25 m
+node/538606601,way/239746831,Hooters,12.755389394251754,same normalized nonempty name and category; different OSM types within 25 m
+node/9758328879,way/1062208844,Velvet Taco,1.558897161672347,same normalized nonempty name and category; different OSM types within 25 m
+node/536669081,way/270876314,Agave,1.4428945774662922,same normalized nonempty name and category; different OSM types within 25 m
+node/9758287729,way/1062210926,Sushi Kiku,9.858851425875786,same normalized nonempty name and category; different OSM types within 25 m
+node/9758287730,way/1062210927,Toast on Lenox,11.578972153174657,same normalized nonempty name and category; different OSM types within 25 m
+node/2992704933,way/806203055,McDonald's,15.670283874278184,same normalized nonempty name and category; different OSM types within 25 m
+node/3113548130,way/268403947,Dantanna's,9.520345405664814,same normalized nonempty name and category; different OSM types within 25 m
+node/3383720395,way/231736854,Waffle House,3.2541660552693594,same normalized nonempty name and category; different OSM types within 25 m
+node/9758335317,way/1062218160,Chuy's,3.3109862478733247,same normalized nonempty name and category; different OSM types within 25 m
+node/7044261801,way/753990899,Papa John's,0.3976103753882766,same normalized nonempty name and category; different OSM types within 25 m
+node/4978290325,way/387339519,Golden Corral,3.4321302375623235,same normalized nonempty name and category; different OSM types within 25 m
+node/2620535194,way/515021575,Nothing but Noodles,7.693438277634188,same normalized nonempty name and category; different OSM types within 25 m
+node/8681396084,way/491593226,Taco Bell,4.709626582653856,same normalized nonempty name and category; different OSM types within 25 m
+node/8681396112,way/492095844,Church's Chicken,3.4461678256044577,same normalized nonempty name and category; different OSM types within 25 m
+node/8681396092,way/581593644,Burger King,4.7653028137151034,same normalized nonempty name and category; different OSM types within 25 m
+node/8681396100,way/491593227,DQ Grill & Chill,3.3545435027781423,same normalized nonempty name and category; different OSM types within 25 m
+node/8681396196,way/492339535,McDonald's,7.119976312638032,same normalized nonempty name and category; different OSM types within 25 m
+node/7913720636,way/557519405,Culver's,0.8719095391791917,same normalized nonempty name and category; different OSM types within 25 m
+node/7913720614,way/557519404,Zaxby's,1.885756104865141,same normalized nonempty name and category; different OSM types within 25 m
+node/10032683507,way/1096847681,City Barbeque,3.2660701629023827,same normalized nonempty name and category; different OSM types within 25 m
+node/7392242485,way/772014004,Hardee's,0.7474889141867569,same normalized nonempty name and category; different OSM types within 25 m
+node/8412079893,way/47776442,Char Grill,1.01403476928563,same normalized nonempty name and category; different OSM types within 25 m
+node/9860319189,way/996748412,Person Street Bar,10.142485407125685,same normalized nonempty name and category; different OSM types within 25 m
+node/9323266511,way/827888687,Robbins Nest,1.086739589077111,same normalized nonempty name and category; different OSM types within 25 m
+node/7752477119,way/47837522,Chipotle,0.004472744372703839,same normalized nonempty name and category; different OSM types within 25 m
+node/1744235868,way/162596660,Carolina Ale House,2.8849053972985916,same normalized nonempty name and category; different OSM types within 25 m
+node/5581356433,way/583803455,Los Tres Magueyes,1.99245818218452,same normalized nonempty name and category; different OSM types within 25 m
+node/6343682822,way/677500908,Bendettos On Main,20.076148134591083,same normalized nonempty name and category; different OSM types within 25 m
+node/2390829711,way/988704352,Sonic,2.514026272834142,same normalized nonempty name and category; different OSM types within 25 m
+node/9828732144,way/531261049,Trattoria Toscana,3.3105096656051827,same normalized nonempty name and category; different OSM types within 25 m
+node/7885862857,way/1115409679,Chick-fil-A,4.75479594163386,same normalized nonempty name and category; different OSM types within 25 m
+node/7885879709,relation/3408660,Penn Station,0.5144057332294147,same normalized nonempty name and category; different OSM types within 25 m
+node/7948624133,way/375028519,Acero,7.005839095651289,same normalized nonempty name and category; different OSM types within 25 m
+node/9244689797,way/527165471,Confluence Kombucha,1.0932667888576226,same normalized nonempty name and category; different OSM types within 25 m
+node/5635612279,way/778532260,Sonic,6.9440580350922145,same normalized nonempty name and category; different OSM types within 25 m
+node/8402508138,way/351155454,Novellus,0.14972189945144204,same normalized nonempty name and category; different OSM types within 25 m
+node/2554787528,way/615665530,McDonald's,5.423559476600049,same normalized nonempty name and category; different OSM types within 25 m
+node/9491309388,way/368854854,McDonald's,5.335588396754665,same normalized nonempty name and category; different OSM types within 25 m
+node/8747693516,way/344132776,McDonald's,10.367373867109531,same normalized nonempty name and category; different OSM types within 25 m
+node/4516476486,way/455235952,Williamson's,1.6956062054964178,same normalized nonempty name and category; different OSM types within 25 m
+node/2786506050,way/455235949,Tom Kelley's Chop House & Pub,5.889288198262147,same normalized nonempty name and category; different OSM types within 25 m
+node/9846269636,way/561375534,Angelo's Pizza,10.705183401589755,same normalized nonempty name and category; different OSM types within 25 m
+node/7191160100,way/440500160,Reilly's Daughter,23.679394572740684,same normalized nonempty name and category; different OSM types within 25 m
+node/9758981870,way/165098511,Burger King,0.4216956368583187,same normalized nonempty name and category; different OSM types within 25 m
+node/867942051,way/1088257890,Burger King,5.2378284477322445,same normalized nonempty name and category; different OSM types within 25 m
+node/867942041,way/967129541,Dairy Queen,1.0966233610552591,same normalized nonempty name and category; different OSM types within 25 m
+node/9485082617,way/764140469,The Daily Bar,3.096386504032303,same normalized nonempty name and category; different OSM types within 25 m
+node/2753102648,way/553689627,Sonic,14.634373381505503,same normalized nonempty name and category; different OSM types within 25 m
+node/3782565986,way/1027499775,bd's Mongolian Grill,7.925206080611191,same normalized nonempty name and category; different OSM types within 25 m
+node/6831980902,way/1027495933,Schneider's Bakery,5.182288191225651,same normalized nonempty name and category; different OSM types within 25 m
+node/6505319083,way/580286359,Wendy's,2.6511297479088127,same normalized nonempty name and category; different OSM types within 25 m
+node/2753094033,way/1027489025,Subway,6.817308529376774,same normalized nonempty name and category; different OSM types within 25 m
+node/9081327914,way/1027489027,Domino's,5.944904981219395,same normalized nonempty name and category; different OSM types within 25 m
+node/7281238236,way/455584576,Anchor & Anvil Coffee Bar,6.745284933561493,same normalized nonempty name and category; different OSM types within 25 m
+node/9173427261,way/1066247411,Eat'n Park,5.685098206338725,same normalized nonempty name and category; different OSM types within 25 m
+node/2504344810,way/1066247412,Bob Evans,5.354527515010236,same normalized nonempty name and category; different OSM types within 25 m
+node/1207764582,way/537115419,The Cheesecake Factory,8.42592713259851,same normalized nonempty name and category; different OSM types within 25 m
+node/2502967815,way/130788605,McDonald's,5.87756368613146,same normalized nonempty name and category; different OSM types within 25 m
+node/2506667961,way/887671622,Red Lobster,1.5866800230086953,same normalized nonempty name and category; different OSM types within 25 m
+node/2506667947,way/899286684,Arby's,2.929729073958205,same normalized nonempty name and category; different OSM types within 25 m
+node/2506667945,way/899286683,Denny's,2.969178765309713,same normalized nonempty name and category; different OSM types within 25 m
+node/2506667959,way/899286674,Taco Bell,1.334940804747639,same normalized nonempty name and category; different OSM types within 25 m
+node/2506667946,way/899286682,Wendy's,3.699998718059507,same normalized nonempty name and category; different OSM types within 25 m
+node/748631813,way/420870418,Red Hot and Blue,4.774791638941239,same normalized nonempty name and category; different OSM types within 25 m
+node/737526147,way/67536205,Rocklands Barbeque and Grilling Company,3.71222632558593,same normalized nonempty name and category; different OSM types within 25 m
+node/7061209609,way/67232398,Compass Coffee,11.46089045895327,same normalized nonempty name and category; different OSM types within 25 m
+node/8675995373,way/63939465,Starbucks,0.3363976612570969,same normalized nonempty name and category; different OSM types within 25 m
+node/2049518426,way/64142969,McDonald's,20.948950098781822,same normalized nonempty name and category; different OSM types within 25 m
+node/5863766748,way/211729264,Pizzeria Paradiso,1.5887796165394794,same normalized nonempty name and category; different OSM types within 25 m
+node/4576282090,way/545367952,Anthony's Coal Fired Pizza,1.2844693909908151,same normalized nonempty name and category; different OSM types within 25 m
+node/6651205689,way/135537714,Mercer cafe,2.938899644070235,same normalized nonempty name and category; different OSM types within 25 m
+node/2108022395,way/567070788,Manakeesh Cafe & Bakery,7.306670415859156,same normalized nonempty name and category; different OSM types within 25 m
+node/9773999434,way/197012480,Green Line Cafe,0.19513185543785758,same normalized nonempty name and category; different OSM types within 25 m
+node/4668627529,way/450267105,Global Crepes & Local Shakes,4.842336331505177,same normalized nonempty name and category; different OSM types within 25 m
+node/4668627526,way/334890738,South Philly Bar and Grill,9.715940122570613,same normalized nonempty name and category; different OSM types within 25 m
+node/3885206651,way/334890739,The Garage,8.570577627171241,same normalized nonempty name and category; different OSM types within 25 m
+node/4668627525,way/427513346,Cafe Crema,8.27829111808217,same normalized nonempty name and category; different OSM types within 25 m
+node/8138262095,way/893365684,Chipotle,7.54199767248475,same normalized nonempty name and category; different OSM types within 25 m
+node/5266631201,way/544871842,Blue Monkey Tavern,15.898657043712227,same normalized nonempty name and category; different OSM types within 25 m
+node/5266550172,way/544863052,Park Place Cafe,1.1274831444987061,same normalized nonempty name and category; different OSM types within 25 m
+node/5266619740,way/544870589,The Station,6.815348740230887,same normalized nonempty name and category; different OSM types within 25 m
+node/5676180433,way/678810951,Uncle Bobbie's Coffee & Books,0.841556580293227,same normalized nonempty name and category; different OSM types within 25 m
+node/5191599778,way/535703939,White Cottage Pizzeria,3.5089910935816326,same normalized nonempty name and category; different OSM types within 25 m
+node/7505211683,way/914500190,Naf Naf Middle Eastern Grill,8.051242082137728,same normalized nonempty name and category; different OSM types within 25 m
+node/4971555450,way/749054457,Spunky Dunkers,3.351595489022881,same normalized nonempty name and category; different OSM types within 25 m
+node/6286662313,way/209456231,Emporium - Logan Square,19.55748922226084,same normalized nonempty name and category; different OSM types within 25 m
+node/6320612692,way/163893027,Longman & Eagle,0.5538362240526309,same normalized nonempty name and category; different OSM types within 25 m
+node/6320506737,way/163907621,Little Bucharest Bistro,2.331774197611491,same normalized nonempty name and category; different OSM types within 25 m
+node/6267337249,way/209570116,Black Sheep,0.4949593412949482,same normalized nonempty name and category; different OSM types within 25 m
+node/6322975413,way/959713205,The Duck Inn,3.8337218274863054,same normalized nonempty name and category; different OSM types within 25 m
+node/5452698962,way/40785416,Palace Grill Restaurant,2.477885197517485,same normalized nonempty name and category; different OSM types within 25 m
+node/6280526718,way/210270539,Carnivale,3.552271966222495,same normalized nonempty name and category; different OSM types within 25 m
+node/6315188078,way/304920610,The Dawson,3.5047482107579513,same normalized nonempty name and category; different OSM types within 25 m
+node/1700860713,way/210381773,Bar On Buena,19.35970342564951,same normalized nonempty name and category; different OSM types within 25 m
+node/5441583586,way/210671716,Smith & Wollensky,10.886196394515737,same normalized nonempty name and category; different OSM types within 25 m
+node/6290950496,way/148164102,Flat Top Grill,0.7408503867516937,same normalized nonempty name and category; different OSM types within 25 m
+node/6284978720,way/210679989,Eataly,9.512565082398684,same normalized nonempty name and category; different OSM types within 25 m
+node/3972488438,way/930638541,Wendy's,0.9348198371458014,same normalized nonempty name and category; different OSM types within 25 m
+node/3972447423,way/930638539,Ruby Tuesday,1.0880683785278222,same normalized nonempty name and category; different OSM types within 25 m
+node/3972447422,way/930638540,McDonald's,12.027972533937138,same normalized nonempty name and category; different OSM types within 25 m
+node/4820212566,way/1081199934,Tim Hortons,1.8257196818858248,same normalized nonempty name and category; different OSM types within 25 m
+node/7399795021,way/791547510,Cheese Steaks,1.544061876333354,same normalized nonempty name and category; different OSM types within 25 m
+node/4196580876,way/1063711597,Hellenic Restaurant,9.359195142700814,same normalized nonempty name and category; different OSM types within 25 m
+node/7250245721,way/1065886396,Arby's,4.209705378377934,same normalized nonempty name and category; different OSM types within 25 m
+node/538376061,way/366704895,Del Taco,0.4381904861417357,same normalized nonempty name and category; different OSM types within 25 m
+node/9872827292,way/845441690,Shake Shack,1.3032801849649511,same normalized nonempty name and category; different OSM types within 25 m
+node/9872827297,way/761090005,Bonefish Grill,3.4237676129018833,same normalized nonempty name and category; different OSM types within 25 m
+node/9872827299,way/761090007,Carrabba's Italian Grill,1.6091335183640023,same normalized nonempty name and category; different OSM types within 25 m
+node/9872497209,way/177960477,Red Robin,1.7742939517047494,same normalized nonempty name and category; different OSM types within 25 m
+node/9716735368,way/787833803,Wincity Hakka,6.214265301518323,same normalized nonempty name and category; different OSM types within 25 m
+node/5972743499,way/631683677,Belle Isle Pizza,2.038884554658242,same normalized nonempty name and category; different OSM types within 25 m
+node/8538001107,way/919270828,Applebee's,10.454122341173226,same normalized nonempty name and category; different OSM types within 25 m
+node/9680915973,way/1071386759,Mon Jin Lau,2.6502690056238407,same normalized nonempty name and category; different OSM types within 25 m
+node/5308261825,way/463716100,Starbucks,22.803162133933238,same normalized nonempty name and category; different OSM types within 25 m
+node/7930672077,way/245352091,Orale Mexican Kitchen,13.616186098183196,same normalized nonempty name and category; different OSM types within 25 m
+node/6421968986,way/409705915,Left Bank Burger Bar,0.9888562492132359,same normalized nonempty name and category; different OSM types within 25 m
+node/5265713182,way/248770335,Ferrara,13.535644927103997,same normalized nonempty name and category; different OSM types within 25 m
+node/10270349363,way/247920431,Cocoron,4.941215719014079,same normalized nonempty name and category; different OSM types within 25 m
+node/7930847436,way/665154082,Orale Mexican Kitchen,0.2817273736382709,same normalized nonempty name and category; different OSM types within 25 m
+node/2473776866,way/552034993,So Kong Dong,0.4237281657826618,same normalized nonempty name and category; different OSM types within 25 m
+node/4316449691,way/241848731,The Farm on Adderley,0.5560765468310411,same normalized nonempty name and category; different OSM types within 25 m
+node/2717845637,way/266199261,Totoya,11.576433859356154,same normalized nonempty name and category; different OSM types within 25 m
+node/7245875445,way/280584259,Brooklyn Bagel & Coffee Company,11.418015401750253,same normalized nonempty name and category; different OSM types within 25 m
+node/5312844259,way/284919171,New Park Pizza,9.6139501717824,same normalized nonempty name and category; different OSM types within 25 m
+node/5973459855,way/554565817,BJ's,8.78193693631347,same normalized nonempty name and category; different OSM types within 25 m
+node/7212861477,way/772553509,Dunkin',11.565329761825147,same normalized nonempty name and category; different OSM types within 25 m
+node/5178753342,way/284621095,Sushi Family Express,0.9221085489155996,same normalized nonempty name and category; different OSM types within 25 m
+node/6554150875,way/283224311,Golden Krust,3.002636456525796,same normalized nonempty name and category; different OSM types within 25 m
+node/5158048022,way/560382680,Grand Lux Cafe,2.438416601529429,same normalized nonempty name and category; different OSM types within 25 m
+node/7275089108,way/783324948,Panera Bread,23.249693097033482,same normalized nonempty name and category; different OSM types within 25 m
+node/5018311024,way/560257689,Thomas's Diner,0.43728879535602644,same normalized nonempty name and category; different OSM types within 25 m
+node/7512633931,way/803142566,Denny's,1.095377126140219,same normalized nonempty name and category; different OSM types within 25 m
+node/5355703965,way/555011015,La Famiglia,0.41220339642389403,same normalized nonempty name and category; different OSM types within 25 m
+node/4820255122,way/560586122,Houlihans,1.1526305135636057,same normalized nonempty name and category; different OSM types within 25 m
+node/2432884730,way/555011030,Main Event,0.6572842184592826,same normalized nonempty name and category; different OSM types within 25 m
+node/5355820902,way/555023917,Blue Angel Diner,0.17265770890722795,same normalized nonempty name and category; different OSM types within 25 m
+node/2428646215,way/555313726,Starbucks,0.8977787202354177,same normalized nonempty name and category; different OSM types within 25 m
+node/3177131362,way/1099715011,Gyro On Pita,4.967353894445973,same normalized nonempty name and category; different OSM types within 25 m
+node/8875536060,way/1099708338,DIMITRIS DINER,4.518580190137358,same normalized nonempty name and category; different OSM types within 25 m
+node/9324789943,way/340131749,Taco Bell,1.0695807649210474,same normalized nonempty name and category; different OSM types within 25 m
+node/8791945383,way/1010710964,Wendy's,14.462975126793483,same normalized nonempty name and category; different OSM types within 25 m
+node/9344940768,way/468802256,Domino's,1.552024218478109,same normalized nonempty name and category; different OSM types within 25 m
+node/9324682302,way/468800281,Hometown Cafe,1.171972412238625,same normalized nonempty name and category; different OSM types within 25 m
+node/9324753551,way/468802233,Milano Bean Cafe,1.6784742448732441,same normalized nonempty name and category; different OSM types within 25 m
+node/1027643817,way/468802226,Vinnie's Mulberry Street,0.9102710617381673,same normalized nonempty name and category; different OSM types within 25 m
+node/9344940766,way/468800382,Subway,0.46749683313333373,same normalized nonempty name and category; different OSM types within 25 m
+node/9344940791,way/468800471,Irish Coffee Pub,5.568193118385558,same normalized nonempty name and category; different OSM types within 25 m
+node/9324720799,way/397516495,Shandon Court,0.8123671442658414,same normalized nonempty name and category; different OSM types within 25 m
+node/2203145947,way/471656335,Ruschmeyer's,6.263644923235353,same normalized nonempty name and category; different OSM types within 25 m
+node/3803611891,way/213635871,Bills Pizza,2.5886497576127163,same normalized nonempty name and category; different OSM types within 25 m
+node/9039488743,way/976844257,Jersey Mike's Subs,2.646247282645087,same normalized nonempty name and category; different OSM types within 25 m
+node/9039488742,way/976844262,Starbucks,1.1213818890163854,same normalized nonempty name and category; different OSM types within 25 m
+node/5576991171,way/214893550,Kitty's Restaurant,24.022120413989857,same normalized nonempty name and category; different OSM types within 25 m
+node/9219822039,way/29650718,Dunkin',2.5395725046723325,same normalized nonempty name and category; different OSM types within 25 m
+node/3579275571,way/212122800,Blue Dragon,4.585254451754902,same normalized nonempty name and category; different OSM types within 25 m
+node/6496175255,way/406469861,The Farmacy Cafe,16.316853474905713,same normalized nonempty name and category; different OSM types within 25 m

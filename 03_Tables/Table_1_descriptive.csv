@@ -1,0 +1,58 @@
+group,n_tracts,variable,median,q25,q75
+All included tracts,23527,E_TOTPOP,4025.0,2949.0,5256.0
+All included tracts,23527,cafe_per_10k,0.0,0.0,1.4800563150858408
+All included tracts,23527,cafe_per_km2,0.0,0.0,0.09832985820677116
+All included tracts,23527,pop_density,2302.142791264872,1207.7070000628946,4375.438686100183
+All included tracts,23527,EP_POV150,17.4,9.4,29.9
+All included tracts,23527,EP_UNEMP,5.2,3.0,8.1
+All included tracts,23527,EP_NOHSDP,9.2,4.0,19.4
+All included tracts,23527,EP_AGE65,14.0,9.7,19.0
+All included tracts,23527,EP_AGE17,21.7,17.1,26.2
+All included tracts,23527,EP_MINRTY,59.7,34.9,85.4
+All included tracts,23527,EP_NOVEH,5.9,2.2,14.1
+All included tracts,23527,MHLTH_CrudePrev,16.3,14.0,18.9
+All included tracts,23527,DEPRESSION_CrudePrev,20.5,18.3,22.7
+All included tracts,23527,GHLTH_CrudePrev,17.6,13.1,24.4
+All included tracts,23527,PHLTH_CrudePrev,12.4,10.2,15.350000000000001
+All included tracts,23527,OBESITY_CrudePrev,30.1,25.7,35.3
+All included tracts,23527,LPA_CrudePrev,22.9,17.7,29.8
+All included tracts,23527,CSMOKING_CrudePrev,12.2,9.4,15.7
+All included tracts,23527,DIABETES_CrudePrev,11.4,9.3,14.1
+No mapped cafe,17331,E_TOTPOP,3964.0,2901.0,5179.0
+No mapped cafe,17331,cafe_per_10k,0.0,0.0,0.0
+No mapped cafe,17331,cafe_per_km2,0.0,0.0,0.0
+No mapped cafe,17331,pop_density,2259.686483288968,1181.2425006894505,4218.396907503895
+No mapped cafe,17331,EP_POV150,18.7,9.8,32.0
+No mapped cafe,17331,EP_UNEMP,5.4,3.1,8.5
+No mapped cafe,17331,EP_NOHSDP,11.0,4.8,21.7
+No mapped cafe,17331,EP_AGE65,14.0,9.8,19.1
+No mapped cafe,17331,EP_AGE17,22.4,18.1,26.9
+No mapped cafe,17331,EP_MINRTY,65.9,37.5,89.3
+No mapped cafe,17331,EP_NOVEH,5.6,2.1,13.5
+No mapped cafe,17331,MHLTH_CrudePrev,16.7,14.3,19.3
+No mapped cafe,17331,DEPRESSION_CrudePrev,20.4,18.2,22.5
+No mapped cafe,17331,GHLTH_CrudePrev,19.0,14.1,26.0
+No mapped cafe,17331,PHLTH_CrudePrev,13.0,10.8,16.0
+No mapped cafe,17331,OBESITY_CrudePrev,31.2,26.8,36.5
+No mapped cafe,17331,LPA_CrudePrev,24.7,19.0,31.5
+No mapped cafe,17331,CSMOKING_CrudePrev,12.9,10.0,16.5
+No mapped cafe,17331,DIABETES_CrudePrev,12.0,10.0,14.7
+At least one mapped cafe,6196,E_TOTPOP,4193.5,3107.75,5475.25
+At least one mapped cafe,6196,cafe_per_10k,3.483107353954558,2.2152074191723448,6.2392766995092686
+At least one mapped cafe,6196,cafe_per_km2,0.8403269772073378,0.3741467761577668,2.556852067279321
+At least one mapped cafe,6196,pop_density,2434.1412856438455,1271.0183744020908,4947.554115170104
+At least one mapped cafe,6196,EP_POV150,14.3,8.6,24.4
+At least one mapped cafe,6196,EP_UNEMP,4.6,2.8,7.1
+At least one mapped cafe,6196,EP_NOHSDP,6.0,2.7,12.5
+At least one mapped cafe,6196,EP_AGE65,13.9,9.6,18.9
+At least one mapped cafe,6196,EP_AGE17,19.4,13.8,24.0
+At least one mapped cafe,6196,EP_MINRTY,47.7,30.1,68.3
+At least one mapped cafe,6196,EP_NOVEH,6.6,2.7,16.4
+At least one mapped cafe,6196,MHLTH_CrudePrev,15.3,13.4,17.5
+At least one mapped cafe,6196,DEPRESSION_CrudePrev,20.8,18.7,23.1
+At least one mapped cafe,6196,GHLTH_CrudePrev,14.4,11.3,19.0
+At least one mapped cafe,6196,PHLTH_CrudePrev,10.8,9.1,13.1
+At least one mapped cafe,6196,OBESITY_CrudePrev,27.1,23.4,31.3
+At least one mapped cafe,6196,LPA_CrudePrev,19.0,15.1,24.1
+At least one mapped cafe,6196,CSMOKING_CrudePrev,10.4,8.2,13.1
+At least one mapped cafe,6196,DIABETES_CrudePrev,9.7,7.8,11.7

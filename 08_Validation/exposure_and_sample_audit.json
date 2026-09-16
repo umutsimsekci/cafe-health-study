@@ -1,0 +1,48 @@
+{
+  "raw_feature_records_across_queries": 175029,
+  "unique_osm_features_in_expanded_bboxes": 145762,
+  "cross_type_duplicates_removed": 422,
+  "multiple_tract_boundary_assignments_resolved_by_geoid": 0,
+  "mapped_cafes_in_selected_counties_before_eligibility": 13567,
+  "cafes_outside_tract_geometry_but_within_100m": 20,
+  "cafes_in_analysis": 13195,
+  "analysis_tracts": 23527,
+  "analysis_counties": 50,
+  "analysis_resident_population": 99313722,
+  "tracts_with_no_mapped_cafe": 17331,
+  "sample_flow": [
+    {
+      "reason": "Resident population below 500",
+      "excluded_sequentially": 339,
+      "remaining": 23602
+    },
+    {
+      "reason": "Nonpositive land area",
+      "excluded_sequentially": 25,
+      "remaining": 23577
+    },
+    {
+      "reason": "Missing model covariates",
+      "excluded_sequentially": 49,
+      "remaining": 23528
+    },
+    {
+      "reason": "Missing primary health estimate",
+      "excluded_sequentially": 1,
+      "remaining": 23527
+    }
+  ],
+  "unique_analysis_geoid": true,
+  "exposure_quantiles": {
+    "0.0": 0.0,
+    "0.25": 0.0,
+    "0.5": 0.0,
+    "0.75": 1.4800563150858408,
+    "0.9": 4.522022747752081,
+    "0.99": 19.324695034937157,
+    "1.0": 194.64720194647202
+  },
+  "nonnode_cafes_with_ambiguous_bbox_location": 14,
+  "extraction_edge_objects_requeried_unclipped": 52,
+  "ambiguous_bbox_definition": "Non-node bbox intersects multiple study tracts or approximate diagonal exceeds 200 m; excluding these is a location sensitivity."
+}

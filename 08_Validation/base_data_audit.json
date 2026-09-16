@@ -1,0 +1,40 @@
+{
+  "tracts_in_selected_counties": 23941,
+  "unique_geoid": true,
+  "svi_join": {
+    "both": 23915,
+    "left_only": 26,
+    "right_only": 0
+  },
+  "places_join": {
+    "both": 23636,
+    "left_only": 305,
+    "right_only": 0
+  },
+  "population_below_500": 339,
+  "nonpositive_land_area": 28,
+  "missing_covariates": {
+    "E_TOTPOP": 26,
+    "EP_POV150": 323,
+    "EP_UNEMP": 311,
+    "EP_NOHSDP": 276,
+    "EP_AGE65": 271,
+    "EP_AGE17": 271,
+    "EP_MINRTY": 271,
+    "EP_NOVEH": 344,
+    "EP_AFAM": 271,
+    "EP_HISP": 271,
+    "EP_ASIAN": 271,
+    "E_DAYPOP": 26
+  },
+  "health_missing": {
+    "MHLTH": 305,
+    "DEPRESSION": 305,
+    "GHLTH": 305,
+    "PHLTH": 305,
+    "OBESITY": 305,
+    "LPA": 305,
+    "CSMOKING": 305,
+    "DIABETES": 305
+  }
+}

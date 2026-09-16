@@ -1,0 +1,31 @@
+{
+  "audit_stage": "INTERMEDIATE CARTOGRAPHIC FRAME ONLY; final frame uses full TIGER/Line geometry, 23941 tracts. See base_data_audit.json and exposure_and_sample_audit.json for authoritative final flow.",
+  "original_audit": {
+    "scope": "Independent audit of pre-exposure health_geography.parquet; no cafe outcome analysis performed here",
+    "timestamp_utc": "2026-09-15T11:33:22.577281+00:00",
+    "rows": 23915,
+    "unique_geoid": true,
+    "svi_matched": 23915,
+    "places_matched": 23636,
+    "health_missing": 279,
+    "health_missing_population_below_500": 278,
+    "health_missing_population_500_or_more": [
+      {
+        "GEOID": "48439113937",
+        "countyfips": "48439",
+        "E_TOTPOP": 1473
+      }
+    ],
+    "all_eight_outcome_missing_patterns_agree": true,
+    "all_eight_outcomes_within_0_100": true,
+    "places_national_county_tract_prefix_conflicts": 0,
+    "invalid_geometries": 0,
+    "empty_geometries": 0,
+    "expected_primary_eligible_before_exposure": 23527,
+    "eligible_counties": 50,
+    "eligible_all_outcomes_complete": true,
+    "eligible_model_covariates_finite": true,
+    "eligible_adult_population_min": 316.0,
+    "eligible_adult_population_missing": 0
+  }
+}

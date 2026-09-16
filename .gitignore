@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+05_Data/raw/
+05_Data/processed/*.parquet
+05_Data/processed/*.csv
+!05_Data/processed/selected_counties.csv
+!05_Data/processed/tract_geography_index.csv
+02_Figures/

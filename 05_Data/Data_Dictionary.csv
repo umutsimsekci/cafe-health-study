@@ -1,0 +1,166 @@
+variable,description,units,source,role,missing_in_analysis
+STATEFP,STATEFP; unchanged source field retained for traceability,source-specific,"Census, SVI or PLACES as identified in raw source files",identifier or source only,0
+COUNTYFP,COUNTYFP; unchanged source field retained for traceability,source-specific,"Census, SVI or PLACES as identified in raw source files",identifier or source only,0
+TRACTCE,TRACTCE; unchanged source field retained for traceability,source-specific,"Census, SVI or PLACES as identified in raw source files",identifier or source only,0
+GEOID,11-character Census tract geographic identifier; retain leading zeros,identifier,Census TIGER/Line 2023,join key,0
+GEOIDFQ,GEOIDFQ; unchanged source field retained for traceability,source-specific,"Census, SVI or PLACES as identified in raw source files",identifier or source only,0
+NAME,NAME; unchanged source field retained for traceability,source-specific,"Census, SVI or PLACES as identified in raw source files",identifier or source only,0
+NAMELSAD,NAMELSAD; unchanged source field retained for traceability,source-specific,"Census, SVI or PLACES as identified in raw source files",identifier or source only,0
+MTFCC,MTFCC; unchanged source field retained for traceability,source-specific,"Census, SVI or PLACES as identified in raw source files",identifier or source only,0
+FUNCSTAT,FUNCSTAT; unchanged source field retained for traceability,source-specific,"Census, SVI or PLACES as identified in raw source files",identifier or source only,0
+ALAND,Census land area,m²,TIGER/Line 2023,land-density derivation,0
+AWATER,Census water area,m²,TIGER/Line 2023,source only,0
+INTPTLAT,INTPTLAT; unchanged source field retained for traceability,source-specific,"Census, SVI or PLACES as identified in raw source files",identifier or source only,0
+INTPTLON,INTPTLON; unchanged source field retained for traceability,source-specific,"Census, SVI or PLACES as identified in raw source files",identifier or source only,0
+geometry,Full-resolution Census tract polygon in the GeoParquet CRS metadata; not simplified map geometry,polygon,TIGER/Line 2023,analytical geometry,0
+countyfips,5-character county or county-equivalent identifier,identifier,Derived from GEOID,county fixed effect and cluster,0
+FIPS,FIPS; unchanged source field retained for traceability,source-specific,"Census, SVI or PLACES as identified in raw source files",identifier or source only,0
+E_TOTPOP,ACS 2018–2022 resident population estimate,persons,CDC/ATSDR SVI 2022,exposure denominator and eligibility,0
+EP_POV150,"Persons below 150% of the federal poverty threshold, among persons for whom poverty status is determined",percent,SVI 2022 / ACS S1701,primary covariate,0
+EP_UNEMP,Unemployment rate; ACS DP03_0009PE,percent,SVI 2022 / ACS DP03,primary covariate,0
+EP_NOHSDP,Persons aged 25+ without a high-school diploma,percent,SVI 2022 / ACS S0601,primary covariate,0
+EP_AGE65,Resident population aged 65 or older,percent,SVI 2022 / ACS,primary covariate,0
+EP_AGE17,Resident population aged 17 or younger,percent,SVI 2022 / ACS,primary covariate,0
+EP_MINRTY,"SVI racial/ethnic minority share, encompassing all residents except non-Hispanic White alone; structural context, not biological interpretation",percent,SVI 2022 / ACS,primary covariate,0
+EP_NOVEH,Households with no vehicle available,percent,SVI 2022 / ACS DP04,primary covariate,0
+EP_AFAM,EP_AFAM; unchanged source field retained for traceability,source-specific,"Census, SVI or PLACES as identified in raw source files",identifier or source only,0
+EP_HISP,EP_HISP; unchanged source field retained for traceability,source-specific,"Census, SVI or PLACES as identified in raw source files",identifier or source only,0
+EP_ASIAN,EP_ASIAN; unchanged source field retained for traceability,source-specific,"Census, SVI or PLACES as identified in raw source files",identifier or source only,0
+E_DAYPOP,E_DAYPOP; unchanged source field retained for traceability,source-specific,"Census, SVI or PLACES as identified in raw source files",identifier or source only,0
+svi_join,One-to-one merge status: both or left_only,category,Join audit,data quality,0
+TractFIPS,TractFIPS; unchanged source field retained for traceability,source-specific,"Census, SVI or PLACES as identified in raw source files",identifier or source only,0
+StateAbbr,StateAbbr; unchanged source field retained for traceability,source-specific,"Census, SVI or PLACES as identified in raw source files",identifier or source only,0
+CountyName,CountyName; unchanged source field retained for traceability,source-specific,"Census, SVI or PLACES as identified in raw source files",identifier or source only,0
+TotalPopulation,"Population supplied by PLACES, retained for source traceability; not cafe-density denominator",persons,PLACES 2024,source only,0
+TotalPop18plus,Adult population supplied by PLACES; distinct from the ACS resident denominator,persons,PLACES 2024,sensitivity model weights,0
+ACCESS2_CrudePrev,ACCESS2; see CDC release measure dictionary; modeled crude adult prevalence,percent,CDC PLACES 2024,source only; not analyzed in this study,0
+ACCESS2_Crude95CI,ACCESS2; see CDC release measure dictionary; published 95% confidence interval,percent,CDC PLACES 2024,source only; not analyzed in this study,0
+ARTHRITIS_CrudePrev,ARTHRITIS; see CDC release measure dictionary; modeled crude adult prevalence,percent,CDC PLACES 2024,source only; not analyzed in this study,0
+ARTHRITIS_Crude95CI,ARTHRITIS; see CDC release measure dictionary; published 95% confidence interval,percent,CDC PLACES 2024,source only; not analyzed in this study,0
+BINGE_CrudePrev,BINGE; see CDC release measure dictionary; modeled crude adult prevalence,percent,CDC PLACES 2024,source only; not analyzed in this study,0
+BINGE_Crude95CI,BINGE; see CDC release measure dictionary; published 95% confidence interval,percent,CDC PLACES 2024,source only; not analyzed in this study,0
+BPHIGH_CrudePrev,BPHIGH; see CDC release measure dictionary; modeled crude adult prevalence,percent,CDC PLACES 2024,source only; not analyzed in this study,2281
+BPHIGH_Crude95CI,BPHIGH; see CDC release measure dictionary; published 95% confidence interval,percent,CDC PLACES 2024,source only; not analyzed in this study,2281
+BPMED_CrudePrev,BPMED; see CDC release measure dictionary; modeled crude adult prevalence,percent,CDC PLACES 2024,source only; not analyzed in this study,2281
+BPMED_Crude95CI,BPMED; see CDC release measure dictionary; published 95% confidence interval,percent,CDC PLACES 2024,source only; not analyzed in this study,2281
+CANCER_CrudePrev,CANCER; see CDC release measure dictionary; modeled crude adult prevalence,percent,CDC PLACES 2024,source only; not analyzed in this study,0
+CANCER_Crude95CI,CANCER; see CDC release measure dictionary; published 95% confidence interval,percent,CDC PLACES 2024,source only; not analyzed in this study,0
+CASTHMA_CrudePrev,CASTHMA; see CDC release measure dictionary; modeled crude adult prevalence,percent,CDC PLACES 2024,source only; not analyzed in this study,0
+CASTHMA_Crude95CI,CASTHMA; see CDC release measure dictionary; published 95% confidence interval,percent,CDC PLACES 2024,source only; not analyzed in this study,0
+CHD_CrudePrev,CHD; see CDC release measure dictionary; modeled crude adult prevalence,percent,CDC PLACES 2024,source only; not analyzed in this study,0
+CHD_Crude95CI,CHD; see CDC release measure dictionary; published 95% confidence interval,percent,CDC PLACES 2024,source only; not analyzed in this study,0
+CHECKUP_CrudePrev,CHECKUP; see CDC release measure dictionary; modeled crude adult prevalence,percent,CDC PLACES 2024,source only; not analyzed in this study,0
+CHECKUP_Crude95CI,CHECKUP; see CDC release measure dictionary; published 95% confidence interval,percent,CDC PLACES 2024,source only; not analyzed in this study,0
+CHOLSCREEN_CrudePrev,CHOLSCREEN; see CDC release measure dictionary; modeled crude adult prevalence,percent,CDC PLACES 2024,source only; not analyzed in this study,2281
+CHOLSCREEN_Crude95CI,CHOLSCREEN; see CDC release measure dictionary; published 95% confidence interval,percent,CDC PLACES 2024,source only; not analyzed in this study,2281
+COLON_SCREEN_CrudePrev,COLON; see CDC release measure dictionary; modeled crude adult prevalence,percent,CDC PLACES 2024,source only; not analyzed in this study,0
+COLON_SCREEN_Crude95CI,COLON; see CDC release measure dictionary; published 95% confidence interval,percent,CDC PLACES 2024,source only; not analyzed in this study,0
+COPD_CrudePrev,COPD; see CDC release measure dictionary; modeled crude adult prevalence,percent,CDC PLACES 2024,source only; not analyzed in this study,0
+COPD_Crude95CI,COPD; see CDC release measure dictionary; published 95% confidence interval,percent,CDC PLACES 2024,source only; not analyzed in this study,0
+CSMOKING_CrudePrev,Current smoking; modeled crude adult prevalence,percent,CDC PLACES 2024,secondary outcome,0
+CSMOKING_Crude95CI,Current smoking; published 95% confidence interval,percent,CDC PLACES 2024,secondary outcome,0
+DENTAL_CrudePrev,DENTAL; see CDC release measure dictionary; modeled crude adult prevalence,percent,CDC PLACES 2024,source only; not analyzed in this study,0
+DENTAL_Crude95CI,DENTAL; see CDC release measure dictionary; published 95% confidence interval,percent,CDC PLACES 2024,source only; not analyzed in this study,0
+DEPRESSION_CrudePrev,Ever told by a health professional that the adult had a depressive disorder; modeled crude adult prevalence,percent,CDC PLACES 2024,secondary outcome,0
+DEPRESSION_Crude95CI,Ever told by a health professional that the adult had a depressive disorder; published 95% confidence interval,percent,CDC PLACES 2024,secondary outcome,0
+DIABETES_CrudePrev,"Diagnosed diabetes, excluding diabetes only during pregnancy; modeled crude adult prevalence",percent,CDC PLACES 2024,secondary outcome,0
+DIABETES_Crude95CI,"Diagnosed diabetes, excluding diabetes only during pregnancy; published 95% confidence interval",percent,CDC PLACES 2024,secondary outcome,0
+GHLTH_CrudePrev,Fair or poor self-rated health; modeled crude adult prevalence,percent,CDC PLACES 2024,secondary outcome,0
+GHLTH_Crude95CI,Fair or poor self-rated health; published 95% confidence interval,percent,CDC PLACES 2024,secondary outcome,0
+HIGHCHOL_CrudePrev,HIGHCHOL; see CDC release measure dictionary; modeled crude adult prevalence,percent,CDC PLACES 2024,source only; not analyzed in this study,2281
+HIGHCHOL_Crude95CI,HIGHCHOL; see CDC release measure dictionary; published 95% confidence interval,percent,CDC PLACES 2024,source only; not analyzed in this study,2281
+LPA_CrudePrev,No leisure-time physical activity in the preceding month; modeled crude adult prevalence,percent,CDC PLACES 2024,secondary outcome,0
+LPA_Crude95CI,No leisure-time physical activity in the preceding month; published 95% confidence interval,percent,CDC PLACES 2024,secondary outcome,0
+MAMMOUSE_CrudePrev,MAMMOUSE; see CDC release measure dictionary; modeled crude adult prevalence,percent,CDC PLACES 2024,source only; not analyzed in this study,0
+MAMMOUSE_Crude95CI,MAMMOUSE; see CDC release measure dictionary; published 95% confidence interval,percent,CDC PLACES 2024,source only; not analyzed in this study,0
+MHLTH_CrudePrev,"Frequent mental distress, 14+ mentally unhealthy days in the preceding 30 days; modeled crude adult prevalence",percent,CDC PLACES 2024,primary outcome,0
+MHLTH_Crude95CI,"Frequent mental distress, 14+ mentally unhealthy days in the preceding 30 days; published 95% confidence interval",percent,CDC PLACES 2024,primary outcome,0
+OBESITY_CrudePrev,"Obesity, body mass index at least 30 kg/m²; modeled crude adult prevalence",percent,CDC PLACES 2024,secondary outcome,0
+OBESITY_Crude95CI,"Obesity, body mass index at least 30 kg/m²; published 95% confidence interval",percent,CDC PLACES 2024,secondary outcome,0
+PHLTH_CrudePrev,"Frequent physical distress, 14+ physically unhealthy days in the preceding 30 days; modeled crude adult prevalence",percent,CDC PLACES 2024,secondary outcome,0
+PHLTH_Crude95CI,"Frequent physical distress, 14+ physically unhealthy days in the preceding 30 days; published 95% confidence interval",percent,CDC PLACES 2024,secondary outcome,0
+SLEEP_CrudePrev,SLEEP; see CDC release measure dictionary; modeled crude adult prevalence,percent,CDC PLACES 2024,source only; not analyzed in this study,0
+SLEEP_Crude95CI,SLEEP; see CDC release measure dictionary; published 95% confidence interval,percent,CDC PLACES 2024,source only; not analyzed in this study,0
+STROKE_CrudePrev,STROKE; see CDC release measure dictionary; modeled crude adult prevalence,percent,CDC PLACES 2024,source only; not analyzed in this study,0
+STROKE_Crude95CI,STROKE; see CDC release measure dictionary; published 95% confidence interval,percent,CDC PLACES 2024,source only; not analyzed in this study,0
+TEETHLOST_CrudePrev,TEETHLOST; see CDC release measure dictionary; modeled crude adult prevalence,percent,CDC PLACES 2024,source only; not analyzed in this study,2
+TEETHLOST_Crude95CI,TEETHLOST; see CDC release measure dictionary; published 95% confidence interval,percent,CDC PLACES 2024,source only; not analyzed in this study,2
+HEARING_CrudePrev,HEARING; see CDC release measure dictionary; modeled crude adult prevalence,percent,CDC PLACES 2024,source only; not analyzed in this study,0
+HEARING_Crude95CI,HEARING; see CDC release measure dictionary; published 95% confidence interval,percent,CDC PLACES 2024,source only; not analyzed in this study,0
+VISION_CrudePrev,VISION; see CDC release measure dictionary; modeled crude adult prevalence,percent,CDC PLACES 2024,source only; not analyzed in this study,0
+VISION_Crude95CI,VISION; see CDC release measure dictionary; published 95% confidence interval,percent,CDC PLACES 2024,source only; not analyzed in this study,0
+COGNITION_CrudePrev,COGNITION; see CDC release measure dictionary; modeled crude adult prevalence,percent,CDC PLACES 2024,source only; not analyzed in this study,0
+COGNITION_Crude95CI,COGNITION; see CDC release measure dictionary; published 95% confidence interval,percent,CDC PLACES 2024,source only; not analyzed in this study,0
+MOBILITY_CrudePrev,MOBILITY; see CDC release measure dictionary; modeled crude adult prevalence,percent,CDC PLACES 2024,source only; not analyzed in this study,0
+MOBILITY_Crude95CI,MOBILITY; see CDC release measure dictionary; published 95% confidence interval,percent,CDC PLACES 2024,source only; not analyzed in this study,0
+SELFCARE_CrudePrev,SELFCARE; see CDC release measure dictionary; modeled crude adult prevalence,percent,CDC PLACES 2024,source only; not analyzed in this study,0
+SELFCARE_Crude95CI,SELFCARE; see CDC release measure dictionary; published 95% confidence interval,percent,CDC PLACES 2024,source only; not analyzed in this study,0
+INDEPLIVE_CrudePrev,INDEPLIVE; see CDC release measure dictionary; modeled crude adult prevalence,percent,CDC PLACES 2024,source only; not analyzed in this study,0
+INDEPLIVE_Crude95CI,INDEPLIVE; see CDC release measure dictionary; published 95% confidence interval,percent,CDC PLACES 2024,source only; not analyzed in this study,0
+DISABILITY_CrudePrev,DISABILITY; see CDC release measure dictionary; modeled crude adult prevalence,percent,CDC PLACES 2024,source only; not analyzed in this study,0
+DISABILITY_Crude95CI,DISABILITY; see CDC release measure dictionary; published 95% confidence interval,percent,CDC PLACES 2024,source only; not analyzed in this study,0
+ISOLATION_CrudePrev,ISOLATION; see CDC release measure dictionary; modeled crude adult prevalence,percent,CDC PLACES 2024,source only; not analyzed in this study,5343
+ISOLATION_Crude95CI,ISOLATION; see CDC release measure dictionary; published 95% confidence interval,percent,CDC PLACES 2024,source only; not analyzed in this study,5343
+FOODSTAMP_CrudePrev,FOODSTAMP; see CDC release measure dictionary; modeled crude adult prevalence,percent,CDC PLACES 2024,source only; not analyzed in this study,5343
+FOODSTAMP_Crude95CI,FOODSTAMP; see CDC release measure dictionary; published 95% confidence interval,percent,CDC PLACES 2024,source only; not analyzed in this study,5343
+FOODINSECU_CrudePrev,FOODINSECU; see CDC release measure dictionary; modeled crude adult prevalence,percent,CDC PLACES 2024,source only; not analyzed in this study,5343
+FOODINSECU_Crude95CI,FOODINSECU; see CDC release measure dictionary; published 95% confidence interval,percent,CDC PLACES 2024,source only; not analyzed in this study,5343
+HOUSINSECU_CrudePrev,HOUSINSECU; see CDC release measure dictionary; modeled crude adult prevalence,percent,CDC PLACES 2024,source only; not analyzed in this study,5343
+HOUSINSECU_Crude95CI,HOUSINSECU; see CDC release measure dictionary; published 95% confidence interval,percent,CDC PLACES 2024,source only; not analyzed in this study,5343
+SHUTUTILITY_CrudePrev,SHUTUTILITY; see CDC release measure dictionary; modeled crude adult prevalence,percent,CDC PLACES 2024,source only; not analyzed in this study,5343
+SHUTUTILITY_Crude95CI,SHUTUTILITY; see CDC release measure dictionary; published 95% confidence interval,percent,CDC PLACES 2024,source only; not analyzed in this study,5343
+LACKTRPT_CrudePrev,LACKTRPT; see CDC release measure dictionary; modeled crude adult prevalence,percent,CDC PLACES 2024,source only; not analyzed in this study,5343
+LACKTRPT_Crude95CI,LACKTRPT; see CDC release measure dictionary; published 95% confidence interval,percent,CDC PLACES 2024,source only; not analyzed in this study,5343
+EMOTIONSPT_CrudePrev,EMOTIONSPT; see CDC release measure dictionary; modeled crude adult prevalence,percent,CDC PLACES 2024,source only; not analyzed in this study,5343
+EMOTIONSPT_Crude95CI,EMOTIONSPT; see CDC release measure dictionary; published 95% confidence interval,percent,CDC PLACES 2024,source only; not analyzed in this study,5343
+places_join,One-to-one merge status: both or left_only,category,Join audit,data quality,0
+MHLTH_lower,"Frequent mental distress, 14+ mentally unhealthy days in the preceding 30 days; published lower 95% confidence bound",percent,CDC PLACES 2024,primary outcome,0
+MHLTH_upper,"Frequent mental distress, 14+ mentally unhealthy days in the preceding 30 days; published upper 95% confidence bound",percent,CDC PLACES 2024,primary outcome,0
+DEPRESSION_lower,Ever told by a health professional that the adult had a depressive disorder; published lower 95% confidence bound,percent,CDC PLACES 2024,secondary outcome,0
+DEPRESSION_upper,Ever told by a health professional that the adult had a depressive disorder; published upper 95% confidence bound,percent,CDC PLACES 2024,secondary outcome,0
+GHLTH_lower,Fair or poor self-rated health; published lower 95% confidence bound,percent,CDC PLACES 2024,secondary outcome,0
+GHLTH_upper,Fair or poor self-rated health; published upper 95% confidence bound,percent,CDC PLACES 2024,secondary outcome,0
+PHLTH_lower,"Frequent physical distress, 14+ physically unhealthy days in the preceding 30 days; published lower 95% confidence bound",percent,CDC PLACES 2024,secondary outcome,0
+PHLTH_upper,"Frequent physical distress, 14+ physically unhealthy days in the preceding 30 days; published upper 95% confidence bound",percent,CDC PLACES 2024,secondary outcome,0
+OBESITY_lower,"Obesity, body mass index at least 30 kg/m²; published lower 95% confidence bound",percent,CDC PLACES 2024,secondary outcome,0
+OBESITY_upper,"Obesity, body mass index at least 30 kg/m²; published upper 95% confidence bound",percent,CDC PLACES 2024,secondary outcome,0
+LPA_lower,No leisure-time physical activity in the preceding month; published lower 95% confidence bound,percent,CDC PLACES 2024,secondary outcome,0
+LPA_upper,No leisure-time physical activity in the preceding month; published upper 95% confidence bound,percent,CDC PLACES 2024,secondary outcome,0
+CSMOKING_lower,Current smoking; published lower 95% confidence bound,percent,CDC PLACES 2024,secondary outcome,0
+CSMOKING_upper,Current smoking; published upper 95% confidence bound,percent,CDC PLACES 2024,secondary outcome,0
+DIABETES_lower,"Diagnosed diabetes, excluding diabetes only during pregnancy; published lower 95% confidence bound",percent,CDC PLACES 2024,secondary outcome,0
+DIABETES_upper,"Diagnosed diabetes, excluding diabetes only during pregnancy; published upper 95% confidence bound",percent,CDC PLACES 2024,secondary outcome,0
+land_km2,"ALAND / 1,000,000",km²,Derived,eligibility and alternative denominator,0
+pop_density,E_TOTPOP / land_km2,residents/km²,Derived,population density,0
+x_m,Full tract polygon centroid easting,"metres, EPSG:5070",Derived,spatial calculations,0
+y_m,Full tract polygon centroid northing,"metres, EPSG:5070",Derived,spatial calculations,0
+longitude,Full tract polygon centroid longitude,"degrees, EPSG:4326",Derived,location,0
+latitude,Full tract polygon centroid latitude,"degrees, EPSG:4326",Derived,location,0
+cafe_count,cafe count; qualifying mapped features assigned to the tract,count,OSM snapshot 2022-12-31 via ohsome,exposure or sensitivity,0
+restaurant_count,restaurant count; qualifying mapped features assigned to the tract,count,OSM snapshot 2022-12-31 via ohsome,exposure or sensitivity,0
+fast_food_count,fast food count; qualifying mapped features assigned to the tract,count,OSM snapshot 2022-12-31 via ohsome,exposure or sensitivity,0
+bar_count,bar count; qualifying mapped features assigned to the tract,count,OSM snapshot 2022-12-31 via ohsome,exposure or sensitivity,0
+pub_count,pub count; qualifying mapped features assigned to the tract,count,OSM snapshot 2022-12-31 via ohsome,exposure or sensitivity,0
+cafe_node_count,cafe node count; qualifying mapped features assigned to the tract; node objects only,count,OSM snapshot 2022-12-31 via ohsome,exposure or sensitivity,0
+cafe_unmerged_count,cafe unmerged count; qualifying mapped features assigned to the tract; before cross-type candidate-duplicate removal,count,OSM snapshot 2022-12-31 via ohsome,exposure or sensitivity,0
+cafe_unambiguous_count,cafe unambiguous count; qualifying mapped features assigned to the tract; excludes non-node bboxes spanning tracts or exceeding 200 m diagonal,count,OSM snapshot 2022-12-31 via ohsome,exposure or sensitivity,0
+cafe_100m_count,cafe 100m count; qualifying mapped features assigned to the tract; also nearest assignment of otherwise unassigned cafes within 100 m,count,OSM snapshot 2022-12-31 via ohsome,exposure or sensitivity,0
+noncafe_count,"noncafe count; qualifying mapped features assigned to the tract; sum of restaurant, fast_food, bar and pub",count,OSM snapshot 2022-12-31 via ohsome,exposure or sensitivity,0
+cafe_per_10k,"10,000 times corresponding mapped feature count / E_TOTPOP","mapped features per 10,000 residents","OSM and ACS, derived",exposure or sensitivity,0
+cafe_node_per_10k,"10,000 times corresponding mapped feature count / E_TOTPOP","mapped features per 10,000 residents","OSM and ACS, derived",exposure or sensitivity,0
+cafe_unmerged_per_10k,"10,000 times corresponding mapped feature count / E_TOTPOP","mapped features per 10,000 residents","OSM and ACS, derived",exposure or sensitivity,0
+cafe_100m_per_10k,"10,000 times corresponding mapped feature count / E_TOTPOP","mapped features per 10,000 residents","OSM and ACS, derived",exposure or sensitivity,0
+noncafe_per_10k,"10,000 times corresponding mapped feature count / E_TOTPOP","mapped features per 10,000 residents","OSM and ACS, derived",exposure or sensitivity,0
+cafe_per_km2,cafe_count / land_km2,mapped cafes/km²,"OSM and Census, derived",alternative exposure,0
+cafe_unambiguous_per_10k,"10,000 times corresponding mapped feature count / E_TOTPOP","mapped features per 10,000 residents","OSM and ACS, derived",exposure or sensitivity,0
+cafe_present,At least one qualifying mapped cafe,0/1,Derived,presence sensitivity,0
+cafe_log,log2(1 + cafe_per_10k); a one-unit contrast doubles one plus density,log2(1+density),Derived,primary exposure,0
+log_pop_density,log2(pop_density),log2 residents/km²,Derived,primary covariate,0
+noncafe_log,log2(1 + noncafe_per_10k),log2(1+density),Derived,hospitality sensitivity,0
+exclude_small_population,exclude small population; eligibility flag,boolean,Derived,sample flow,0
+exclude_land,exclude land; eligibility flag,boolean,Derived,sample flow,0
+exclude_missing_covariates,exclude missing covariates; eligibility flag,boolean,Derived,sample flow,0
+exclude_missing_primary,exclude missing primary; eligibility flag,boolean,Derived,sample flow,0
+included,included; eligibility flag,boolean,Derived,sample flow,0
+primary_fitted,Fitted primary-model frequent mental-distress prevalence,percent,Primary regression,diagnostic,0
+primary_residual,Observed PLACES point estimate minus primary fitted value,percentage points,Primary regression,diagnostic,0
