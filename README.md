@@ -31,7 +31,7 @@ See [REPRODUCE.md](REPRODUCE.md). A compact check reproduces the four primary-ou
 
 ## Research assistance and responsibility
 
-Umut Şimşekçi and Yıldırım Cesaretli are the study authors, both at the Department of Medical Pharmacology, Gülhane Faculty of Medicine, University of Health Sciences, Ankara, Türkiye. Umut Şimşekçi led the study design, development of the interactive HTML tool and manuscript preparation. Yıldırım Cesaretli provided scientific guidance, supervision and critical review and is the corresponding author. Both authors approved the manuscript. The authors declare no funding or external support and no competing interests.
+Umut Şimşekçi and Yıldırım Cesaretli are the study authors, both at the Department of Medical Pharmacology, Gülhane Faculty of Medicine, University of Health Sciences, Ankara, Türkiye. Umut Şimşekçi led the study design, development of the interactive HTML tool and manuscript preparation. Yıldırım Cesaretli provided scientific guidance, supervision and critical review. Umut Şimşekçi is the corresponding author. Both authors approved the manuscript. The authors declare no funding or external support and no competing interests.
 
 OpenAI Codex assisted with source identification, analytical planning, programming, numerical verification, visualization and manuscript preparation. The human authors reviewed the work and are responsible for scientific interpretation. AI tools are not authors. The repository contains actual source data and reproducible computations rather than synthetic figure values.
 
