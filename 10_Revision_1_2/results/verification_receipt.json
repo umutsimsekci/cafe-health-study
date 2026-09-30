@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "model_checks": [
+    {
+      "radius_m": 500,
+      "model": "context",
+      "statsmodels_beta_pp": -0.16845439755358405,
+      "statsmodels_se_pp": 0.05068104063974923,
+      "passed": true
+    },
+    {
+      "radius_m": 500,
+      "model": "context_nearby_hospitality",
+      "statsmodels_beta_pp": -0.04631289658215179,
+      "statsmodels_se_pp": 0.0462522629737761,
+      "passed": true
+    },
+    {
+      "radius_m": 1000,
+      "model": "context",
+      "statsmodels_beta_pp": -0.20590588100657425,
+      "statsmodels_se_pp": 0.03587788351609118,
+      "passed": true
+    },
+    {
+      "radius_m": 1000,
+      "model": "context_nearby_hospitality",
+      "statsmodels_beta_pp": -0.18001549609840187,
+      "statsmodels_se_pp": 0.035501562217527545,
+      "passed": true
+    }
+  ],
+  "checks": [
+    "Unique tract identities and county alignment",
+    "Original tract cafe counts retained",
+    "Nested radius counts and boundary/zero identities",
+    "Independent statsmodels coefficient and CR1 standard error with full county dummy matrix",
+    "All fold and pooled RMSEs reproduced from archived held-out predictions",
+    "Figure4 exhaustive counts and percentages"
+  ],
+  "limitations": "These checks confirm reproducibility. They do not establish independent observed health validity, joint source uncertainty, walking access, or causal effects."
+}

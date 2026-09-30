@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "Please cite the versioned research archive when using these data or code."
-title: "Mapped cafe availability and modeled health in populous United States counties"
+title: "Mapped cafe availability, neighborhood context and modeled mental distress in populous United States counties"
 type: dataset
 authors:
   - family-names: "Şimşekçi"
@@ -10,9 +10,9 @@ authors:
   - family-names: "Cesaretli"
     given-names: "Yıldırım"
     affiliation: "Department of Medical Pharmacology, Gülhane Faculty of Medicine, University of Health Sciences, Ankara, Türkiye"
-version: "1.1.0"
-date-released: "2026-09-16"
+version: "1.2.0"
+date-released: "2026-09-30"
 repository-code: "https://github.com/umutsimsekci/cafe-health-study"
 url: "https://umutsimsekci.github.io/cafe-health-study/"
 license: "ODbL-1.0"
-abstract: "Historical OpenStreetMap cafe availability and modeled CDC PLACES health outcomes in 23,527 census tracts across 50 populous US counties. Includes analysis code and a descriptive interactive map. Original software is MIT-licensed; see LICENSES.md for component-specific terms."
+abstract: "Historical OpenStreetMap cafe availability and modeled CDC PLACES health outcomes in 23,527 census tracts across 50 populous US counties. Includes reproducible analyses, centroid proximity checks and an offline interactive atlas with conditional association scenarios. Original software is MIT-licensed; see LICENSES.md for component-specific terms."

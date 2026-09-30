@@ -1,0 +1,41 @@
+{
+  "version": "1.2.0",
+  "sample": {
+    "tracts": 23527,
+    "counties": 50,
+    "cafes": 13195,
+    "residents": 99313722
+  },
+  "inputSHA256": {
+    "analysis_with_predictions.parquet": "66f07f6ed4b242bb647d76aa275302b853bfc39654d203ad5f911e977f543342",
+    "study_tracts.parquet": "11b93ff082caa1bfb19908a972de9f446e9702b00d35874f851b0aef8af59ac6",
+    "nearby_cafe_exposure.csv": "cc07df7bd543da434880dfaed24f01738daa73580be2299acb8be9a7530a8575"
+  },
+  "outputSHA256": "325c4c8055f7abf008a9acb84240580bbf783637d10581d822e43379d057cc61",
+  "nearbyLayerEnabled": true,
+  "geometrySimplificationMetres": 80,
+  "geometryCoordinateDecimals": 6,
+  "sourcePropertiesRounded": false,
+  "allTractsMatched": true,
+  "offlineDependenciesEmbedded": true,
+  "scenarioModels": {
+    "extended": {
+      "beta": -0.0962589386443312,
+      "lower": -0.1271380987886904,
+      "upper": -0.0653797784999719,
+      "deltaR2": 0.000735748234279
+    },
+    "hospitality": {
+      "beta": -0.0646636843701803,
+      "lower": -0.0949687067334939,
+      "upper": -0.0343586620068668,
+      "deltaR2": 0.0002473190274629
+    }
+  },
+  "observedDensitySupport": {
+    "min": 0.0,
+    "max": 194.64720194647202,
+    "p99": 19.324695034937157
+  },
+  "anonymousOutputSHA256": "a85cc3760de7386c81dcb09c73799c9665a560ddffb5773511ee732b83badb16"
+}

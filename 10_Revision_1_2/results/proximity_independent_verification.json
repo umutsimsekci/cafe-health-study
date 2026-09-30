@@ -1,0 +1,46 @@
+{
+  "all_pairs_projected_count_exact_match": true,
+  "geodesic_candidate_radius_m": 1300,
+  "geodesic_candidate_pairs": 96065,
+  "max_relative_projection_distance_difference": 0.010386558207915564,
+  "max_absolute_projection_distance_difference_m_for_geodesic_pairs_within1100m": 10.680951674034077,
+  "radii_sensitivity": [
+    {
+      "radius_m": 500,
+      "zero_own_tracts": 17331,
+      "projected_zero_tracts_with_nearby": 891,
+      "geodesic_zero_tracts_with_nearby": 891,
+      "geodesic_percent_zero_tracts_with_nearby": 5.141076683399689,
+      "all_tract_count_disagreements_projection_vs_geodesic": 159,
+      "all_tract_any_nearby_classification_disagreements": 19,
+      "zero_tract_any_nearby_classification_disagreements": 4
+    },
+    {
+      "radius_m": 1000,
+      "zero_own_tracts": 17331,
+      "projected_zero_tracts_with_nearby": 3843,
+      "geodesic_zero_tracts_with_nearby": 3839,
+      "geodesic_percent_zero_tracts_with_nearby": 22.151058796376436,
+      "all_tract_count_disagreements_projection_vs_geodesic": 441,
+      "all_tract_any_nearby_classification_disagreements": 34,
+      "zero_tract_any_nearby_classification_disagreements": 26
+    }
+  ],
+  "interpretation": "Main500m/1kmcounts are EPSG5070 planar geometric-centroid counts. WGS84 geodesic counts test threshold sensitivity; neither metric estimates walking access or cafe use.",
+  "independent1035m_geodesic_query_coverage_all_tracts": true,
+  "minimum1035m_geodesic_circle_rectangle_margin_degrees": 0.003927688836753873,
+  "independent_conservative1035m_geographic_envelope_coverage_all_tracts": true,
+  "minimum_conservative_envelope_rectangle_margin_degrees": 0.0037616058470035796,
+  "unique_cafe_records_used_in_any1km_circle": 11404,
+  "used1km_cafe_record_origin_counts": {
+    "analytic_tract": 11205,
+    "selected_excluded_tract": 157,
+    "outside_selected_tracts": 42
+  },
+  "all_retained_cafe_record_origin_counts": {
+    "analytic_tract": 13195,
+    "outside_selected_tracts": 3506,
+    "selected_excluded_tract": 372
+  },
+  "selected_frame_tracts": 23941
+}

@@ -1,0 +1,51 @@
+countyfips,CountyName,StateAbbr,n,cafes,cafe_log_sd,adjusted_cafe_beta_pp,design_rank,interpretation
+04013,Maricopa,AZ,988,459,1.034676420048773,0.0728415692994269,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+04019,Pima,AZ,264,102,1.070425815245253,-0.04165684010507369,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+06001,Alameda,CA,375,523,1.573694778491496,-0.1896389039963194,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+06013,Contra Costa,CA,240,140,1.1215799509909974,-0.22048972321087243,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+06019,Fresno,CA,225,33,0.7432138550349613,0.11018029430651718,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+06037,Los Angeles,CA,2458,1328,1.158021671115718,-0.11889131657497959,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+06059,Orange,CA,611,421,1.1050890496596761,0.06630706503374419,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+06065,Riverside,CA,515,173,0.8924036459985669,-0.019141132616175408,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+06067,Sacramento,CA,362,203,1.180370683385892,-0.15888696823141882,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+06071,San Bernardino,CA,462,165,0.9542491906592605,-0.039631976170227116,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+06073,San Diego,CA,731,590,1.3199073235334504,-0.12391583793466622,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+06085,Santa Clara,CA,408,585,1.4185794461563082,-0.12459391059879397,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+09110,Capitol,CT,244,61,0.7740069647981269,-0.2506740861348107,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+12011,Broward,FL,415,102,0.8302003938258162,0.04784934088089232,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+12031,Duval,FL,218,58,0.8433627595010852,0.04013821696302055,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+12057,Hillsborough,FL,325,94,0.9087228331070044,-0.13764675445963068,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+12086,Miami-Dade,FL,695,174,0.9382966667285704,0.0005080140992085144,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+12095,Orange,FL,265,123,0.9371909109541016,0.15045038613021652,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+12099,Palm Beach,FL,363,44,0.6663391185579447,-0.0944063710510461,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+13121,Fulton,GA,324,126,1.1283695645773624,-0.03333315122043061,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+17031,Cook,IL,1328,909,1.2475379758636802,-0.10128251084328237,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+24031,Montgomery,MD,232,119,1.1214212912766597,-0.0015725026729859367,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+25017,Middlesex,MA,354,291,1.2605832486731057,-0.09172647287954204,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+26125,Oakland,MI,343,152,1.1136552173774752,-0.03125725472266013,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+26163,Wayne,MI,577,165,1.0310172033781826,-0.05947058661883668,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+27053,Hennepin,MN,327,258,1.2840961961112307,-0.09197140533521479,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+29189,St. Louis,MO,236,57,0.8080772645425474,-0.09822754319663608,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+32003,Clark,NV,533,166,0.929790954969327,-0.15296623656707184,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+36005,Bronx,NY,340,25,0.46025396009068326,0.09725690172771935,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+36047,Kings,NY,773,620,1.3758475900219331,-0.18911871432684338,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+36059,Nassau,NY,279,110,0.8919223757621532,0.11840807085728211,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+36061,New York,NY,295,909,1.7325075319898304,-0.07368122614065102,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+36081,Queens,NY,678,224,0.9922321104736882,-0.17588454223290104,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+36103,Suffolk,NY,379,81,0.8630999375911467,-0.0911585961748158,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+36119,Westchester,NY,237,43,0.6613907613013329,-0.13474866534728802,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+37119,Mecklenburg,NC,302,81,0.9652786584849582,-0.07816796082365107,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+37183,Wake,NC,228,115,1.0520727739663571,-0.3117530092523422,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+39035,Cuyahoga,OH,421,203,1.2277038828895317,-0.12031622302542655,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+39049,Franklin,OH,327,202,1.2236457996508168,-0.08746762050995589,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+42003,Allegheny,PA,378,171,1.1510783548078927,-0.142345774207329,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+42101,Philadelphia,PA,386,215,1.2347770792678037,-0.34803642476149066,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+48029,Bexar,TX,371,100,0.801028337500725,-0.2073033391995454,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+48085,Collin,TX,219,78,0.9216394826078349,0.041523717584883275,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+48113,Dallas,TX,642,138,0.8644493753823447,-0.08705360415496376,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+48201,Harris,TX,1108,250,0.8368932226652339,-0.06458478761167917,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+48439,Tarrant,TX,447,110,0.7668261571132005,0.05360537478654591,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+48453,Travis,TX,287,206,1.2634938684516248,-0.15309372235473942,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+49035,Salt Lake,UT,248,192,1.1999694509450765,-0.01307696578140134,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+51059,Fairfax,VA,270,125,1.0098753525320854,0.0343533764857539,10,Exploratory county-specific descriptive OLS; no independent health or causal validation
+53033,King,WA,494,1376,1.6931925939445582,-0.007816215604249742,10,Exploratory county-specific descriptive OLS; no independent health or causal validation

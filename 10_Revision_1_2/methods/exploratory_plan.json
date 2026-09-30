@@ -1,0 +1,38 @@
+{
+  "recorded_utc": "2026-09-30T11:57:32.470445+00:00",
+  "status": "Exploratory post-results analysis; not external preregistration",
+  "radii_m": [
+    500,
+    1000
+  ],
+  "centroid_rule": "Frozen full-resolution geometric tract centroid in EPSG5070",
+  "point_rule": "All frozen amenity=cafe records after original cross-type duplicate removal, including adjacent and excluded tracts",
+  "exposure_rule": "log2(1 + number of mapped cafes within fixed centroid radius); fixed-radius count, no resident-population denominator",
+  "model_rule": "Primary eight context terms + county fixed effects, equal tract weight; alternative adds log2(1 + noncafe hospitality within same radius)",
+  "inference": "CR1 county sandwich with original full design rank and t49; conditional on PLACES point estimates",
+  "cv_rule": "Reuse original 20 km grid five-fold assignments; remove training centroids <= 1 km from any held-out centroid, across all counties; no tuning; reproduce baseline original folds first.",
+  "county_slopes": "Exploratory descriptions only; no county significance claims",
+  "limitations": [
+    "Proximity is centroid-based planar distance, not walking network or individual access",
+    "Frozen establishment inventory is not a field-verified business census",
+    "No source uncertainty propagation, independent observed health validation, or causal effects"
+  ],
+  "secondary_independent_checks": "All-pairs projected-distance enumeration; WGS84 geodesic threshold sensitivity; geodesic extraction-bound coverage; source record origin inventory.",
+  "sources": [
+    {
+      "title": "CDC PLACES Frequently Asked Questions",
+      "url": "https://www.cdc.gov/places/faqs/index.html",
+      "accessed": "2026-09-30"
+    },
+    {
+      "title": "Roberts et al. 2017 Cross-validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure",
+      "doi": "10.1111/ecog.02881",
+      "url": "https://doi.org/10.1111/ecog.02881"
+    },
+    {
+      "title": "Kwan 2012 The uncertain geographic context problem",
+      "doi": "10.1080/00045608.2012.687349",
+      "url": "https://doi.org/10.1080/00045608.2012.687349"
+    }
+  ]
+}

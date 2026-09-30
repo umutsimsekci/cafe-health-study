@@ -1,0 +1,6 @@
+panel,availability_rule,denominator_tracts,at_least_one_mapped_cafe,no_mapped_cafe,at_least_one_percent,no_mapped_cafe_percent
+A,Within own tract,23527,6196,17331,26.33569940918944,73.66430059081056
+A,Within 500 m of centroid,23527,3632,19895,15.4375823521911,84.5624176478089
+A,Within 1 km of centroid,23527,8630,14897,36.681259829132486,63.318740170867514
+B,Within 500 m of centroid,17331,891,16440,5.141076683399689,94.85892331660031
+B,Within 1 km of centroid,17331,3843,13488,22.174138826380474,77.82586117361953

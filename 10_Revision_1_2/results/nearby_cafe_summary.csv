@@ -1,0 +1,3 @@
+radius_m,tracts,zero_own_tract_cafe,zero_own_tract_but_nearby_cafe,percent_of_zero_tracts_with_nearby_cafe,any_nearby_cafe_tracts,percent_tracts_any_nearby_cafe,own_tract_cafe_but_no_centroid_nearby_cafe,tracts_with_any_cross_boundary_cafe,median_nearby_cafe_count,q25_nearby_cafe_count,q75_nearby_cafe_count
+500,23527,17331,891,5.141076683399689,3632,15.437582352191098,3455,2106,0.0,0.0,0.0
+1000,23527,17331,3843,22.174138826380474,8630,36.681259829132486,1409,6626,0.0,0.0,1.0

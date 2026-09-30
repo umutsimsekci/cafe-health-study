@@ -1,10 +1,16 @@
-# Mapped cafe availability and modeled health
+# Mapped cafe availability and neighborhood context
 
-Research data, analysis code and an interactive map for **Mapped cafe availability and modeled health in populous United States counties**.
+Research data, analysis code and an interactive atlas for **Mapped cafe availability, neighborhood context and modeled mental distress in populous United States counties**.
 
 The study covers 23,527 census tracts in 50 populous counties in the contiguous United States, with 13,195 mapped cafes and 99,313,722 ACS residents. It links the 31 December 2022 OpenStreetMap snapshot to CDC PLACES 2024 modeled health estimates and ACS 2018–2022 context.
 
-## Revision 1.1
+## Revision 1.2
+
+The atlas now supports neighborhood context layers, tract comparisons, centroid proximity measures and an algebraic association scenario. [New exploratory analyses](10_Revision_1_2/README.md) examine cafes within 500 m and 1 km of tract centroids and prediction with a 1 km separation between training and test centroids. The original sample and primary coefficients remain unchanged.
+
+Of 17,331 tracts with no cafe mapped inside their own boundary, 3,843 (22.2%) have a mapped cafe within 1 km of their geometric centroid. A separate WGS84 geodesic calculation gives 3,839 (22.15%). These measures describe mapped proximity; they do not measure walking access, attendance or residents' actual exposure. The new analyses were developed after the original results and do not establish an intervention effect or independent health validation.
+
+## Earlier revision 1.1
 
 The primary sample and original coefficients are unchanged. [Additional analyses](09_Revision_1_1/README.md) quantify the cafe variable's small incremental contribution, compare historical Chicago licenses and inspection records, assess independent health-source compatibility and provide a proposed prospective study protocol. All additions are exploratory and were developed after the original results.
 
@@ -12,9 +18,9 @@ The audit found incomplete record concordance, and the source review did not est
 
 ## Interactive map
 
-Open [the online interactive supplement](https://umutsimsekci.github.io/cafe-health-study/), or download `docs/index.html` and open it in a browser. All map data and D3 are embedded, so the downloaded HTML works offline. Select a county and measure, inspect tracts, find an 11-digit GEOID, or export the displayed data as CSV.
+Open [the online interactive atlas](https://umutsimsekci.github.io/cafe-health-study/), or download `docs/index.html` and open it in a browser. All map data and D3 are embedded, so the downloaded HTML works offline. Select a county and measure, inspect or compare tracts, find an 11-digit GEOID, and export source values or scenario calculations as CSV.
 
-This is a data explorer, not a simulation of causal health effects. Mapped availability is not attendance or coffee consumption. Health measures are modeled area estimates, not individual diagnoses. The results do not establish a health benefit from using or opening cafes.
+The scenario evaluates the fitted regression contrast after a hypothetical change in mapped cafe availability. Its interval is conditional on the fitted coefficient and excludes source-estimation uncertainty. It is not a forecast of health changes after opening cafes. Mapped availability is not attendance or coffee consumption. Health measures are modeled area estimates, not individual diagnoses.
 
 ## Files
 
@@ -25,7 +31,8 @@ This is a data explorer, not a simulation of causal health effects. Mapped avail
 - `03_Tables`: numerical results underlying manuscript tables and figures.
 - `07_Methods_and_Journal`: the recorded analytical plan and amendments.
 - `08_Validation`: numerical, join, source and exposure checks.
-- `references`: the 39 current references; the original 28-reference file is retained for version history in RIS format.
+- `10_Revision_1_2`: proximity and buffered prediction results, independent verification, methods and figure source data.
+- `references`: study references; the original reference file is retained for version history in RIS format.
 
 ## Reproduction
 
@@ -43,6 +50,6 @@ OpenAI Codex assisted with source identification, analytical planning, programmi
 
 ## Citation
 
-Use `CITATION.cff` and the versioned GitHub release. This repository supports a manuscript prepared for Health & Place; it does not imply acceptance or publication. No Zenodo DOI has been assigned.
+Use `CITATION.cff` and the versioned GitHub release. This repository supports an unpublished manuscript and does not imply journal acceptance. No Zenodo DOI has been assigned.
 
 The citation and authorship metadata on the main branch were updated after the v1.0.0 archive was created. The frozen v1.0.0 analytical files and release assets remain unchanged.
